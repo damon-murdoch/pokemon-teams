@@ -27,7 +27,7 @@ function showTableSet(body, set)
   let row_content = `
   <tr>
     <th class='bordered align-middle'>
-        Pokemon
+        Pokémon
     </th>
     <th class='bordered align-middle' id='species'>`
       + set.species + 
@@ -722,7 +722,7 @@ function showPageHome(format = null, folder = null)
   else // No format / folder set
   {
     // Set title to default
-    title = 'Home';
+    title = 'Pokémon Teams';
   }
 
   // Show the title home section
@@ -747,7 +747,7 @@ function showPageHome(format = null, folder = null)
           Description
         </th>
         <th scope="col">
-          Pokemon
+          Pokémon
         </th>
         <th scope="col">
           Format
