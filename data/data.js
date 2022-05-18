@@ -26189,12 +26189,14 @@ const TEAMS = {
     ]
   },
   "gen7vgc2018": {
-    "vgc2019 s3 ultra": [
+    "post bank": [
       {
         "sets": [
           {
-            "other": {},
-            "species": "Rayquaza",
+            "other": {
+              "level": "55"
+            },
+            "species": "Tyranitar",
             "ivs": {
               "spe": 31,
               "def": 31,
@@ -26203,128 +26205,64 @@ const TEAMS = {
               "hp": 31,
               "spa": 31
             },
-            "gender": "",
-            "item": "Assault Vest",
-            "nickname": "",
-            "evs": {
-              "spe": 252,
-              "def": 4,
-              "atk": 36,
-              "spd": 188,
-              "hp": 28,
-              "spa": 0
-            },
-            "moves": [
-              "Dragon Ascent",
-              "Extreme Speed",
-              "Earth Power",
-              "Overheat"
-            ],
-            "ability": "Delta Stream",
-            "nature": "Adamant"
-          },
-          {
-            "other": {},
-            "species": "Xerneas",
-            "ivs": {
-              "spe": 31,
-              "def": 31,
-              "atk": 0,
-              "spd": 31,
-              "hp": 31,
-              "spa": 31
-            },
-            "gender": "",
-            "item": "Power Herb",
+            "gender": "f",
+            "item": "Tyranitarite",
             "nickname": "",
             "evs": {
               "spe": 252,
               "def": 20,
-              "atk": 0,
-              "spd": 4,
+              "atk": 164,
+              "spd": 28,
               "hp": 44,
-              "spa": 188
-            },
-            "moves": [
-              "Protect",
-              "Moonblast",
-              "Dazzling Gleam",
-              "Geomancy"
-            ],
-            "ability": "Fairy Aura",
-            "nature": "Timid"
-          },
-          {
-            "other": {
-              "level": "50"
-            },
-            "species": "Gengar",
-            "ivs": {
-              "spe": 31,
-              "def": 31,
-              "atk": 0,
-              "spd": 31,
-              "hp": 31,
-              "spa": 31
-            },
-            "gender": "",
-            "item": "Ghostium Z",
-            "nickname": "",
-            "evs": {
-              "spe": 252,
-              "def": 44,
-              "atk": 0,
-              "spd": 4,
-              "hp": 96,
-              "spa": 112
-            },
-            "moves": [
-              "Shadow Ball",
-              "Sludge Bomb",
-              "Destiny Bond",
-              "Snatch"
-            ],
-            "ability": "Cursed Body",
-            "nature": "Timid"
-          },
-          {
-            "other": {
-              "level": "50"
-            },
-            "species": "Amoonguss",
-            "ivs": {
-              "spe": 31,
-              "def": 31,
-              "atk": 0,
-              "spd": 31,
-              "hp": 31,
-              "spa": 31
-            },
-            "gender": "",
-            "item": "Focus Sash",
-            "nickname": "",
-            "evs": {
-              "spe": 0,
-              "def": 76,
-              "atk": 0,
-              "spd": 196,
-              "hp": 236,
               "spa": 0
             },
             "moves": [
-              "Protect",
-              "Clear Smog",
-              "Spore",
-              "Rage Powder"
+              "Rock Slide",
+              "Crunch",
+              "Dragon Dance",
+              "Protect"
             ],
-            "ability": "Regenerator",
+            "ability": "Sand Stream",
+            "nature": "Jolly"
+          },
+          {
+            "other": {
+              "level": "59"
+            },
+            "species": "Volcarona",
+            "ivs": {
+              "spe": 31,
+              "def": 31,
+              "atk": 0,
+              "spd": 31,
+              "hp": 31,
+              "spa": 31
+            },
+            "gender": "f",
+            "item": "Firium Z",
+            "nickname": "",
+            "evs": {
+              "spe": 60,
+              "def": 252,
+              "atk": 0,
+              "spd": 132,
+              "hp": 60,
+              "spa": 4
+            },
+            "moves": [
+              "Tailwind",
+              "Rage Powder",
+              "Overheat",
+              "Protect"
+            ],
+            "ability": "Flame Body",
             "nature": "Calm"
           },
           {
             "other": {
-              "level": "50"
+              "level": "65"
             },
-            "species": "Incineroar",
+            "species": "Celesteela",
             "ivs": {
               "spe": 31,
               "def": 31,
@@ -26334,27 +26272,95 @@ const TEAMS = {
               "spa": 31
             },
             "gender": "",
-            "item": "Safety Goggles",
+            "item": "Misty Seed",
             "nickname": "",
             "evs": {
-              "spe": 76,
-              "def": 0,
-              "atk": 0,
-              "spd": 244,
-              "hp": 188,
+              "spe": 20,
+              "def": 36,
+              "atk": 116,
+              "spd": 156,
+              "hp": 180,
               "spa": 0
             },
             "moves": [
-              "Uturn",
-              "Roar",
-              "Flare Blitz",
-              "Fake Out"
+              "Heavy Slam",
+              "Acrobatics",
+              "Leech Seed",
+              "Protect"
             ],
-            "ability": "Intimidate",
+            "ability": "Beast Boost",
             "nature": "Careful"
           },
           {
-            "other": {},
+            "other": {
+              "level": "60"
+            },
+            "species": "Landorus-Therian",
+            "ivs": {
+              "spe": 31,
+              "def": 31,
+              "atk": 31,
+              "spd": 31,
+              "hp": 31,
+              "spa": 31
+            },
+            "gender": "m",
+            "item": "Choice Scarf",
+            "nickname": "",
+            "evs": {
+              "spe": 252,
+              "def": 4,
+              "atk": 164,
+              "spd": 68,
+              "hp": 20,
+              "spa": 0
+            },
+            "moves": [
+              "Earthquake",
+              "Rock Slide",
+              "Uturn",
+              "Superpower"
+            ],
+            "ability": "Intimidate",
+            "nature": "Adamant"
+          },
+          {
+            "other": {
+              "level": "50"
+            },
+            "species": "Raichu",
+            "ivs": {
+              "spe": 31,
+              "def": 31,
+              "atk": 31,
+              "spd": 31,
+              "hp": 31,
+              "spa": 31
+            },
+            "gender": "f",
+            "item": "Assault Vest",
+            "nickname": "",
+            "evs": {
+              "spe": 180,
+              "def": 204,
+              "atk": 116,
+              "spd": 4,
+              "hp": 4,
+              "spa": 0
+            },
+            "moves": [
+              "Fake Out",
+              "Volt Tackle",
+              "Volt Switch",
+              "Electroweb"
+            ],
+            "ability": "Lightning Rod",
+            "nature": "Jolly"
+          },
+          {
+            "other": {
+              "level": "60"
+            },
             "species": "Tapu Fini",
             "ivs": {
               "spe": 31,
@@ -26368,27 +26374,25 @@ const TEAMS = {
             "item": "Wiki Berry",
             "nickname": "",
             "evs": {
-              "spe": 84,
-              "def": 0,
+              "spe": 116,
+              "def": 100,
               "atk": 0,
-              "spd": 204,
-              "hp": 220,
-              "spa": 0
+              "spd": 28,
+              "hp": 244,
+              "spa": 20
             },
             "moves": [
-              "Taunt",
-              "Icy Wind",
-              "Nature's Madness",
-              "Heal Pulse"
+              "Scald",
+              "Moonblast",
+              "Calm Mind",
+              "Protect"
             ],
             "ability": "Misty Surge",
-            "nature": "Calm"
+            "nature": "Modest"
           }
         ],
-        "name": "gengar xray"
-      }
-    ],
-    "post bank": [
+        "name": "dual setup control"
+      }, 
       {
         "sets": [
           {
@@ -36716,213 +36720,6 @@ const TEAMS = {
       }
     ]
   },
-  "gen8": {
-    "post bank": [
-      {
-        "sets": [
-          {
-            "other": {
-              "level": "55"
-            },
-            "species": "Tyranitar",
-            "ivs": {
-              "spe": 31,
-              "def": 31,
-              "atk": 31,
-              "spd": 31,
-              "hp": 31,
-              "spa": 31
-            },
-            "gender": "f",
-            "item": "Tyranitarite",
-            "nickname": "",
-            "evs": {
-              "spe": 252,
-              "def": 20,
-              "atk": 164,
-              "spd": 28,
-              "hp": 44,
-              "spa": 0
-            },
-            "moves": [
-              "Rock Slide",
-              "Crunch",
-              "Dragon Dance",
-              "Protect"
-            ],
-            "ability": "Sand Stream",
-            "nature": "Jolly"
-          },
-          {
-            "other": {
-              "level": "59"
-            },
-            "species": "Volcarona",
-            "ivs": {
-              "spe": 31,
-              "def": 31,
-              "atk": 0,
-              "spd": 31,
-              "hp": 31,
-              "spa": 31
-            },
-            "gender": "f",
-            "item": "Firium Z",
-            "nickname": "",
-            "evs": {
-              "spe": 60,
-              "def": 252,
-              "atk": 0,
-              "spd": 132,
-              "hp": 60,
-              "spa": 4
-            },
-            "moves": [
-              "Tailwind",
-              "Rage Powder",
-              "Overheat",
-              "Protect"
-            ],
-            "ability": "Flame Body",
-            "nature": "Calm"
-          },
-          {
-            "other": {
-              "level": "65"
-            },
-            "species": "Celesteela",
-            "ivs": {
-              "spe": 31,
-              "def": 31,
-              "atk": 31,
-              "spd": 31,
-              "hp": 31,
-              "spa": 31
-            },
-            "gender": "",
-            "item": "Misty Seed",
-            "nickname": "",
-            "evs": {
-              "spe": 20,
-              "def": 36,
-              "atk": 116,
-              "spd": 156,
-              "hp": 180,
-              "spa": 0
-            },
-            "moves": [
-              "Heavy Slam",
-              "Acrobatics",
-              "Leech Seed",
-              "Protect"
-            ],
-            "ability": "Beast Boost",
-            "nature": "Careful"
-          },
-          {
-            "other": {
-              "level": "60"
-            },
-            "species": "Landorus-Therian",
-            "ivs": {
-              "spe": 31,
-              "def": 31,
-              "atk": 31,
-              "spd": 31,
-              "hp": 31,
-              "spa": 31
-            },
-            "gender": "m",
-            "item": "Choice Scarf",
-            "nickname": "",
-            "evs": {
-              "spe": 252,
-              "def": 4,
-              "atk": 164,
-              "spd": 68,
-              "hp": 20,
-              "spa": 0
-            },
-            "moves": [
-              "Earthquake",
-              "Rock Slide",
-              "Uturn",
-              "Superpower"
-            ],
-            "ability": "Intimidate",
-            "nature": "Adamant"
-          },
-          {
-            "other": {
-              "level": "50"
-            },
-            "species": "Raichu",
-            "ivs": {
-              "spe": 31,
-              "def": 31,
-              "atk": 31,
-              "spd": 31,
-              "hp": 31,
-              "spa": 31
-            },
-            "gender": "f",
-            "item": "Assault Vest",
-            "nickname": "",
-            "evs": {
-              "spe": 180,
-              "def": 204,
-              "atk": 116,
-              "spd": 4,
-              "hp": 4,
-              "spa": 0
-            },
-            "moves": [
-              "Fake Out",
-              "Volt Tackle",
-              "Volt Switch",
-              "Electroweb"
-            ],
-            "ability": "Lightning Rod",
-            "nature": "Jolly"
-          },
-          {
-            "other": {
-              "level": "60"
-            },
-            "species": "Tapu Fini",
-            "ivs": {
-              "spe": 31,
-              "def": 31,
-              "atk": 0,
-              "spd": 31,
-              "hp": 31,
-              "spa": 31
-            },
-            "gender": "",
-            "item": "Wiki Berry",
-            "nickname": "",
-            "evs": {
-              "spe": 116,
-              "def": 100,
-              "atk": 0,
-              "spd": 28,
-              "hp": 244,
-              "spa": 20
-            },
-            "moves": [
-              "Scald",
-              "Moonblast",
-              "Calm Mind",
-              "Protect"
-            ],
-            "ability": "Misty Surge",
-            "nature": "Modest"
-          }
-        ],
-        "name": "dual setup control"
-      }
-    ]
-  },
   "gen8vgc2021series10": {
     "default": [
       {
@@ -37120,7 +36917,7 @@ const TEAMS = {
             "nature": "Adamant"
           }
         ],
-        "name": "kyogre lol"
+        "name": "standard kyogre"
       },
       {
         "sets": [
@@ -37524,7 +37321,7 @@ const TEAMS = {
             "nature": "Jolly"
           }
         ],
-        "name": "xern incin amoon"
+        "name": "xerneas goodstuffs"
       },
       {
         "sets": [
@@ -37727,205 +37524,8 @@ const TEAMS = {
             "nature": "Jolly"
           }
         ],
-        "name": "fwg zacian"
+        "name": "zacian goodstuffs"
       },
-      {
-        "sets": [
-          {
-            "other": {
-              "level": "50"
-            },
-            "species": "Zacian-Crowned",
-            "ivs": {
-              "spe": 31,
-              "def": 31,
-              "atk": 31,
-              "spd": 31,
-              "hp": 31,
-              "spa": 31
-            },
-            "gender": "",
-            "item": "Rusted Sword",
-            "nickname": "",
-            "evs": {
-              "spe": 252,
-              "def": 12,
-              "atk": 228,
-              "spd": 4,
-              "hp": 12,
-              "spa": 0
-            },
-            "moves": [
-              "Protect",
-              "Swords Dance",
-              "Behemoth Blade",
-              "Sacred Sword"
-            ],
-            "ability": "Intrepid Sword",
-            "nature": "Jolly"
-          },
-          {
-            "other": {},
-            "species": "Gothitelle",
-            "ivs": {
-              "spe": 31,
-              "def": 31,
-              "atk": 31,
-              "spd": 31,
-              "hp": 31,
-              "spa": 31
-            },
-            "gender": "",
-            "item": "Leftovers",
-            "nickname": "",
-            "evs": {
-              "spe": 252,
-              "def": 4,
-              "atk": 0,
-              "spd": 4,
-              "hp": 244,
-              "spa": 4
-            },
-            "moves": [
-              "Expanding Force",
-              "Helping Hand",
-              "Hypnosis",
-              "Fake Out"
-            ],
-            "ability": "Shadow Tag",
-            "nature": "Timid"
-          },
-          {
-            "other": {},
-            "species": "Incineroar",
-            "ivs": {
-              "spe": 31,
-              "def": 31,
-              "atk": 31,
-              "spd": 31,
-              "hp": 31,
-              "spa": 31
-            },
-            "gender": "",
-            "item": "Sitrus Berry",
-            "nickname": "",
-            "evs": {
-              "spe": 28,
-              "def": 4,
-              "atk": 4,
-              "spd": 236,
-              "hp": 236,
-              "spa": 0
-            },
-            "moves": [
-              "Parting Shot",
-              "Flare Blitz",
-              "Snarl",
-              "Fake Out"
-            ],
-            "ability": "Intimidate",
-            "nature": "Careful"
-          },
-          {
-            "other": {
-              "level": "50"
-            },
-            "species": "Rillaboom",
-            "ivs": {
-              "spe": 31,
-              "def": 31,
-              "atk": 31,
-              "spd": 31,
-              "hp": 31,
-              "spa": 31
-            },
-            "gender": "",
-            "item": "Assault Vest",
-            "nickname": "",
-            "evs": {
-              "spe": 12,
-              "def": 84,
-              "atk": 20,
-              "spd": 140,
-              "hp": 252,
-              "spa": 0
-            },
-            "moves": [
-              "Uturn",
-              "Grassy Glide",
-              "Knock Off",
-              "Fake Out"
-            ],
-            "ability": "Grassy Surge",
-            "nature": "Adamant"
-          },
-          {
-            "other": {
-              "level": "50"
-            },
-            "species": "Thundurus",
-            "ivs": {
-              "spe": 31,
-              "def": 31,
-              "atk": 0,
-              "spd": 31,
-              "hp": 31,
-              "spa": 31
-            },
-            "gender": "",
-            "item": "Safety Goggles",
-            "nickname": "",
-            "evs": {
-              "spe": 172,
-              "def": 4,
-              "atk": 0,
-              "spd": 4,
-              "hp": 252,
-              "spa": 76
-            },
-            "moves": [
-              "Protect",
-              "Taunt",
-              "Thunder Wave",
-              "Thunderbolt"
-            ],
-            "ability": "Prankster",
-            "nature": "Timid"
-          },
-          {
-            "other": {},
-            "species": "Urshifu-Rapid-Strike",
-            "ivs": {
-              "spe": 31,
-              "def": 31,
-              "atk": 31,
-              "spd": 31,
-              "hp": 31,
-              "spa": 31
-            },
-            "gender": "",
-            "item": "Focus Sash",
-            "nickname": "",
-            "evs": {
-              "spe": 252,
-              "def": 4,
-              "atk": 244,
-              "spd": 4,
-              "hp": 4,
-              "spa": 0
-            },
-            "moves": [
-              "Protect",
-              "Surging Strikes",
-              "Close Combat",
-              "Aqua Jet"
-            ],
-            "ability": "Unseen Fist",
-            "nature": "Jolly"
-          }
-        ],
-        "name": "zacian test"
-      }
     ]
   },
   "gen7vgc2019": {
@@ -41738,6 +41338,203 @@ const TEAMS = {
       }
     ],
     "vgc2019 s3 ultra": [
+      {
+        "sets": [
+          {
+            "other": {},
+            "species": "Rayquaza",
+            "ivs": {
+              "spe": 31,
+              "def": 31,
+              "atk": 31,
+              "spd": 31,
+              "hp": 31,
+              "spa": 31
+            },
+            "gender": "",
+            "item": "Assault Vest",
+            "nickname": "",
+            "evs": {
+              "spe": 252,
+              "def": 4,
+              "atk": 36,
+              "spd": 188,
+              "hp": 28,
+              "spa": 0
+            },
+            "moves": [
+              "Dragon Ascent",
+              "Extreme Speed",
+              "Earth Power",
+              "Overheat"
+            ],
+            "ability": "Delta Stream",
+            "nature": "Adamant"
+          },
+          {
+            "other": {},
+            "species": "Xerneas",
+            "ivs": {
+              "spe": 31,
+              "def": 31,
+              "atk": 0,
+              "spd": 31,
+              "hp": 31,
+              "spa": 31
+            },
+            "gender": "",
+            "item": "Power Herb",
+            "nickname": "",
+            "evs": {
+              "spe": 252,
+              "def": 20,
+              "atk": 0,
+              "spd": 4,
+              "hp": 44,
+              "spa": 188
+            },
+            "moves": [
+              "Protect",
+              "Moonblast",
+              "Dazzling Gleam",
+              "Geomancy"
+            ],
+            "ability": "Fairy Aura",
+            "nature": "Timid"
+          },
+          {
+            "other": {
+              "level": "50"
+            },
+            "species": "Gengar",
+            "ivs": {
+              "spe": 31,
+              "def": 31,
+              "atk": 0,
+              "spd": 31,
+              "hp": 31,
+              "spa": 31
+            },
+            "gender": "",
+            "item": "Ghostium Z",
+            "nickname": "",
+            "evs": {
+              "spe": 252,
+              "def": 44,
+              "atk": 0,
+              "spd": 4,
+              "hp": 96,
+              "spa": 112
+            },
+            "moves": [
+              "Shadow Ball",
+              "Sludge Bomb",
+              "Destiny Bond",
+              "Snatch"
+            ],
+            "ability": "Cursed Body",
+            "nature": "Timid"
+          },
+          {
+            "other": {
+              "level": "50"
+            },
+            "species": "Amoonguss",
+            "ivs": {
+              "spe": 31,
+              "def": 31,
+              "atk": 0,
+              "spd": 31,
+              "hp": 31,
+              "spa": 31
+            },
+            "gender": "",
+            "item": "Focus Sash",
+            "nickname": "",
+            "evs": {
+              "spe": 0,
+              "def": 76,
+              "atk": 0,
+              "spd": 196,
+              "hp": 236,
+              "spa": 0
+            },
+            "moves": [
+              "Protect",
+              "Clear Smog",
+              "Spore",
+              "Rage Powder"
+            ],
+            "ability": "Regenerator",
+            "nature": "Calm"
+          },
+          {
+            "other": {
+              "level": "50"
+            },
+            "species": "Incineroar",
+            "ivs": {
+              "spe": 31,
+              "def": 31,
+              "atk": 31,
+              "spd": 31,
+              "hp": 31,
+              "spa": 31
+            },
+            "gender": "",
+            "item": "Safety Goggles",
+            "nickname": "",
+            "evs": {
+              "spe": 76,
+              "def": 0,
+              "atk": 0,
+              "spd": 244,
+              "hp": 188,
+              "spa": 0
+            },
+            "moves": [
+              "Uturn",
+              "Roar",
+              "Flare Blitz",
+              "Fake Out"
+            ],
+            "ability": "Intimidate",
+            "nature": "Careful"
+          },
+          {
+            "other": {},
+            "species": "Tapu Fini",
+            "ivs": {
+              "spe": 31,
+              "def": 31,
+              "atk": 0,
+              "spd": 31,
+              "hp": 31,
+              "spa": 31
+            },
+            "gender": "",
+            "item": "Wiki Berry",
+            "nickname": "",
+            "evs": {
+              "spe": 84,
+              "def": 0,
+              "atk": 0,
+              "spd": 204,
+              "hp": 220,
+              "spa": 0
+            },
+            "moves": [
+              "Taunt",
+              "Icy Wind",
+              "Nature's Madness",
+              "Heal Pulse"
+            ],
+            "ability": "Misty Surge",
+            "nature": "Calm"
+          }
+        ],
+        "name": "gengar xray"
+      }, 
       {
         "sets": [
           {
@@ -52449,7 +52246,7 @@ const TEAMS = {
             "nature": "Timid"
           }
         ],
-        "name": "dallas charizard"
+        "name": "unreality charizard"
       },
       {
         "sets": [
