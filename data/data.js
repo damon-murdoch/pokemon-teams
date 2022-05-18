@@ -8626,7 +8626,7 @@ const TEAMS = {
         ]
       },
       {
-        "name": "brisbane swordfish",
+        "name": "standard swordfish",
         "sets": [
           {
             "ability": "Drizzle",
