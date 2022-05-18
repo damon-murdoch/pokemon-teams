@@ -8428,6 +8428,611 @@ const TEAMS = {
       }
     ]
   },
+  "gen8vgc2022": {
+    "vgc2022 s12": [
+      {
+        "name": "standard sun",
+        "sets": [
+          {
+            "ability": "Drought",
+            "evs": {
+              "spd": 108,
+              "hp": 164,
+              "spe": 28,
+              "spa": 0,
+              "def": 4,
+              "atk": 204
+            },
+            "nature": "Adamant",
+            "other": {},
+            "moves": [
+              "Heat Crash",
+              "Precipice Blades",
+              "Heavy Slam",
+              "Stone Edge"
+            ],
+            "nickname": "",
+            "item": "Assault Vest",
+            "gender": "",
+            "ivs": {
+              "spd": 31,
+              "hp": 31,
+              "spe": 31,
+              "spa": 31,
+              "def": 31,
+              "atk": 31
+            },
+            "species": "Groudon"
+          },
+          {
+            "ability": "Intrepid Sword",
+            "evs": {
+              "spd": 4,
+              "hp": 188,
+              "spe": 148,
+              "spa": 0,
+              "def": 4,
+              "atk": 164
+            },
+            "nature": "Adamant",
+            "other": {
+              "level": "50"
+            },
+            "moves": [
+              "Protect",
+              "Iron Head",
+              "Sacred Sword",
+              "Play Rough"
+            ],
+            "nickname": "",
+            "item": "Rusted Sword",
+            "gender": "",
+            "ivs": {
+              "spd": 31,
+              "hp": 31,
+              "spe": 31,
+              "spa": 31,
+              "def": 31,
+              "atk": 31
+            },
+            "species": "Zacian"
+          },
+          {
+            "ability": "Solar Power",
+            "evs": {
+              "spd": 4,
+              "hp": 4,
+              "spe": 252,
+              "spa": 244,
+              "def": 4,
+              "atk": 0
+            },
+            "nature": "Timid",
+            "other": {
+              "gigantamax": "Yes"
+            },
+            "moves": [
+              "Protect",
+              "Blast Burn",
+              "Hurricane",
+              "Solar Beam"
+            ],
+            "nickname": "",
+            "item": "Life Orb",
+            "gender": "",
+            "ivs": {
+              "spd": 31,
+              "hp": 31,
+              "spe": 31,
+              "spa": 31,
+              "def": 31,
+              "atk": 0
+            },
+            "species": "Charizard-Gmax"
+          },
+          {
+            "ability": "Intimidate",
+            "evs": {
+              "spd": 68,
+              "hp": 252,
+              "spe": 28,
+              "spa": 0,
+              "def": 156,
+              "atk": 4
+            },
+            "nature": "Impish",
+            "other": {},
+            "moves": [
+              "Parting Shot",
+              "Throat Chop",
+              "Flare Blitz",
+              "Fake Out"
+            ],
+            "nickname": "",
+            "item": "Shuca Berry",
+            "gender": "",
+            "ivs": {
+              "spd": 31,
+              "hp": 31,
+              "spe": 31,
+              "spa": 31,
+              "def": 31,
+              "atk": 31
+            },
+            "species": "Incineroar"
+          },
+          {
+            "ability": "Prankster",
+            "evs": {
+              "spd": 116,
+              "hp": 252,
+              "spe": 0,
+              "spa": 0,
+              "def": 140,
+              "atk": 0
+            },
+            "nature": "Careful",
+            "other": {},
+            "moves": [
+              "Spirit Break",
+              "Light Screen",
+              "Scary Face",
+              "Reflect"
+            ],
+            "nickname": "",
+            "item": "Light Clay",
+            "gender": "m",
+            "ivs": {
+              "spd": 31,
+              "hp": 31,
+              "spe": 31,
+              "spa": 31,
+              "def": 31,
+              "atk": 31
+            },
+            "species": "Grimmsnarl"
+          },
+          {
+            "ability": "Storm Drain",
+            "evs": {
+              "spd": 124,
+              "hp": 180,
+              "spe": 0,
+              "spa": 0,
+              "def": 204,
+              "atk": 0
+            },
+            "nature": "Bold",
+            "other": {},
+            "moves": [
+              "Protect",
+              "Yawn",
+              "Ice Beam",
+              "Earth Power"
+            ],
+            "nickname": "",
+            "item": "Leftovers",
+            "gender": "",
+            "ivs": {
+              "spd": 31,
+              "hp": 31,
+              "spe": 31,
+              "spa": 31,
+              "def": 31,
+              "atk": 0
+            },
+            "species": "Gastrodon"
+          }
+        ]
+      },
+      {
+        "name": "brisbane swordfish",
+        "sets": [
+          {
+            "ability": "Drizzle",
+            "evs": {
+              "spd": 4,
+              "hp": 4,
+              "spe": 252,
+              "spa": 244,
+              "def": 4,
+              "atk": 0
+            },
+            "nature": "Timid",
+            "other": {
+              "level": "50"
+            },
+            "moves": [
+              "Protect",
+              "Water Spout",
+              "Origin Pulse",
+              "Ice Beam"
+            ],
+            "nickname": "",
+            "item": "Mystic Water",
+            "gender": "",
+            "ivs": {
+              "spd": 31,
+              "hp": 31,
+              "spe": 31,
+              "spa": 31,
+              "def": 31,
+              "atk": 0
+            },
+            "species": "Kyogre"
+          },
+          {
+            "ability": "Intrepid Sword",
+            "evs": {
+              "spd": 4,
+              "hp": 12,
+              "spe": 252,
+              "spa": 0,
+              "def": 4,
+              "atk": 236
+            },
+            "nature": "Jolly",
+            "other": {
+              "level": "50"
+            },
+            "moves": [
+              "Protect",
+              "Substitute",
+              "Sacred Sword",
+              "Behemoth Blade"
+            ],
+            "nickname": "",
+            "item": "Rusted Sword",
+            "gender": "",
+            "ivs": {
+              "spd": 31,
+              "hp": 31,
+              "spe": 31,
+              "spa": 31,
+              "def": 31,
+              "atk": 31
+            },
+            "species": "Zacian"
+          },
+          {
+            "ability": "Grassy Surge",
+            "evs": {
+              "spd": 36,
+              "hp": 196,
+              "spe": 60,
+              "spa": 0,
+              "def": 100,
+              "atk": 116
+            },
+            "nature": "Adamant",
+            "other": {
+              "level": "50"
+            },
+            "moves": [
+              "Uturn",
+              "Grassy Glide",
+              "High Horsepower",
+              "Fake Out"
+            ],
+            "nickname": "",
+            "item": "Assault Vest",
+            "gender": "",
+            "ivs": {
+              "spd": 31,
+              "hp": 31,
+              "spe": 31,
+              "spa": 31,
+              "def": 31,
+              "atk": 31
+            },
+            "species": "Rillaboom-Gmax"
+          },
+          {
+            "ability": "Intimidate",
+            "evs": {
+              "spd": 68,
+              "hp": 252,
+              "spe": 28,
+              "spa": 0,
+              "def": 156,
+              "atk": 4
+            },
+            "nature": "Impish",
+            "other": {
+              "level": "50"
+            },
+            "moves": [
+              "Parting Shot",
+              "Flare Blitz",
+              "Darkest Lariat",
+              "Fake Out"
+            ],
+            "nickname": "",
+            "item": "Safety Goggles",
+            "gender": "",
+            "ivs": {
+              "spd": 31,
+              "hp": 31,
+              "spe": 31,
+              "spa": 31,
+              "def": 31,
+              "atk": 31
+            },
+            "species": "Incineroar"
+          },
+          {
+            "ability": "Prankster",
+            "evs": {
+              "spd": 116,
+              "hp": 252,
+              "spe": 0,
+              "spa": 0,
+              "def": 140,
+              "atk": 0
+            },
+            "nature": "Careful",
+            "other": {
+              "level": "50"
+            },
+            "moves": [
+              "Light Screen",
+              "Reflect",
+              "Thunder Wave",
+              "Spirit Break"
+            ],
+            "nickname": "",
+            "item": "Light Clay",
+            "gender": "",
+            "ivs": {
+              "spd": 31,
+              "hp": 31,
+              "spe": 31,
+              "spa": 31,
+              "def": 31,
+              "atk": 31
+            },
+            "species": "Grimmsnarl"
+          },
+          {
+            "ability": "Pressure",
+            "evs": {
+              "spd": 4,
+              "hp": 28,
+              "spe": 252,
+              "spa": 220,
+              "def": 4,
+              "atk": 0
+            },
+            "nature": "Timid",
+            "other": {
+              "level": "50"
+            },
+            "moves": [
+              "Protect",
+              "Hurricane",
+              "Heat Wave",
+              "Thunderbolt"
+            ],
+            "nickname": "",
+            "item": "Life Orb",
+            "gender": "",
+            "ivs": {
+              "spd": 31,
+              "hp": 31,
+              "spe": 31,
+              "spa": 31,
+              "def": 31,
+              "atk": 0
+            },
+            "species": "Zapdos"
+          }
+        ]
+      },
+      {
+        "name": "brisbane ice rider",
+        "sets": [
+          {
+            "ability": "Drizzle",
+            "evs": {
+              "spd": 4,
+              "hp": 252,
+              "spe": 12,
+              "spa": 236,
+              "def": 4,
+              "atk": 0
+            },
+            "nature": "Modest",
+            "other": {
+              "level": "50"
+            },
+            "moves": [
+              "Protect",
+              "Water Spout",
+              "Origin Pulse",
+              "Thunder"
+            ],
+            "nickname": "",
+            "item": "Mystic Water",
+            "gender": "",
+            "ivs": {
+              "spd": 31,
+              "hp": 31,
+              "spe": 31,
+              "spa": 31,
+              "def": 31,
+              "atk": 0
+            },
+            "species": "Kyogre"
+          },
+          {
+            "ability": "As One (Glastrier)",
+            "evs": {
+              "spd": 140,
+              "hp": 252,
+              "spe": 0,
+              "spa": 0,
+              "def": 0,
+              "atk": 116
+            },
+            "nature": "Brave",
+            "other": {
+              "level": "50"
+            },
+            "moves": [
+              "Protect",
+              "Trick Room",
+              "Glacial Lance",
+              "High Horsepower"
+            ],
+            "nickname": "",
+            "item": "Weakness Policy",
+            "gender": "",
+            "ivs": {
+              "spd": 31,
+              "hp": 31,
+              "spe": 16,
+              "spa": 31,
+              "def": 31,
+              "atk": 31
+            },
+            "species": "Calyrex-Ice"
+          },
+          {
+            "ability": "Intimidate",
+            "evs": {
+              "spd": 132,
+              "hp": 252,
+              "spe": 28,
+              "spa": 0,
+              "def": 92,
+              "atk": 4
+            },
+            "nature": "Careful",
+            "other": {
+              "level": "50"
+            },
+            "moves": [
+              "Parting Shot",
+              "Darkest Lariat",
+              "Flare Blitz",
+              "Fake Out"
+            ],
+            "nickname": "",
+            "item": "Safety Goggles",
+            "gender": "",
+            "ivs": {
+              "spd": 31,
+              "hp": 31,
+              "spe": 31,
+              "spa": 31,
+              "def": 31,
+              "atk": 31
+            },
+            "species": "Incineroar"
+          },
+          {
+            "ability": "Regenerator",
+            "evs": {
+              "spd": 156,
+              "hp": 236,
+              "spe": 0,
+              "spa": 0,
+              "def": 116,
+              "atk": 0
+            },
+            "nature": "Sassy",
+            "other": {
+              "level": "50"
+            },
+            "moves": [
+              "Protect",
+              "Rage Powder",
+              "Giga Drain",
+              "Spore"
+            ],
+            "nickname": "",
+            "item": "Focus Sash",
+            "gender": "",
+            "ivs": {
+              "spd": 31,
+              "hp": 31,
+              "spe": 0,
+              "spa": 31,
+              "def": 31,
+              "atk": 0
+            },
+            "species": "Amoonguss"
+          },
+          {
+            "ability": "Disguise",
+            "evs": {
+              "spd": 252,
+              "hp": 252,
+              "spe": 0,
+              "spa": 0,
+              "def": 4,
+              "atk": 0
+            },
+            "nature": "Careful",
+            "other": {
+              "level": "50"
+            },
+            "moves": [
+              "Trick Room",
+              "Shadow Sneak",
+              "WillOWisp",
+              "Taunt"
+            ],
+            "nickname": "",
+            "item": "Mental Herb",
+            "gender": "",
+            "ivs": {
+              "spd": 31,
+              "hp": 31,
+              "spe": 31,
+              "spa": 31,
+              "def": 31,
+              "atk": 31
+            },
+            "species": "Mimikyu"
+          },
+          {
+            "ability": "Transistor",
+            "evs": {
+              "spd": 4,
+              "hp": 4,
+              "spe": 252,
+              "spa": 244,
+              "def": 4,
+              "atk": 0
+            },
+            "nature": "Timid",
+            "other": {
+              "level": "50"
+            },
+            "moves": [
+              "Protect",
+              "Volt Switch",
+              "Electroweb",
+              "Thunderbolt"
+            ],
+            "nickname": "",
+            "item": "Life Orb",
+            "gender": "",
+            "ivs": {
+              "spd": 31,
+              "hp": 31,
+              "spe": 31,
+              "spa": 31,
+              "def": 31,
+              "atk": 0
+            },
+            "species": "Regieleki"
+          }
+        ]
+      }
+    ]
+  },
   "gen7vgc2017": {
     "default": [
       {
