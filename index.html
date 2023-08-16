@@ -11,54 +11,83 @@
     <!-- Website Icon File -->
     <link rel="shortcut icon" type="image/jpg" href="img/favicon.ico"/>
   </head>
-  <body id='body' class='bg-dark'>
+  <body 
+    id='body'
+    class="bg-secondary"
+    style="
+      background-image: url(img/header.png);
+      background-repeat: no-repeat;
+      background-size: 100vw 100vh;
+    "
+  >
+    <div
+      style="
+        background-color: rgba(24, 24, 24, 0.8);
+        width: 100vw;
+        height: 100vh;
+        background-size: 100vw 100vh;
+      "
+    >
 
-    <!-- Container keeping page the correct width -->
-    <div class='container' style='width: 100%; max-width: 960px;'>
-      
-      <!-- Title Section -->
-      <div id='head'>
-        <!-- Site Logo -->
-        <div id='logo'>
-          <!-- Logo Goes Here -->
-          <img class='rounded' src='img/header.png' style='max-width:100%; max-height:100%; object-fit: fill;'>
-        </div>
-      </div>
-
-      <div id='title' class='text-center text-justify text-light bg-dark'>
-        <p class='h1' id='sitetitle'>
+      <div id="header" class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <!-- Navbar Title -->
+        <a id='sitetitle' class="navbar-brand mx-2" href="#">
           Pokémon Teams Library
-        </p>
-        <p class='h4' id='sitesubtitle'>
-          <!-- Populated by index.js -->
-        </p>
-        <p class='h6 text-secondary' id='sitesubsubtitle'>
-          <!-- Populated by index.js -->
-        </p>
-      </div>
-      <div class='container'>
-        <!-- Home / Other Page Links -->
-        <div class='d-flex justify-content-center'>
-        </div>
-        <!-- Format / Folder Drop-Down Bars -->
-        <div class='d-flex justify-content-center'>
-          <a href='#' class='w-auto btn btn-secondary' id='backlnk' onclick='window.location.href = window.location.pathname'>
-            Back to Home
-          </a>
-          <select id='sel-format' class='w-auto text-light bg-secondary form-select mx-2' onChange='setFormat(value)'>
-            <option>
-              Select a format ...
-            </option>
-          </select>
-          <select id='sel-folder' class='w-auto text-light bg-secondary form-select' onChange='setFolder(value)'>
-            <option>
-              Select a folder ...
-            </option>
-          </select>
+        </a>
+
+        <!-- Navbar Content -->
+        <div class="collapse navbar-collapse" id="navbar-content">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="https://dragapult.xyz"> 
+                Back to main site
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
-      <div id='content' class='text-center text-light bg-dark'>
-        <!-- Page Content Goes Here -->
+
+      <!-- Container keeping page the correct width -->
+      <div 
+        class='overflow-auto text-center container bg-dark rounded my-2' 
+        style='width: 100%; max-width: 960px; opacity: 0.8; max-height:90vh;'
+      >
+        <div id='title' class='text-justify text-light'>
+          <p class='h2' id='sitesubtitle'>
+            <!-- Populated by index.js -->
+          </p>
+          <p class='text-secondary' id='sitesubsubtitle'>
+            <!-- Populated by index.js -->
+          </p>
+        </div>
+        <div class='container'>
+          <!-- Home / Other Page Links -->
+          <div class='d-flex justify-content-center'>
+          </div>
+          <!-- Format / Folder Drop-Down Bars -->
+          <div class='d-flex justify-content-center'>
+            <a href="/" class="btn btn-secondary">
+              Home
+            </a>
+            <select id='sel-format' class='w-auto form-select mx-2' onChange='setFormat(value)'>
+              <option>
+                Select a format ...
+              </option>
+            </select>
+            <select id='sel-folder' class='w-auto form-select' onChange='setFolder(value)'>
+              <option>
+                Select a folder ...
+              </option>
+            </select>
+          </div>
+          <!-- No. of teams found container -->
+          <div id="teamCount" class="text-light text-center">
+
+          </div>
+        </div>
+        <div id='content' class='text-center text-light bg-dark'>
+          <!-- Page Content Goes Here -->
+        </div>
       </div>
     </div>
   </body>

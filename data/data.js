@@ -1,6 +1,217 @@
 const TEAMS = {
   gen9doubles: {
     vgc2023regulationd: [],
+    vgc2023regulationc: [
+      {
+        name: "Palafin Goodstuffs",
+        owner: {
+          name: "Sir Scrubbington",
+          link: "https://twitter.com/SirScrubbington",
+        },
+        sets: [
+          {
+            "species": "Flutter Mane",
+            "nickname": "",
+            "gender": "",
+            "ability": "Protosynthesis",
+            "evs": {
+              "hp": 100,
+              "atk": 0,
+              "def": 36,
+              "spa": 228,
+              "spd": 4,
+              "spe": 140
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 0,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Timid",
+            "item": "Choice Specs",
+            "moves": [
+              "Moonblast",
+              "Shadow Ball",
+              "Dazzling Gleam",
+              "Thunderbolt"
+            ],
+            "other": {
+              "shiny": "Yes",
+              "tera type": "Fairy"
+            }
+          },
+          {
+            "species": "Ting-Lu",
+            "nickname": "",
+            "gender": "",
+            "ability": "Vessel of Ruin",
+            "evs": {
+              "hp": 68,
+              "atk": 156,
+              "def": 4,
+              "spa": 0,
+              "spd": 252,
+              "spe": 28
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Adamant",
+            "item": "Assault Vest",
+            "moves": [
+              "Stomping Tantrum",
+              "Heavy Slam",
+              "Stone Edge",
+              "Payback"
+            ],
+            "other": {
+              "tera type": "Poison"
+            }
+          },
+          {
+            "species": "Amoonguss",
+            "nickname": "",
+            "gender": "",
+            "ability": "Regenerator",
+            "evs": {
+              "hp": 252,
+              "atk": 0,
+              "def": 156,
+              "spa": 4,
+              "spd": 92,
+              "spe": 4
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 0,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Bold",
+            "item": "Sitrus Berry",
+            "moves": [
+              "Protect",
+              "Rage Powder",
+              "Pollen Puff",
+              "Spore"
+            ],
+            "other": {
+              "tera type": "Water"
+            }
+          },
+          {
+            "species": "Arcanine",
+            "nickname": "",
+            "gender": "",
+            "ability": "Intimidate",
+            "evs": {
+              "hp": 252,
+              "atk": 52,
+              "def": 4,
+              "spa": 0,
+              "spd": 4,
+              "spe": 196
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Jolly",
+            "item": "Safety Goggles",
+            "moves": [
+              "Protect",
+              "Howl",
+              "Flare Blitz",
+              "Will-O-Wisp"
+            ],
+            "other": {
+              "tera type": "Flying"
+            }
+          },
+          {
+            "species": "Palafin",
+            "nickname": "",
+            "gender": "",
+            "ability": "Zero to Hero",
+            "evs": {
+              "hp": 204,
+              "atk": 252,
+              "def": 4,
+              "spa": 0,
+              "spd": 4,
+              "spe": 44
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Adamant",
+            "item": "Mystic Water",
+            "moves": [
+              "Protect",
+              "Haze",
+              "Jet Punch",
+              "Wave Crash"
+            ],
+            "other": {
+              "tera type": "Water"
+            }
+          },
+          {
+            "species": "Iron Hands",
+            "nickname": "",
+            "gender": "",
+            "ability": "Quark Drive",
+            "evs": {
+              "hp": 4,
+              "atk": 220,
+              "def": 4,
+              "spa": 0,
+              "spd": 252,
+              "spe": 28
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Adamant",
+            "item": "Clear Amulet",
+            "moves": [
+              "Swords Dance",
+              "Drain Punch",
+              "Fire Punch",
+              "Fake Out"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Fire"
+            }
+          }
+        ]
+      }
+    ],
     nationaldexdoubles: [
       {
         name: "Mega Metagross",

@@ -241,7 +241,7 @@ function showPageTeam(format, folder, team)
   if (Object.keys(data).includes('owner')){
 
     // Add 'Contributed by' text to innerHTML
-    subtitle.innerHTML = `Contributed by `;
+    subtitle.innerHTML = `Created by `;
 
     // Set the name to the owner name
     link.innerHTML = data.owner.name;
@@ -250,16 +250,16 @@ function showPageTeam(format, folder, team)
     link.href = data.owner.link;
 
   }
-  else // No contributor
+  else // No creator
   {
-    // Add 'no contributor' message to the innerHTML
-    subtitle.innerHTML = `No contributor - offer a correction `;
+    // Add 'no creator' message to the innerHTML
+    subtitle.innerHTML = `No creator found - offer a correction `;
 
     // Simple link text
     link.innerHTML = 'here';
 
     // Set the link to the issues section of the repository (Convert any spaces to pluses to preserve formatting)
-    link.href = `https://github.com/damon-murdoch/pokemon-teams/issues/new?title=Contributor+Correction:+${format}/${folder}/${name.replace(' ', '+')}`
+    link.href = `https://github.com/damon-murdoch/pokemon-teams/issues/new?title=Creator+Correction:+${format}/${folder}/${name.replace(' ', '+')}`
   }
   
   // Add the link to the subtitle
@@ -589,6 +589,9 @@ function showTableHome(body, format = null, folder = null)
     }
   }
 
+  // Total number of teams
+  let counter = 0;
+
   // Loop over the processes
   for(let p of process)
   {
@@ -631,8 +634,18 @@ function showTableHome(body, format = null, folder = null)
         // Increment the index
         i++;
       }
+
+      // Add iterator to team count
+      counter += i;
     }
+
   }
+  
+  // Update the team counter element
+  const teamCount = document.getElementById('teamCount');
+
+  // Update the team count content
+  teamCount.innerHTML = `Teams Found: ${counter}`;
 }
 
 function showFormatDropdown()
@@ -644,7 +657,7 @@ function showFormatDropdown()
   let keys = Object.keys(TEAMS);
 
   // Sort the keys alphabetically
-  keys.sort();
+  keys.sort().reverse();
 
   // Get the format keys
   for (let key of keys)
@@ -739,39 +752,57 @@ function setFolder(folder)
 // Show the home page
 function showPageHome(format = null, folder = null)
 {
-  // Placeholder title
-  let title = "";
-
   // Populate the format select
   showFormatDropdown();
 
-  // If format is set
-  if (format)
-  {
-    // Set the title to the format
-    title = format;
-
-    // Update the selected drop-down element for the format
-    document.getElementById(format).selected = 'selected';
-    
-    // Populate the folder select
-    showFolderDropdown(format);
-
-    // If folder is set
-    if (folder)
-    {
-      // Add the folder to the title
-      title += " - " + folder;
-    }
-  }
-  else // No format / folder set
-  {
-    // Set title to default
-    title = 'Pokémon Teams';
-  }
-
   // Show the title home section
-  showPageTitle(title);
+  showPageTitle('Pokémon Teams');
+
+  // Add subtitle
+
+  // Get the subtitle element from the form
+  const subtitle = document.getElementById('sitesubsubtitle');
+
+  // Create the link element
+  const link = document.createElement('a');
+
+  // Grey link text
+  link.classList.add('text-secondary');
+
+  // Open link in new tab
+  link.target = "_blank";
+
+  subtitle.innerHTML = `Want a team added? Submit it `;
+
+  // Simple link text
+  link.innerHTML = 'here';
+
+  // Format message
+  let msgFormat = format;
+
+  // Format is null
+  if (msgFormat == null){
+    // Add to the string
+    msgFormat = "[format]";
+  }
+
+  // Folder message
+  let msgFolder = folder;
+
+  // Folder is null
+  if (msgFolder == null){
+    // Add to the string
+    msgFolder = `[folder]`;
+  }
+
+  // Static content for the issue
+  const msgBody = `Creator+Name:%0ACreator+Link:%0ATeam+Paste+(Raw+or+Pokepaste):%0A`;
+
+  // Set the link to the issues section of the repository (Convert any spaces to pluses to preserve formatting)
+  link.href = `https://github.com/damon-murdoch/pokemon-teams/issues/new?title=Team+Submission:+${msgFormat}+/+${msgFolder}+/+[Team+Name]&body=${msgBody}&labels=enhancement`
+
+  // Add the link to the subtitle
+  subtitle.appendChild(link);
 
   // Get the page body from the content
   let body = document.getElementById('content');
@@ -789,7 +820,7 @@ function showPageHome(format = null, folder = null)
     <thead>
       <tr>
         <th scope="col">
-          Description
+          Team Name
         </th>
         <th scope="col">
           Pokémon
