@@ -217,9 +217,54 @@ function showPageTeam(format, folder, team)
   // Get the data for the given team
   let data = TEAMS[format][folder][team];
 
+  // Convert team name to capitals
+  const name = toCapitalCase(data.name);
+
   // Show the title for the format and team
-  showPageTitle(toCapitalCase(data.name));
+  showPageTitle(toCapitalCase(name));
+
+  // Add subtitle
+
+  // Get the subtitle element from the form
+  const subtitle = document.getElementById('sitesubsubtitle');
+
+  // Create the link element
+  const link = document.createElement('a');
+
+  // Grey link text
+  link.classList.add('text-secondary');
+
+  // Open link in new tab
+  link.target = "_blank";
+
+  // Owner is defined in the data
+  if (Object.keys(data).includes('owner')){
+
+    // Add 'Contributed by' text to innerHTML
+    subtitle.innerHTML = `Contributed by `;
+
+    // Set the name to the owner name
+    link.innerHTML = data.owner.name;
+
+    // Set the link to the owner link
+    link.href = data.owner.link;
+
+  }
+  else // No contributor
+  {
+    // Add 'no contributor' message to the innerHTML
+    subtitle.innerHTML = `No contributor - offer a correction `;
+
+    // Simple link text
+    link.innerHTML = 'here';
+
+    // Set the link to the issues section of the repository (Convert any spaces to pluses to preserve formatting)
+    link.href = `https://github.com/damon-murdoch/pokemon-teams/issues/new?title=Contributor+Correction:+${format}/${folder}/${name.replace(' ', '+')}`
+  }
   
+  // Add the link to the subtitle
+  subtitle.appendChild(link);
+
   // Update the format drop-down
   showFormatDropdown();
 

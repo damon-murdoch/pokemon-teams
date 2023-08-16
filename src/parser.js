@@ -359,8 +359,8 @@ function parseJson(sets)
       // Get the value of the attribute
       val = set.other[key]
 
-      // Convert the first letter of the key to upper case
-      let upper = key.substring(0, 1).toUpperCase() + key.substring(1, key.length);
+      // Convert key to upper case
+      let upper = toCapitalCase(key);
 
       // Add the key, value to the set
       item.push(upper + ': ' + val);
