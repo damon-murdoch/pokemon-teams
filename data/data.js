@@ -1,3 +1,55 @@
+// Pretty Format / Folder Names
+// This should have been integrated
+// into the original data structure, 
+// but requires too many changes to
+// be done now :)
+const NAMES = {
+  default: "Default", // No change
+  gen9doubles: "Gen 9 Doubles",
+  vgc2023regulationd: "VGC 2023 Regulation D",
+  vgc2023regulationc: "VGC 2023 Regulation C",
+  nationaldexdoubles: "National Dex Doubles",
+  gen5gbudoubles: "Gen 5 GBU Doubles",
+  vgc2012: "VGC 2012",
+  vgc2013: "VGC 2013",
+  gen6vgc2016: "Gen 6 VGC 2016",
+  vgc2016uu: "VGC 2016 UnderUsed",
+  gen7ou: "Gen 7 OverUsed",
+  uqvsqut: "UQ vs. QUT",
+  gen3doublesou: "Gen 3 Doubles OU",
+  vgc2003: "VGC 2003",
+  gen8vgc2022: "Gen 8 VGC 2022",
+  vgc2022s12: "Series 12",
+  gen7vgc2017: "Gen 7 VGC 2017",
+  gen8vgc2021series11: "Gen 8 VGC 2022 Series 11",
+  gen7vgc2018: "Gen 7 VGC 2018",
+  prebank: "Pre-Pokemon Bank",
+  postbank: "Post-Pokemon Bank",
+  grassroots: "Grassroots Format",
+  gen6ou: "Gen 6 OverUsed",
+  gen8vgc2021series10: "Gen 8 VGC 2021 Series 10",
+  gen7vgc2019: "Gen 7 VGC 2019",
+  sunseries: "Sun Series",
+  moonseries: "Moon Series",
+  ultraseries: "Ultra Series",
+  gen8vgc2020: "Gen 8 VGC 2020", 
+  vgc2020s06: "Series 6", 
+  vgc2020s05: "Series 5", 
+  vgc2020s04: "Series 4", 
+  vgc2020s03: "Series 3", 
+  vgc2020s02: "Series 2", 
+  nodynamax: "No Dynamax", 
+  gen8vgc2021: "Gen 8 VGC 2021", 
+  vgc2020s08: "Series 8", 
+  vgc2020s07: "Series 7", 
+  gen6lc: "Gen 6 Little Cup", 
+  gen6vgc2014: "Gen 6 VGC 2014", 
+  gen6vgc2015: "Gen 6 VGC 2015", 
+  battlesubway: "Battle Subway", 
+  spookycup: "Spooky Cup",
+}
+
+// Team Data
 const TEAMS = {
   gen9doubles: {
     vgc2023regulationd: [],
@@ -219,6 +271,7 @@ const TEAMS = {
           name: "Sir Scrubbington",
           link: "https://twitter.com/SirScrubbington",
         },
+        desc: "Standard Mega Metagross Goodstuffs Team, similar to VGC 2018",
         sets: [
           {
             species: "Flutter Mane",
@@ -5409,7 +5462,7 @@ const TEAMS = {
         name: "ludicola xray",
       },
     ],
-    "vgc2016 uu": [
+    vgc2016uu: [
       {
         sets: [
           {
@@ -6297,7 +6350,7 @@ const TEAMS = {
     ],
   },
   gen7ou: {
-    "uq vs qut": [
+    uqvsqut: [
       {
         sets: [
           {
@@ -7733,7 +7786,7 @@ const TEAMS = {
     ],
   },
   gen8vgc2022: {
-    "vgc2022 s12": [
+    vgc2022s12: [
       {
         name: "standard sun",
         sets: [
@@ -23109,7 +23162,185 @@ const TEAMS = {
     ],
   },
   gen7vgc2018: {
-    "post bank": [
+    postbank: [
+      {
+        sets: [
+          {
+            other: {
+              level: "50",
+            },
+            species: "Latias",
+            ivs: {
+              spe: 31,
+              def: 31,
+              atk: 0,
+              spd: 31,
+              hp: 31,
+              spa: 31,
+            },
+            gender: "",
+            item: "Latiasite",
+            nickname: "",
+            evs: {
+              spe: 108,
+              def: 60,
+              atk: 0,
+              spd: 12,
+              hp: 252,
+              spa: 76,
+            },
+            moves: ["Psyshock", "Ice Beam", "Calm Mind", "Recover"],
+            ability: "Levitate",
+            nature: "Modest",
+          },
+          {
+            other: {
+              level: "50",
+            },
+            species: "Aegislash",
+            ivs: {
+              spe: 31,
+              def: 31,
+              atk: 0,
+              spd: 31,
+              hp: 31,
+              spa: 31,
+            },
+            gender: "",
+            item: "Ghostium Z",
+            nickname: "",
+            evs: {
+              spe: 116,
+              def: 0,
+              atk: 0,
+              spd: 0,
+              hp: 140,
+              spa: 252,
+            },
+            moves: [
+              "King's Shield",
+              "Substitute",
+              "Shadow Ball",
+              "Flash Cannon",
+            ],
+            ability: "Stance Change",
+            nature: "Modest",
+          },
+          {
+            other: {
+              level: "50",
+            },
+            species: "Incineroar",
+            ivs: {
+              spe: 31,
+              def: 31,
+              atk: 31,
+              spd: 31,
+              hp: 31,
+              spa: 31,
+            },
+            gender: "",
+            item: "Figy Berry",
+            nickname: "",
+            evs: {
+              spe: 4,
+              def: 44,
+              atk: 204,
+              spd: 12,
+              hp: 244,
+              spa: 0,
+            },
+            moves: ["Flare Blitz", "Knock Off", "Fake Out", "Protect"],
+            ability: "Intimidate",
+            nature: "Adamant",
+          },
+          {
+            other: {
+              level: "50",
+            },
+            species: "Kartana",
+            ivs: {
+              spe: 31,
+              def: 31,
+              atk: 31,
+              spd: 31,
+              hp: 31,
+              spa: 31,
+            },
+            gender: "",
+            item: "Focus Sash",
+            nickname: "",
+            evs: {
+              spe: 252,
+              def: 0,
+              atk: 252,
+              spd: 0,
+              hp: 4,
+              spa: 0,
+            },
+            moves: ["Leaf Blade", "Sacred Sword", "Tailwind", "Detect"],
+            ability: "Beast Boost",
+            nature: "Jolly",
+          },
+          {
+            other: {
+              level: "50",
+            },
+            species: "Landorus-Therian",
+            ivs: {
+              spe: 31,
+              def: 31,
+              atk: 31,
+              spd: 31,
+              hp: 31,
+              spa: 31,
+            },
+            gender: "",
+            item: "Assault Vest",
+            nickname: "",
+            evs: {
+              spe: 180,
+              def: 84,
+              atk: 12,
+              spd: 4,
+              hp: 228,
+              spa: 0,
+            },
+            moves: ["Earthquake", "Rock Tomb", "Uturn", "Knock Off"],
+            ability: "Intimidate",
+            nature: "Adamant",
+          },
+          {
+            other: {
+              level: "50",
+            },
+            species: "Tapu Fini",
+            ivs: {
+              spe: 31,
+              def: 31,
+              atk: 0,
+              spd: 31,
+              hp: 31,
+              spa: 31,
+            },
+            gender: "",
+            item: "Wiki Berry",
+            nickname: "",
+            evs: {
+              spe: 60,
+              def: 100,
+              atk: 0,
+              spd: 44,
+              hp: 252,
+              spa: 52,
+            },
+            moves: ["Muddy Water", "Moonblast", "Calm Mind", "Protect"],
+            ability: "Misty Surge",
+            nature: "Calm",
+          },
+        ],
+        name: "standard latias",
+      },
       {
         sets: [
           {
@@ -25899,7 +26130,182 @@ const TEAMS = {
         name: "qut pokemon perish trap",
       },
     ],
-    "pre bank": [
+    prebank: [
+      {
+        sets: [
+          {
+            other: {
+              level: "50",
+            },
+            species: "Manectric",
+            ivs: {
+              spe: 31,
+              def: 31,
+              atk: 0,
+              spd: 31,
+              hp: 31,
+              spa: 31,
+            },
+            gender: "",
+            item: "Manectite",
+            nickname: "",
+            evs: {
+              spe: 252,
+              def: 4,
+              atk: 0,
+              spd: 12,
+              hp: 172,
+              spa: 68,
+            },
+            moves: ["Volt Switch", "Snarl", "Protect", "Overheat"],
+            ability: "Lightning Rod",
+            nature: "Timid",
+          },
+          {
+            other: {
+              level: "50",
+            },
+            species: "Landorus-Therian",
+            ivs: {
+              spe: 31,
+              def: 31,
+              atk: 31,
+              spd: 31,
+              hp: 31,
+              spa: 31,
+            },
+            gender: "",
+            item: "Groundium Z",
+            nickname: "",
+            evs: {
+              spe: 252,
+              def: 4,
+              atk: 164,
+              spd: 68,
+              hp: 20,
+              spa: 0,
+            },
+            moves: ["Earthquake", "Rock Slide", "Superpower", "Protect"],
+            ability: "Intimidate",
+            nature: "Adamant",
+          },
+          {
+            other: {
+              level: "50",
+            },
+            species: "Celesteela",
+            ivs: {
+              spe: 31,
+              def: 31,
+              atk: 31,
+              spd: 31,
+              hp: 31,
+              spa: 31,
+            },
+            gender: "",
+            item: "Misty Seed",
+            nickname: "",
+            evs: {
+              spe: 28,
+              def: 44,
+              atk: 60,
+              spd: 148,
+              hp: 228,
+              spa: 0,
+            },
+            moves: ["Acrobatics", "Heavy Slam", "Leech Seed", "Protect"],
+            ability: "Beast Boost",
+            nature: "Adamant",
+          },
+          {
+            other: {
+              level: "50",
+              shiny: "Yes",
+            },
+            species: "Gothitelle",
+            ivs: {
+              spe: 0,
+              def: 31,
+              atk: 0,
+              spd: 31,
+              hp: 31,
+              spa: 31,
+            },
+            gender: "",
+            item: "Iapapa Berry",
+            nickname: "",
+            evs: {
+              spe: 0,
+              def: 124,
+              atk: 0,
+              spd: 156,
+              hp: 228,
+              spa: 0,
+            },
+            moves: ["Psyshock", "Trick Room", "Recycle", "Protect"],
+            ability: "Shadow Tag",
+            nature: "Sassy",
+          },
+          {
+            other: {
+              level: "50",
+              happiness: "0",
+            },
+            species: "Snorlax",
+            ivs: {
+              spe: 0,
+              def: 31,
+              atk: 31,
+              spd: 31,
+              hp: 31,
+              spa: 31,
+            },
+            gender: "",
+            item: "Figy Berry",
+            nickname: "",
+            evs: {
+              spe: 0,
+              def: 244,
+              atk: 0,
+              spd: 116,
+              hp: 148,
+              spa: 0,
+            },
+            moves: ["Belly Drum", "Frustration", "High Horsepower", "Recycle"],
+            ability: "Gluttony",
+            nature: "Brave",
+          },
+          {
+            other: {
+              level: "50",
+            },
+            species: "Tapu Fini",
+            ivs: {
+              spe: 31,
+              def: 31,
+              atk: 0,
+              spd: 31,
+              hp: 31,
+              spa: 31,
+            },
+            gender: "",
+            item: "Wiki Berry",
+            nickname: "",
+            evs: {
+              spe: 4,
+              def: 100,
+              atk: 0,
+              spd: 28,
+              hp: 244,
+              spa: 132,
+            },
+            moves: ["Calm Mind", "Moonblast", "Muddy Water", "Protect"],
+            ability: "Misty Surge",
+            nature: "Modest",
+          },
+        ],
+        name: "japan snarl trap",
+      },
       {
         sets: [
           {
@@ -32180,344 +32586,6 @@ const TEAMS = {
       {
         sets: [
           {
-            other: {},
-            species: "Kyogre",
-            ivs: {
-              spe: 31,
-              def: 31,
-              atk: 0,
-              spd: 31,
-              hp: 31,
-              spa: 31,
-            },
-            gender: "",
-            item: "Mystic Water",
-            nickname: "",
-            evs: {
-              spe: 252,
-              def: 4,
-              atk: 0,
-              spd: 4,
-              hp: 4,
-              spa: 244,
-            },
-            moves: ["Protect", "Water Spout", "Ice Beam", "Scald"],
-            ability: "Drizzle",
-            nature: "Timid",
-          },
-          {
-            other: {
-              level: "50",
-            },
-            species: "Incineroar",
-            ivs: {
-              spe: 0,
-              def: 31,
-              atk: 31,
-              spd: 31,
-              hp: 31,
-              spa: 31,
-            },
-            gender: "",
-            item: "Sitrus Berry",
-            nickname: "",
-            evs: {
-              spe: 0,
-              def: 20,
-              atk: 0,
-              spd: 252,
-              hp: 236,
-              spa: 0,
-            },
-            moves: ["Parting Shot", "Flare Blitz", "Snarl", "Fake Out"],
-            ability: "Intimidate",
-            nature: "Sassy",
-          },
-          {
-            other: {
-              level: "50",
-            },
-            species: "Regieleki",
-            ivs: {
-              spe: 31,
-              def: 31,
-              atk: 0,
-              spd: 31,
-              hp: 31,
-              spa: 31,
-            },
-            gender: "",
-            item: "Magnet",
-            nickname: "",
-            evs: {
-              spe: 252,
-              def: 4,
-              atk: 0,
-              spd: 4,
-              hp: 4,
-              spa: 244,
-            },
-            moves: ["Protect", "Thunderbolt", "Electroweb", "Volt Switch"],
-            ability: "Transistor",
-            nature: "Timid",
-          },
-          {
-            other: {},
-            species: "Shedinja",
-            ivs: {
-              spe: 31,
-              def: 31,
-              atk: 31,
-              spd: 31,
-              hp: 31,
-              spa: 31,
-            },
-            gender: "",
-            item: "Focus Sash",
-            nickname: "",
-            evs: {
-              spe: 252,
-              def: 0,
-              atk: 252,
-              spd: 0,
-              hp: 0,
-              spa: 4,
-            },
-            moves: ["Protect", "Ally Switch", "Shadow Sneak", "Phantom Force"],
-            ability: "Wonder Guard",
-            nature: "Naughty",
-          },
-          {
-            other: {
-              level: "50",
-            },
-            species: "Tornadus",
-            ivs: {
-              spe: 31,
-              def: 31,
-              atk: 0,
-              spd: 31,
-              hp: 31,
-              spa: 31,
-            },
-            gender: "",
-            item: "Safety Goggles",
-            nickname: "",
-            evs: {
-              spe: 172,
-              def: 4,
-              atk: 0,
-              spd: 4,
-              hp: 252,
-              spa: 76,
-            },
-            moves: ["Icy Wind", "Hurricane", "Tailwind", "Taunt"],
-            ability: "Prankster",
-            nature: "Timid",
-          },
-          {
-            other: {},
-            species: "Tsareena",
-            ivs: {
-              spe: 31,
-              def: 31,
-              atk: 31,
-              spd: 31,
-              hp: 31,
-              spa: 31,
-            },
-            gender: "f",
-            item: "Assault Vest",
-            nickname: "",
-            evs: {
-              spe: 156,
-              def: 52,
-              atk: 36,
-              spd: 12,
-              hp: 252,
-              spa: 0,
-            },
-            moves: ["Uturn", "Power Whip", "Triple Axel", "High Jump Kick"],
-            ability: "Queenly Majesty",
-            nature: "Adamant",
-          },
-        ],
-        name: "standard kyogre",
-      },
-      {
-        sets: [
-          {
-            other: {
-              level: "50",
-            },
-            species: "Xerneas",
-            ivs: {
-              spe: 31,
-              def: 31,
-              atk: 0,
-              spd: 31,
-              hp: 31,
-              spa: 31,
-            },
-            gender: "",
-            item: "Power Herb",
-            nickname: "",
-            evs: {
-              spe: 252,
-              def: 4,
-              atk: 0,
-              spd: 4,
-              hp: 4,
-              spa: 244,
-            },
-            moves: ["Protect", "Geomancy", "Moonblast", "Dazzling Gleam"],
-            ability: "Fairy Aura",
-            nature: "Timid",
-          },
-          {
-            other: {
-              level: "50",
-            },
-            species: "Incineroar",
-            ivs: {
-              spe: 0,
-              def: 31,
-              atk: 31,
-              spd: 31,
-              hp: 31,
-              spa: 31,
-            },
-            gender: "",
-            item: "Sitrus Berry",
-            nickname: "",
-            evs: {
-              spe: 0,
-              def: 20,
-              atk: 0,
-              spd: 252,
-              hp: 236,
-              spa: 0,
-            },
-            moves: ["Parting Shot", "Flare Blitz", "Snarl", "Fake Out"],
-            ability: "Intimidate",
-            nature: "Sassy",
-          },
-          {
-            other: {
-              level: "50",
-            },
-            species: "Rillaboom",
-            ivs: {
-              spe: 31,
-              def: 31,
-              atk: 31,
-              spd: 31,
-              hp: 31,
-              spa: 31,
-            },
-            gender: "",
-            item: "Miracle Seed",
-            nickname: "",
-            evs: {
-              spe: 52,
-              def: 4,
-              atk: 4,
-              spd: 252,
-              hp: 196,
-              spa: 0,
-            },
-            moves: ["Uturn", "Grassy Glide", "Taunt", "Fake Out"],
-            ability: "Grassy Surge",
-            nature: "Adamant",
-          },
-          {
-            other: {},
-            species: "Stakataka",
-            ivs: {
-              spe: 0,
-              def: 31,
-              atk: 31,
-              spd: 31,
-              hp: 31,
-              spa: 31,
-            },
-            gender: "",
-            item: "Chople Berry",
-            nickname: "",
-            evs: {
-              spe: 0,
-              def: 28,
-              atk: 0,
-              spd: 228,
-              hp: 252,
-              spa: 0,
-            },
-            moves: ["Rock Slide", "Gyro Ball", "Trick Room", "Wide Guard"],
-            ability: "Beast Boost",
-            nature: "Sassy",
-          },
-          {
-            other: {},
-            species: "Urshifu-Rapid-Strike",
-            ivs: {
-              spe: 31,
-              def: 31,
-              atk: 31,
-              spd: 31,
-              hp: 31,
-              spa: 31,
-            },
-            gender: "",
-            item: "Focus Sash",
-            nickname: "",
-            evs: {
-              spe: 252,
-              def: 4,
-              atk: 244,
-              spd: 4,
-              hp: 4,
-              spa: 0,
-            },
-            moves: ["Protect", "Surging Strikes", "Close Combat", "Aqua Jet"],
-            ability: "Unseen Fist",
-            nature: "Jolly",
-          },
-          {
-            other: {
-              level: "50",
-            },
-            species: "Volcarona",
-            ivs: {
-              spe: 31,
-              def: 31,
-              atk: 0,
-              spd: 31,
-              hp: 31,
-              spa: 31,
-            },
-            gender: "",
-            item: "Safety Goggles",
-            nickname: "",
-            evs: {
-              spe: 68,
-              def: 236,
-              atk: 0,
-              spd: 0,
-              hp: 204,
-              spa: 0,
-            },
-            moves: ["Protect", "Rage Powder", "Struggle Bug", "Heat Wave"],
-            ability: "Flame Body",
-            nature: "Bold",
-          },
-        ],
-        name: "xerneas stak",
-      },
-    ],
-    "vgc2020 s10": [
-      {
-        sets: [
-          {
             other: {
               level: "50",
             },
@@ -32866,10 +32934,346 @@ const TEAMS = {
         ],
         name: "zacian goodstuffs",
       },
+      {
+        sets: [
+          {
+            other: {},
+            species: "Kyogre",
+            ivs: {
+              spe: 31,
+              def: 31,
+              atk: 0,
+              spd: 31,
+              hp: 31,
+              spa: 31,
+            },
+            gender: "",
+            item: "Mystic Water",
+            nickname: "",
+            evs: {
+              spe: 252,
+              def: 4,
+              atk: 0,
+              spd: 4,
+              hp: 4,
+              spa: 244,
+            },
+            moves: ["Protect", "Water Spout", "Ice Beam", "Scald"],
+            ability: "Drizzle",
+            nature: "Timid",
+          },
+          {
+            other: {
+              level: "50",
+            },
+            species: "Incineroar",
+            ivs: {
+              spe: 0,
+              def: 31,
+              atk: 31,
+              spd: 31,
+              hp: 31,
+              spa: 31,
+            },
+            gender: "",
+            item: "Sitrus Berry",
+            nickname: "",
+            evs: {
+              spe: 0,
+              def: 20,
+              atk: 0,
+              spd: 252,
+              hp: 236,
+              spa: 0,
+            },
+            moves: ["Parting Shot", "Flare Blitz", "Snarl", "Fake Out"],
+            ability: "Intimidate",
+            nature: "Sassy",
+          },
+          {
+            other: {
+              level: "50",
+            },
+            species: "Regieleki",
+            ivs: {
+              spe: 31,
+              def: 31,
+              atk: 0,
+              spd: 31,
+              hp: 31,
+              spa: 31,
+            },
+            gender: "",
+            item: "Magnet",
+            nickname: "",
+            evs: {
+              spe: 252,
+              def: 4,
+              atk: 0,
+              spd: 4,
+              hp: 4,
+              spa: 244,
+            },
+            moves: ["Protect", "Thunderbolt", "Electroweb", "Volt Switch"],
+            ability: "Transistor",
+            nature: "Timid",
+          },
+          {
+            other: {},
+            species: "Shedinja",
+            ivs: {
+              spe: 31,
+              def: 31,
+              atk: 31,
+              spd: 31,
+              hp: 31,
+              spa: 31,
+            },
+            gender: "",
+            item: "Focus Sash",
+            nickname: "",
+            evs: {
+              spe: 252,
+              def: 0,
+              atk: 252,
+              spd: 0,
+              hp: 0,
+              spa: 4,
+            },
+            moves: ["Protect", "Ally Switch", "Shadow Sneak", "Phantom Force"],
+            ability: "Wonder Guard",
+            nature: "Naughty",
+          },
+          {
+            other: {
+              level: "50",
+            },
+            species: "Tornadus",
+            ivs: {
+              spe: 31,
+              def: 31,
+              atk: 0,
+              spd: 31,
+              hp: 31,
+              spa: 31,
+            },
+            gender: "",
+            item: "Safety Goggles",
+            nickname: "",
+            evs: {
+              spe: 172,
+              def: 4,
+              atk: 0,
+              spd: 4,
+              hp: 252,
+              spa: 76,
+            },
+            moves: ["Icy Wind", "Hurricane", "Tailwind", "Taunt"],
+            ability: "Prankster",
+            nature: "Timid",
+          },
+          {
+            other: {},
+            species: "Tsareena",
+            ivs: {
+              spe: 31,
+              def: 31,
+              atk: 31,
+              spd: 31,
+              hp: 31,
+              spa: 31,
+            },
+            gender: "f",
+            item: "Assault Vest",
+            nickname: "",
+            evs: {
+              spe: 156,
+              def: 52,
+              atk: 36,
+              spd: 12,
+              hp: 252,
+              spa: 0,
+            },
+            moves: ["Uturn", "Power Whip", "Triple Axel", "High Jump Kick"],
+            ability: "Queenly Majesty",
+            nature: "Adamant",
+          },
+        ],
+        name: "standard kyogre",
+      },
+      {
+        sets: [
+          {
+            other: {
+              level: "50",
+            },
+            species: "Xerneas",
+            ivs: {
+              spe: 31,
+              def: 31,
+              atk: 0,
+              spd: 31,
+              hp: 31,
+              spa: 31,
+            },
+            gender: "",
+            item: "Power Herb",
+            nickname: "",
+            evs: {
+              spe: 252,
+              def: 4,
+              atk: 0,
+              spd: 4,
+              hp: 4,
+              spa: 244,
+            },
+            moves: ["Protect", "Geomancy", "Moonblast", "Dazzling Gleam"],
+            ability: "Fairy Aura",
+            nature: "Timid",
+          },
+          {
+            other: {
+              level: "50",
+            },
+            species: "Incineroar",
+            ivs: {
+              spe: 0,
+              def: 31,
+              atk: 31,
+              spd: 31,
+              hp: 31,
+              spa: 31,
+            },
+            gender: "",
+            item: "Sitrus Berry",
+            nickname: "",
+            evs: {
+              spe: 0,
+              def: 20,
+              atk: 0,
+              spd: 252,
+              hp: 236,
+              spa: 0,
+            },
+            moves: ["Parting Shot", "Flare Blitz", "Snarl", "Fake Out"],
+            ability: "Intimidate",
+            nature: "Sassy",
+          },
+          {
+            other: {
+              level: "50",
+            },
+            species: "Rillaboom",
+            ivs: {
+              spe: 31,
+              def: 31,
+              atk: 31,
+              spd: 31,
+              hp: 31,
+              spa: 31,
+            },
+            gender: "",
+            item: "Miracle Seed",
+            nickname: "",
+            evs: {
+              spe: 52,
+              def: 4,
+              atk: 4,
+              spd: 252,
+              hp: 196,
+              spa: 0,
+            },
+            moves: ["Uturn", "Grassy Glide", "Taunt", "Fake Out"],
+            ability: "Grassy Surge",
+            nature: "Adamant",
+          },
+          {
+            other: {},
+            species: "Stakataka",
+            ivs: {
+              spe: 0,
+              def: 31,
+              atk: 31,
+              spd: 31,
+              hp: 31,
+              spa: 31,
+            },
+            gender: "",
+            item: "Chople Berry",
+            nickname: "",
+            evs: {
+              spe: 0,
+              def: 28,
+              atk: 0,
+              spd: 228,
+              hp: 252,
+              spa: 0,
+            },
+            moves: ["Rock Slide", "Gyro Ball", "Trick Room", "Wide Guard"],
+            ability: "Beast Boost",
+            nature: "Sassy",
+          },
+          {
+            other: {},
+            species: "Urshifu-Rapid-Strike",
+            ivs: {
+              spe: 31,
+              def: 31,
+              atk: 31,
+              spd: 31,
+              hp: 31,
+              spa: 31,
+            },
+            gender: "",
+            item: "Focus Sash",
+            nickname: "",
+            evs: {
+              spe: 252,
+              def: 4,
+              atk: 244,
+              spd: 4,
+              hp: 4,
+              spa: 0,
+            },
+            moves: ["Protect", "Surging Strikes", "Close Combat", "Aqua Jet"],
+            ability: "Unseen Fist",
+            nature: "Jolly",
+          },
+          {
+            other: {
+              level: "50",
+            },
+            species: "Volcarona",
+            ivs: {
+              spe: 31,
+              def: 31,
+              atk: 0,
+              spd: 31,
+              hp: 31,
+              spa: 31,
+            },
+            gender: "",
+            item: "Safety Goggles",
+            nickname: "",
+            evs: {
+              spe: 68,
+              def: 236,
+              atk: 0,
+              spd: 0,
+              hp: 204,
+              spa: 0,
+            },
+            moves: ["Protect", "Rage Powder", "Struggle Bug", "Heat Wave"],
+            ability: "Flame Body",
+            nature: "Bold",
+          },
+        ],
+        name: "xerneas stak",
+      },
     ],
   },
   gen7vgc2019: {
-    "vgc2019 s1 sun": [
+    sunseries: [
       {
         sets: [
           {
@@ -36152,7 +36556,7 @@ const TEAMS = {
         name: "katz xy stak",
       },
     ],
-    "vgc2019 s3 ultra": [
+    ultraseries: [
       {
         sets: [
           {
@@ -41966,187 +42370,7 @@ const TEAMS = {
         name: "joeux9 yveldon",
       },
     ],
-    "post bank": [
-      {
-        sets: [
-          {
-            other: {
-              level: "50",
-            },
-            species: "Latias",
-            ivs: {
-              spe: 31,
-              def: 31,
-              atk: 0,
-              spd: 31,
-              hp: 31,
-              spa: 31,
-            },
-            gender: "",
-            item: "Latiasite",
-            nickname: "",
-            evs: {
-              spe: 108,
-              def: 60,
-              atk: 0,
-              spd: 12,
-              hp: 252,
-              spa: 76,
-            },
-            moves: ["Psyshock", "Ice Beam", "Calm Mind", "Recover"],
-            ability: "Levitate",
-            nature: "Modest",
-          },
-          {
-            other: {
-              level: "50",
-            },
-            species: "Aegislash",
-            ivs: {
-              spe: 31,
-              def: 31,
-              atk: 0,
-              spd: 31,
-              hp: 31,
-              spa: 31,
-            },
-            gender: "",
-            item: "Ghostium Z",
-            nickname: "",
-            evs: {
-              spe: 116,
-              def: 0,
-              atk: 0,
-              spd: 0,
-              hp: 140,
-              spa: 252,
-            },
-            moves: [
-              "King's Shield",
-              "Substitute",
-              "Shadow Ball",
-              "Flash Cannon",
-            ],
-            ability: "Stance Change",
-            nature: "Modest",
-          },
-          {
-            other: {
-              level: "50",
-            },
-            species: "Incineroar",
-            ivs: {
-              spe: 31,
-              def: 31,
-              atk: 31,
-              spd: 31,
-              hp: 31,
-              spa: 31,
-            },
-            gender: "",
-            item: "Figy Berry",
-            nickname: "",
-            evs: {
-              spe: 4,
-              def: 44,
-              atk: 204,
-              spd: 12,
-              hp: 244,
-              spa: 0,
-            },
-            moves: ["Flare Blitz", "Knock Off", "Fake Out", "Protect"],
-            ability: "Intimidate",
-            nature: "Adamant",
-          },
-          {
-            other: {
-              level: "50",
-            },
-            species: "Kartana",
-            ivs: {
-              spe: 31,
-              def: 31,
-              atk: 31,
-              spd: 31,
-              hp: 31,
-              spa: 31,
-            },
-            gender: "",
-            item: "Focus Sash",
-            nickname: "",
-            evs: {
-              spe: 252,
-              def: 0,
-              atk: 252,
-              spd: 0,
-              hp: 4,
-              spa: 0,
-            },
-            moves: ["Leaf Blade", "Sacred Sword", "Tailwind", "Detect"],
-            ability: "Beast Boost",
-            nature: "Jolly",
-          },
-          {
-            other: {
-              level: "50",
-            },
-            species: "Landorus-Therian",
-            ivs: {
-              spe: 31,
-              def: 31,
-              atk: 31,
-              spd: 31,
-              hp: 31,
-              spa: 31,
-            },
-            gender: "",
-            item: "Assault Vest",
-            nickname: "",
-            evs: {
-              spe: 180,
-              def: 84,
-              atk: 12,
-              spd: 4,
-              hp: 228,
-              spa: 0,
-            },
-            moves: ["Earthquake", "Rock Tomb", "Uturn", "Knock Off"],
-            ability: "Intimidate",
-            nature: "Adamant",
-          },
-          {
-            other: {
-              level: "50",
-            },
-            species: "Tapu Fini",
-            ivs: {
-              spe: 31,
-              def: 31,
-              atk: 0,
-              spd: 31,
-              hp: 31,
-              spa: 31,
-            },
-            gender: "",
-            item: "Wiki Berry",
-            nickname: "",
-            evs: {
-              spe: 60,
-              def: 100,
-              atk: 0,
-              spd: 44,
-              hp: 252,
-              spa: 52,
-            },
-            moves: ["Muddy Water", "Moonblast", "Calm Mind", "Protect"],
-            ability: "Misty Surge",
-            nature: "Calm",
-          },
-        ],
-        name: "standard latias",
-      },
-    ],
-    "vgc2019 s2 moon": [
+    moonseries: [
       {
         sets: [
           {
@@ -44387,186 +44611,9 @@ const TEAMS = {
         name: "kats xy",
       },
     ],
-    "pre bank": [
-      {
-        sets: [
-          {
-            other: {
-              level: "50",
-            },
-            species: "Manectric",
-            ivs: {
-              spe: 31,
-              def: 31,
-              atk: 0,
-              spd: 31,
-              hp: 31,
-              spa: 31,
-            },
-            gender: "",
-            item: "Manectite",
-            nickname: "",
-            evs: {
-              spe: 252,
-              def: 4,
-              atk: 0,
-              spd: 12,
-              hp: 172,
-              spa: 68,
-            },
-            moves: ["Volt Switch", "Snarl", "Protect", "Overheat"],
-            ability: "Lightning Rod",
-            nature: "Timid",
-          },
-          {
-            other: {
-              level: "50",
-            },
-            species: "Landorus-Therian",
-            ivs: {
-              spe: 31,
-              def: 31,
-              atk: 31,
-              spd: 31,
-              hp: 31,
-              spa: 31,
-            },
-            gender: "",
-            item: "Groundium Z",
-            nickname: "",
-            evs: {
-              spe: 252,
-              def: 4,
-              atk: 164,
-              spd: 68,
-              hp: 20,
-              spa: 0,
-            },
-            moves: ["Earthquake", "Rock Slide", "Superpower", "Protect"],
-            ability: "Intimidate",
-            nature: "Adamant",
-          },
-          {
-            other: {
-              level: "50",
-            },
-            species: "Celesteela",
-            ivs: {
-              spe: 31,
-              def: 31,
-              atk: 31,
-              spd: 31,
-              hp: 31,
-              spa: 31,
-            },
-            gender: "",
-            item: "Misty Seed",
-            nickname: "",
-            evs: {
-              spe: 28,
-              def: 44,
-              atk: 60,
-              spd: 148,
-              hp: 228,
-              spa: 0,
-            },
-            moves: ["Acrobatics", "Heavy Slam", "Leech Seed", "Protect"],
-            ability: "Beast Boost",
-            nature: "Adamant",
-          },
-          {
-            other: {
-              level: "50",
-              shiny: "Yes",
-            },
-            species: "Gothitelle",
-            ivs: {
-              spe: 0,
-              def: 31,
-              atk: 0,
-              spd: 31,
-              hp: 31,
-              spa: 31,
-            },
-            gender: "",
-            item: "Iapapa Berry",
-            nickname: "",
-            evs: {
-              spe: 0,
-              def: 124,
-              atk: 0,
-              spd: 156,
-              hp: 228,
-              spa: 0,
-            },
-            moves: ["Psyshock", "Trick Room", "Recycle", "Protect"],
-            ability: "Shadow Tag",
-            nature: "Sassy",
-          },
-          {
-            other: {
-              level: "50",
-              happiness: "0",
-            },
-            species: "Snorlax",
-            ivs: {
-              spe: 0,
-              def: 31,
-              atk: 31,
-              spd: 31,
-              hp: 31,
-              spa: 31,
-            },
-            gender: "",
-            item: "Figy Berry",
-            nickname: "",
-            evs: {
-              spe: 0,
-              def: 244,
-              atk: 0,
-              spd: 116,
-              hp: 148,
-              spa: 0,
-            },
-            moves: ["Belly Drum", "Frustration", "High Horsepower", "Recycle"],
-            ability: "Gluttony",
-            nature: "Brave",
-          },
-          {
-            other: {
-              level: "50",
-            },
-            species: "Tapu Fini",
-            ivs: {
-              spe: 31,
-              def: 31,
-              atk: 0,
-              spd: 31,
-              hp: 31,
-              spa: 31,
-            },
-            gender: "",
-            item: "Wiki Berry",
-            nickname: "",
-            evs: {
-              spe: 4,
-              def: 100,
-              atk: 0,
-              spd: 28,
-              hp: 244,
-              spa: 132,
-            },
-            moves: ["Calm Mind", "Moonblast", "Muddy Water", "Protect"],
-            ability: "Misty Surge",
-            nature: "Modest",
-          },
-        ],
-        name: "japan snarl trap",
-      },
-    ],
   },
   gen8vgc2020: {
-    "vgc2020 s03": [
+    vgc2020s03: [
       {
         sets: [
           {
@@ -45242,7 +45289,7 @@ const TEAMS = {
         name: "lapras control",
       },
     ],
-    "vgc2020 s02": [
+    vgc2020s02: [
       {
         sets: [
           {
@@ -45912,7 +45959,7 @@ const TEAMS = {
         name: "trick room",
       },
     ],
-    "vgc2020 s04": [
+    vgc2020s04: [
       {
         sets: [
           {
@@ -46260,7 +46307,7 @@ const TEAMS = {
         name: "lapras control",
       },
     ],
-    "no dynamax": [
+    nodynamax: [
       {
         sets: [
           {
@@ -46584,7 +46631,7 @@ const TEAMS = {
         name: "standard sun",
       },
     ],
-    "vgc2020 s05": [
+    vgc2020s05: [
       {
         sets: [
           {
@@ -46913,7 +46960,7 @@ const TEAMS = {
         name: "rillaboom sand",
       },
     ],
-    "vgc2020 s06": [
+    vgc2020s06: [
       {
         sets: [
           {
@@ -47090,7 +47137,7 @@ const TEAMS = {
     ],
   },
   gen8vgc2021: {
-    "vgc2020 s08": [
+    vgc2020s08: [
       {
         sets: [
           {
@@ -48126,7 +48173,7 @@ const TEAMS = {
         name: "zacian lapras",
       },
     ],
-    "vgc2020 s07": [
+    vgc2020s07: [
       {
         sets: [
           {
@@ -51291,7 +51338,7 @@ const TEAMS = {
     ],
   },
   gen6vgc2015: {
-    "spooky cup": [
+    spookycup: [
       {
         sets: [
           {
