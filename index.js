@@ -13,6 +13,26 @@ function showPageTitle(title) {
   document.getElementById('sitesubtitle').innerHTML = title;
 }
 
+function getTypeColor(type){
+
+  // Placeholder
+  color = "";
+
+  // Color is found
+  if (type in COLORS){
+    // Get the color for the type
+    color = COLORS[type];
+  }
+  else // Color not found
+  {
+    // Warning
+    console.warn(`Color for type '${type}' not found!`)
+  }
+
+  // Return color
+  return color;
+}
+
 // Get the table for the set
 function showTableSet(body, set) {
   // Create the table for the given set
@@ -25,13 +45,427 @@ function showTableSet(body, set) {
   // Tera Type Placeholder
   // For formats that don't support it
   let teraType = '-';
-  
+
+  // Tera Type Text Colour
+  let teraColor = "";
+
   // Tera type is in the set
   if ('tera type' in set.other){
     // Get the tera type from the set
     teraType = set.other['tera type'];
   }
 
+  // Lower-case tera type (for color switch_)
+  const teraTypeLower = teraType.toLowerCase();
+
+  // Get the colour for the tera type
+  teraColor = getTypeColor(teraTypeLower);
+
+  // Switch on item
+  const itemLower = set.item.toLowerCase();
+
+  // item color string
+  let itemColor = "";
+
+  // Switch on item (lower case)
+  switch(itemLower){
+    // Bug Type
+    case 'tanga berry':
+    case 'silver powder': 
+    case 'insect plate': 
+    case 'bug gem': 
+    case 'buginium z': {
+      itemColor = getTypeColor('bug');
+    }; break;
+
+    // Dark Type
+    case 'colbur berry':
+    case 'black glasses': 
+    case 'dread plate': 
+    case 'dark gem': 
+    case 'incinium z': 
+    case 'darkinium z': {
+      itemColor = getTypeColor('dark');
+    }; break;
+
+    // Dragon Type
+    case 'haban berry': 
+    case 'dragon fang': 
+    case 'draco plate': 
+    case 'dragon gem': 
+    case 'kommonium z': 
+    case 'draconium z': {
+      itemColor = getTypeColor('dragon');
+    }; break;
+
+    // Electric Type
+    case 'wacan berry':
+    case 'magnet': 
+    case 'zap plate': 
+    case 'electric gem': 
+    case 'aloraichium z': 
+    case 'pikanium z': 
+    case 'electric seed': 
+    case 'pikachunium z': 
+    case 'electrium z': {
+      itemColor = getTypeColor('electric');
+    }; break;
+
+    // Fairy Type
+    case 'roseli berry':
+    case 'fairy plate': 
+    case 'misty seed': 
+    case 'tapunium z': 
+    case 'fairium z': {
+      itemColor = getTypeColor('fairy');
+    }; break;
+
+    // Fighting Type
+    case 'chople berry':
+    case 'black belt': 
+    case 'fist plate': 
+    case 'fighting gem': 
+    case 'fightinium z': {
+      itemColor = getTypeColor('fighting');
+    }; break;
+
+    // Fire Type
+    case 'occa berry':
+    case 'charcoal': 
+    case 'red orb':
+    case 'flame plate': 
+    case 'fire gem': 
+    case 'firium z': {
+      itemColor = getTypeColor('fire');
+    }; break;
+
+    // Flying Type
+    case 'coba berry':
+    case 'sharp beak': 
+    case 'sky plate': 
+    case 'flying gem': 
+    case 'flyinium z': {
+      itemColor = getTypeColor('flying');
+    }; break;
+
+    // Ghost Type
+    case 'kasib berry':
+    case 'spell tag': 
+    case 'spooky plate': 
+    case 'ghost gem': 
+    case 'mimikium z': 
+    case 'lunalium z': 
+    case 'marshadium z': 
+    case 'ghostium z': {
+      itemColor = getTypeColor('ghost');
+    }; break;
+
+    // Grass Type
+    case 'rindo berry':
+    case 'miracle seed': 
+    case 'meadow plate': 
+    case 'rose incense': 
+    case 'decidium z': 
+    case 'grassy seed': 
+    case 'grass gem': 
+    case 'grassium z': {
+      itemColor = getTypeColor('grass');
+    }; break;
+
+    // Ground Type
+    case 'shuca berry':
+    case 'soft sand': 
+    case 'ground gem': 
+    case 'earth plate': 
+    case 'groundium z': { 
+      itemColor = getTypeColor('ground');
+    }; break;
+    
+    // Ice Type
+    case 'yache berry':
+    case 'never-melt ice': 
+    case 'icicle plate': 
+    case 'ice gem': 
+    case 'icium z': {
+      itemColor = getTypeColor('ice');
+    }; break;
+
+    // Normal Type
+    case 'chilan berry':
+    case 'silk scarf': 
+    case 'blank plate': 
+    case 'eevium z': 
+    case 'normal gem': 
+    case 'normalium z': {
+      itemColor = getTypeColor('normal');
+    }; break;
+
+    // Poison Type
+    case 'kebia berry':
+    case 'black sludge':
+    case 'poison barb': 
+    case 'toxic plate': 
+    case 'poison gem': 
+    case 'poisonium z': {
+      itemColor = getTypeColor('poison');
+    }; break;
+
+    // Psychic Type
+    case 'payapa berry':
+    case 'twisted spoon': 
+    case 'stone plate': 
+    case 'odd incense': 
+    case 'rock gem': 
+    case 'psychic seed': 
+    case 'ultranecrozium z': 
+    case 'mewnium z': 
+    case 'rockium z': {
+      itemColor = getTypeColor('psychic');
+    }; break;
+
+    // Rock Type
+    case 'charti berry':
+    case 'hard stone': 
+    case 'mind plate': 
+    case 'psychic gem': 
+    case 'rock incense': 
+    case 'lycanium z': 
+    case 'psychium z': {
+      itemColor = getTypeColor('rock');
+    }; break;
+
+    // Steel Type
+    case 'babiri berry':
+    case 'metal coat': 
+    case 'iron plate': 
+    case 'steel gem': 
+    case 'solganium z': 
+    case 'steelium z': {
+      itemColor = getTypeColor('steel');
+    }; break;
+
+    // Water Type
+    case 'passho berry':
+    case 'mystic water': 
+    case 'splash plate': 
+    case 'wave incense': 
+    case 'sea incense': 
+    case 'blue orb':
+    case 'water gem': 
+    case 'primarium z': 
+    case 'waterium z': {
+      itemColor = getTypeColor('water');
+    }; break;
+  }
+
+  // Get the ability from the set
+  const abilityLower = set.ability.toLowerCase();
+
+  // Ability color
+  let abilityColor = "";
+
+  // Switch on ability (lower case)
+  switch(abilityLower){
+
+    // Water
+    case 'primordial rain': 
+    case 'water bubble':
+    case 'swift swim': 
+    case 'rain dish': 
+    case 'hydration':
+    case 'dry skin':
+    case 'drizzle': {
+      abilityColor = getTypeColor('water');
+    }; break;
+
+    // Fire
+    case 'orichalcum pulse':
+    case 'primordial sun': 
+    case 'flower gift': 
+    case 'leaf guard': 
+    case 'solar power': 
+    case 'protosynthesis': 
+    case 'chlorophyll': 
+    case 'drought': {
+      abilityColor = getTypeColor('fire');
+    }; break;
+
+    // Hail / Snow
+    case 'ice face':
+    case 'ice body':
+    case 'snow cloak':
+    case 'slush rush':
+    case 'snow warning': {
+      abilityColor = getTypeColor('ice');
+    }; break;
+
+    // Rock
+    case 'sand stream': 
+    case 'sand force': 
+    case 'sand rush': 
+    case 'sand veil': 
+    case 'sand spit': {
+      abilityColor = getTypeColor('rock');
+    }; break;
+
+    // Flying
+    case 'aerilate': 
+    case 'delta stream': {
+      abilityColor = getTypeColor('flying');
+    }
+
+    // Electric
+    case 'quark drive': 
+    case 'electric surge': {
+      abilityColor = getTypeColor('electric');
+    }; break;
+
+    // Psychic
+    case 'psychic surge': {
+      abilityColor = getTypeColor('psychic');
+    }; break;
+
+    // Grass
+    case 'grassy surge': {
+      abilityColor = getTypeColor('grass');
+    }; break;
+
+    // Fairy
+    case 'pixilate': 
+    case 'misty surge': {
+      abilityColor = getTypeColor('fairy');
+    }; break;
+  }
+
+  // Switch on nature (lower case)
+  const natureLower = set.nature.toLowerCase();
+
+  // Nature Colors
+  const natureColors = {
+    atk: "",
+    def: "",
+    spa: "",
+    spd: "",
+    spe: "",
+  }
+
+  // Switch on lower-case nature
+  switch(natureLower){
+    case 'lonely': {natureColors.atk = getTypeColor('grass'); natureColors.def = getTypeColor('fire');}; break;
+    case 'brave': {natureColors.atk = getTypeColor('grass'); natureColors.spe = getTypeColor('fire');}; break;
+    case 'adamant': {natureColors.atk = getTypeColor('grass'); natureColors.spa = getTypeColor('fire');}; break;
+    case 'naughty': {natureColors.atk = getTypeColor('grass'); natureColors.spd = getTypeColor('fire');}; break;
+    case 'bold': {natureColors.def = getTypeColor('grass'); natureColors.atk = getTypeColor('fire');}; break;
+    case 'relaxed': {natureColors.def = getTypeColor('grass'); natureColors.spe = getTypeColor('fire');}; break;
+    case 'impish': {natureColors.def = getTypeColor('grass'); natureColors.spa = getTypeColor('fire');}; break;
+    case 'lax': {natureColors.def = getTypeColor('grass'); natureColors.spd = getTypeColor('fire');}; break;
+    case 'timid': {natureColors.spe = getTypeColor('grass'); natureColors.atk = getTypeColor('fire');}; break;
+    case 'hasty': {natureColors.spe = getTypeColor('grass'); natureColors.def = getTypeColor('fire');}; break;
+    case 'jolly': {natureColors.spe = getTypeColor('grass'); natureColors.spa = getTypeColor('fire');}; break;
+    case 'naive': {natureColors.spe = getTypeColor('grass'); natureColors.spd = getTypeColor('fire');}; break;
+    case 'modest': {natureColors.spa = getTypeColor('grass'); natureColors.atk = getTypeColor('fire');}; break;
+    case 'mild': {natureColors.spa = getTypeColor('grass'); natureColors.def = getTypeColor('fire');}; break;
+    case 'quiet': {natureColors.spa = getTypeColor('grass'); natureColors.spe = getTypeColor('fire');}; break;
+    case 'rash': {natureColors.spa = getTypeColor('grass'); natureColors.spd = getTypeColor('fire');}; break;
+    case 'calm': {natureColors.spd = getTypeColor('grass'); natureColors.atk = getTypeColor('fire');}; break;
+    case 'gentle': {natureColors.spd = getTypeColor('grass'); natureColors.def = getTypeColor('fire');}; break;
+    case 'sassy': {natureColors.spd = getTypeColor('grass'); natureColors.spe = getTypeColor('fire');}; break;
+    case 'careful': {natureColors.spd = getTypeColor('grass'); natureColors.spa = getTypeColor('fire');}; break;
+    // Other natures have no modifiers
+  }
+
+  // IV colours
+  const ivColors = {
+    hp: "",
+    atk: "",
+    def: "",
+    spa: "",
+    spd: "",
+    spe: "",
+  };
+
+  // Loop over the stats
+  for(const key in set.ivs){
+
+    // Get the value for the iv
+    const val = set.ivs[key];
+
+    // If iv is 0
+    if (val === 0){
+      // Set the statColor to red
+      ivColors[key] = getTypeColor('fire');
+    }
+    // Stat is not perfect
+    else if (val < 31){
+      // Set statColor to yellow
+      ivColors[key] = getTypeColor('electric');
+    }
+    else // Stat is perfect
+    {
+      // Set statColor to green
+      ivColors[key] = getTypeColor('grass');
+    }
+  }
+
+  // EV Colors
+  const evColors = {
+    hp: "",
+    atk: "",
+    def: "",
+    spa: "",
+    spd: "",
+    spe: "",
+  };
+
+  // Loop over the stats
+  for(const key in set.evs){
+
+    // Get the value for the iv
+    const val = set.evs[key];
+
+    // If iv is 0
+    if (val === 0){
+      // Set the statColor to red
+      evColors[key] = getTypeColor('fire');
+    }
+    // Stat is less than halfway
+    else if (val <= 128){
+      // Set statColor to yellow
+      evColors[key] = getTypeColor('electric');
+    }
+    else // 128+
+    {
+      // Set statColor to green
+      evColors[key] = getTypeColor('grass');
+    }
+  }
+
+  // Default level
+  let level = 100;
+
+  // Level is defined in set
+  if ('level' in set.other){
+    // Get the level from the set
+    level = parseInt(set.other.level);
+  }
+
+  // Color for the level
+  let levelColor = "";
+
+  // Standard levels for competitive
+  const standardLevels = [5, 50, 100];
+
+  // If the level is a standard level
+  if (standardLevels.includes(level)){
+    // Set the level color to green
+    levelColor = getTypeColor('grass');
+  }
+  else // Set level color to yellow
+  {
+    // Set level color to yellow
+    levelColor = getTypeColor('electric');
+  }
+  
   let row_content = `
   <tr>
     <th class='bordered align-middle'>
@@ -40,7 +474,7 @@ function showTableSet(body, set) {
     <th class='bordered align-middle' id='species'>`
     + set.species +
     `</th>
-    <td class='bordered align-middle' rowspan=3>`
+    <td class='bordered align-middle' rowspan=2>`
     + getColSprite([set]) +
     `</td>
   </tr>
@@ -48,8 +482,8 @@ function showTableSet(body, set) {
     <th class='bordered'>
       Tera Type
     </th>
-    <td class='bordered' id=tera1>`
-      // Add the ability to the form
+    <td class='bordered' id=tera1 style='${teraColor}'>`
+      // Add the tera type to the form
       + teraType +
     `</td>
   </tr>
@@ -57,16 +491,27 @@ function showTableSet(body, set) {
     <th class='bordered'>
       Ability
     </th>
-    <td class='bordered' id=ability1>`
+    <td class='bordered' id=ability1 style='${abilityColor}'>`
       // Add the ability to the form
       + set.ability +
     `</td>
+    <td class='bordered'>
+        <sup>
+            <small>
+                Level
+            </small>
+        </sup>
+        <small style='${levelColor}'>`
+    // Add the level
+    + level +
+    `</small>
+    </td>
   </tr>
   <tr>
     <th class='bordered'>
         Held Item
     </th>
-    <td class='bordered' id='item1'>`
+    <td class='bordered' id='item1' style='${itemColor}'>`
     // Add the item to the form
     + set.item +
     `</td>
@@ -76,12 +521,12 @@ function showTableSet(body, set) {
                 HP
             </small>
         </sup>
-        <small>`
+        <small style='${evColors.hp}'>`
     // Add the hp to the EVs 
     + set.evs.hp +
     `</small>
         <sub>
-          <small>`
+          <small style='${ivColors.hp}'>`
     // Add the def to the EVs
     + set.ivs.hp +
     `</small>
@@ -98,16 +543,16 @@ function showTableSet(body, set) {
     </td>
     <td class='bordered'>
         <sup>
-            <small>
+            <small style='${natureColors.atk}'>
                 Atk
             </small>
         </sup>
-        <small>`
+        <small style='${evColors.atk}'>`
     // Add the atk to the EVs 
     + set.evs.atk +
     `</small>
         <sub>
-          <small>`
+          <small style='${ivColors.atk}'>`
     // Add the def to the EVs
     + set.ivs.atk +
     `</small>
@@ -124,16 +569,16 @@ function showTableSet(body, set) {
     `</td>
     <td class='bordered'>
         <sup>
-            <small>
+            <small style='${natureColors.def}'>
                 Def
             </small>
         </sup>
-        <small>`
+        <small style='${evColors.def}'>`
     // Add the def to the EVs 
     + set.evs.def +
     `</small>
         <sub>
-          <small>`
+          <small style='${ivColors.def}'>`
     // Add the def to the EVs
     + set.ivs.def +
     `</small>
@@ -150,16 +595,16 @@ function showTableSet(body, set) {
     `</td>
     <td class='bordered'>
         <sup>
-            <small>
+            <small style='${natureColors.spa}'>
             Sp. Atk
             </small>
         </sup>
-        <small>`
+        <small style='${evColors.spa}'>`
     // Add the def to the EVs 
     + set.evs.spa +
     `</small>
         <sub>
-          <small>`
+          <small style='${ivColors.spa}'>`
     // Add the def to the EVs
     + set.ivs.spa +
     `</small>
@@ -176,16 +621,16 @@ function showTableSet(body, set) {
     `</td>
     <td class='bordered'>
         <sup>
-            <small>
+            <small style='${natureColors.spd}'>
                 Sp. Def
             </small>
         </sup>
-        <small>`
+        <small style='${evColors.spd}'>`
     // Add the def to the EVs 
     + set.evs.spd +
     `</small>
         <sub>
-          <small>`
+          <small style='${ivColors.spd}'>`
     // Add the def to the EVs
     + set.ivs.spd +
     `</small>
@@ -202,16 +647,16 @@ function showTableSet(body, set) {
     `</td>
     <td class='bordered'>
         <sup>
-            <small>
+            <small style='${natureColors.spe}'>
                 Speed
             </small>
         </sup>
-        <small>`
+        <small style='${evColors.spe}'>`
     // Add the def to the EVs 
     + set.evs.spe +
     `</small>
         <sub>
-          <small>`
+          <small style='${ivColors.spe}'>`
     // Add the def to the EVs
     + set.ivs.spe +
     `</small>
@@ -303,6 +748,18 @@ function showPageTeam(format, folder, team) {
 
   // Set the selected property for the folder
   document.getElementById(folder).selected = 'selected';
+
+  // Get the back link element
+  const backlnk = document.getElementById('backlnk');
+
+  // Replace the on-click event with the new link
+  backlnk.onclick = function(){
+    // Go back to previous page
+    history.back();
+  }; 
+
+  // Replace the backlink text with 'back to teams'
+  backlnk.innerHTML = 'Go Back';
 
   // Get the page body from the content
   let body = document.getElementById('content');
@@ -537,7 +994,7 @@ function showRowTeam(body, format, folder, index, data) {
   let copy = document.createElement('a');
 
   // Set the link text to copy
-  copy.innerHTML = 'copy';
+  copy.innerHTML = 'Copy';
 
   // Set the link to a light link
   copy.classList = 'link-light';
