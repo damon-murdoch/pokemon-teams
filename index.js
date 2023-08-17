@@ -13,13 +13,13 @@ function showPageTitle(title) {
   document.getElementById('sitesubtitle').innerHTML = title;
 }
 
-function getTypeColor(type){
+function getTypeColor(type) {
 
   // Placeholder
   color = "";
 
   // Color is found
-  if (type in COLORS){
+  if (type in COLORS) {
     // Get the color for the type
     color = COLORS[type];
   }
@@ -50,7 +50,7 @@ function showTableSet(body, set) {
   let teraColor = "";
 
   // Tera type is in the set
-  if ('tera type' in set.other){
+  if ('tera type' in set.other) {
     // Get the tera type from the set
     teraType = set.other['tera type'];
   }
@@ -68,134 +68,134 @@ function showTableSet(body, set) {
   let itemColor = "";
 
   // Switch on item (lower case)
-  switch(itemLower){
+  switch (itemLower) {
     // Bug Type
     case 'tanga berry':
-    case 'silver powder': 
-    case 'insect plate': 
-    case 'bug gem': 
+    case 'silver powder':
+    case 'insect plate':
+    case 'bug gem':
     case 'buginium z': {
       itemColor = getTypeColor('bug');
     }; break;
 
     // Dark Type
     case 'colbur berry':
-    case 'black glasses': 
-    case 'dread plate': 
-    case 'dark gem': 
-    case 'incinium z': 
+    case 'black glasses':
+    case 'dread plate':
+    case 'dark gem':
+    case 'incinium z':
     case 'darkinium z': {
       itemColor = getTypeColor('dark');
     }; break;
 
     // Dragon Type
-    case 'haban berry': 
-    case 'dragon fang': 
-    case 'draco plate': 
-    case 'dragon gem': 
-    case 'kommonium z': 
+    case 'haban berry':
+    case 'dragon fang':
+    case 'draco plate':
+    case 'dragon gem':
+    case 'kommonium z':
     case 'draconium z': {
       itemColor = getTypeColor('dragon');
     }; break;
 
     // Electric Type
     case 'wacan berry':
-    case 'magnet': 
-    case 'zap plate': 
-    case 'electric gem': 
-    case 'aloraichium z': 
-    case 'pikanium z': 
-    case 'electric seed': 
-    case 'pikachunium z': 
+    case 'magnet':
+    case 'zap plate':
+    case 'electric gem':
+    case 'aloraichium z':
+    case 'pikanium z':
+    case 'electric seed':
+    case 'pikachunium z':
     case 'electrium z': {
       itemColor = getTypeColor('electric');
     }; break;
 
     // Fairy Type
     case 'roseli berry':
-    case 'fairy plate': 
-    case 'misty seed': 
-    case 'tapunium z': 
+    case 'pixie plate':
+    case 'misty seed':
+    case 'tapunium z':
     case 'fairium z': {
       itemColor = getTypeColor('fairy');
     }; break;
 
     // Fighting Type
     case 'chople berry':
-    case 'black belt': 
-    case 'fist plate': 
-    case 'fighting gem': 
+    case 'black belt':
+    case 'fist plate':
+    case 'fighting gem':
     case 'fightinium z': {
       itemColor = getTypeColor('fighting');
     }; break;
 
     // Fire Type
     case 'occa berry':
-    case 'charcoal': 
+    case 'charcoal':
     case 'red orb':
-    case 'flame plate': 
-    case 'fire gem': 
+    case 'flame plate':
+    case 'fire gem':
     case 'firium z': {
       itemColor = getTypeColor('fire');
     }; break;
 
     // Flying Type
     case 'coba berry':
-    case 'sharp beak': 
-    case 'sky plate': 
-    case 'flying gem': 
+    case 'sharp beak':
+    case 'sky plate':
+    case 'flying gem':
     case 'flyinium z': {
       itemColor = getTypeColor('flying');
     }; break;
 
     // Ghost Type
     case 'kasib berry':
-    case 'spell tag': 
-    case 'spooky plate': 
-    case 'ghost gem': 
-    case 'mimikium z': 
-    case 'lunalium z': 
-    case 'marshadium z': 
+    case 'spell tag':
+    case 'spooky plate':
+    case 'ghost gem':
+    case 'mimikium z':
+    case 'lunalium z':
+    case 'marshadium z':
     case 'ghostium z': {
       itemColor = getTypeColor('ghost');
     }; break;
 
     // Grass Type
     case 'rindo berry':
-    case 'miracle seed': 
-    case 'meadow plate': 
-    case 'rose incense': 
-    case 'decidium z': 
-    case 'grassy seed': 
-    case 'grass gem': 
+    case 'miracle seed':
+    case 'meadow plate':
+    case 'rose incense':
+    case 'decidium z':
+    case 'grassy seed':
+    case 'grass gem':
     case 'grassium z': {
       itemColor = getTypeColor('grass');
     }; break;
 
     // Ground Type
     case 'shuca berry':
-    case 'soft sand': 
-    case 'ground gem': 
-    case 'earth plate': 
-    case 'groundium z': { 
+    case 'soft sand':
+    case 'ground gem':
+    case 'earth plate':
+    case 'groundium z': {
       itemColor = getTypeColor('ground');
     }; break;
-    
+
     // Ice Type
     case 'yache berry':
-    case 'never-melt ice': 
-    case 'icicle plate': 
-    case 'ice gem': 
+    case 'never-melt ice':
+    case 'icicle plate':
+    case 'ice gem':
     case 'icium z': {
       itemColor = getTypeColor('ice');
     }; break;
 
     // Normal Type
     case 'chilan berry':
-    case 'silk scarf': 
-    case 'blank plate': 
-    case 'eevium z': 
-    case 'normal gem': 
+    case 'silk scarf':
+    case 'blank plate':
+    case 'eevium z':
+    case 'normal gem':
     case 'normalium z': {
       itemColor = getTypeColor('normal');
     }; break;
@@ -203,56 +203,56 @@ function showTableSet(body, set) {
     // Poison Type
     case 'kebia berry':
     case 'black sludge':
-    case 'poison barb': 
-    case 'toxic plate': 
-    case 'poison gem': 
+    case 'poison barb':
+    case 'toxic plate':
+    case 'poison gem':
     case 'poisonium z': {
       itemColor = getTypeColor('poison');
     }; break;
 
     // Psychic Type
     case 'payapa berry':
-    case 'twisted spoon': 
-    case 'stone plate': 
-    case 'odd incense': 
-    case 'rock gem': 
-    case 'psychic seed': 
-    case 'ultranecrozium z': 
-    case 'mewnium z': 
+    case 'twisted spoon':
+    case 'stone plate':
+    case 'odd incense':
+    case 'rock gem':
+    case 'psychic seed':
+    case 'ultranecrozium z':
+    case 'mewnium z':
     case 'rockium z': {
       itemColor = getTypeColor('psychic');
     }; break;
 
     // Rock Type
     case 'charti berry':
-    case 'hard stone': 
-    case 'mind plate': 
-    case 'psychic gem': 
-    case 'rock incense': 
-    case 'lycanium z': 
+    case 'hard stone':
+    case 'mind plate':
+    case 'psychic gem':
+    case 'rock incense':
+    case 'lycanium z':
     case 'psychium z': {
       itemColor = getTypeColor('rock');
     }; break;
 
     // Steel Type
     case 'babiri berry':
-    case 'metal coat': 
-    case 'iron plate': 
-    case 'steel gem': 
-    case 'solganium z': 
+    case 'metal coat':
+    case 'iron plate':
+    case 'steel gem':
+    case 'solganium z':
     case 'steelium z': {
       itemColor = getTypeColor('steel');
     }; break;
 
     // Water Type
     case 'passho berry':
-    case 'mystic water': 
-    case 'splash plate': 
-    case 'wave incense': 
-    case 'sea incense': 
+    case 'mystic water':
+    case 'splash plate':
+    case 'wave incense':
+    case 'sea incense':
     case 'blue orb':
-    case 'water gem': 
-    case 'primarium z': 
+    case 'water gem':
+    case 'primarium z':
     case 'waterium z': {
       itemColor = getTypeColor('water');
     }; break;
@@ -265,13 +265,13 @@ function showTableSet(body, set) {
   let abilityColor = "";
 
   // Switch on ability (lower case)
-  switch(abilityLower){
+  switch (abilityLower) {
 
     // Water
-    case 'primordial rain': 
+    case 'primordial rain':
     case 'water bubble':
-    case 'swift swim': 
-    case 'rain dish': 
+    case 'swift swim':
+    case 'rain dish':
     case 'hydration':
     case 'dry skin':
     case 'drizzle': {
@@ -279,13 +279,15 @@ function showTableSet(body, set) {
     }; break;
 
     // Fire
+    case 'flame body':
     case 'orichalcum pulse':
-    case 'primordial sun': 
-    case 'flower gift': 
-    case 'leaf guard': 
-    case 'solar power': 
-    case 'protosynthesis': 
-    case 'chlorophyll': 
+    case 'primordial sun':
+    case 'flower gift':
+    case 'leaf guard':
+    case 'solar power':
+    case 'protosynthesis':
+    case 'flash fire':
+    case 'chlorophyll':
     case 'drought': {
       abilityColor = getTypeColor('fire');
     }; break;
@@ -295,27 +297,31 @@ function showTableSet(body, set) {
     case 'ice body':
     case 'snow cloak':
     case 'slush rush':
+    case 'refridgerate':
     case 'snow warning': {
       abilityColor = getTypeColor('ice');
     }; break;
 
     // Rock
-    case 'sand stream': 
-    case 'sand force': 
-    case 'sand rush': 
-    case 'sand veil': 
+    case 'sand stream':
+    case 'sand force':
+    case 'sand rush':
+    case 'sand veil':
     case 'sand spit': {
       abilityColor = getTypeColor('rock');
     }; break;
 
     // Flying
-    case 'aerilate': 
+    case 'levitate':
+    case 'aerilate':
+    case 'air lock':
+    case 'gale wings':
     case 'delta stream': {
       abilityColor = getTypeColor('flying');
-    }
+    }; break;
 
     // Electric
-    case 'quark drive': 
+    case 'quark drive':
     case 'electric surge': {
       abilityColor = getTypeColor('electric');
     }; break;
@@ -331,9 +337,15 @@ function showTableSet(body, set) {
     }; break;
 
     // Fairy
-    case 'pixilate': 
+    case 'pixilate':
+    case 'fairy aura':
     case 'misty surge': {
       abilityColor = getTypeColor('fairy');
+    }; break;
+
+    // Dark
+    case 'dark aura': {
+      abilityColor = getTypeColor('dark');
     }; break;
   }
 
@@ -350,27 +362,27 @@ function showTableSet(body, set) {
   }
 
   // Switch on lower-case nature
-  switch(natureLower){
-    case 'lonely': {natureColors.atk = getTypeColor('grass'); natureColors.def = getTypeColor('fire');}; break;
-    case 'brave': {natureColors.atk = getTypeColor('grass'); natureColors.spe = getTypeColor('fire');}; break;
-    case 'adamant': {natureColors.atk = getTypeColor('grass'); natureColors.spa = getTypeColor('fire');}; break;
-    case 'naughty': {natureColors.atk = getTypeColor('grass'); natureColors.spd = getTypeColor('fire');}; break;
-    case 'bold': {natureColors.def = getTypeColor('grass'); natureColors.atk = getTypeColor('fire');}; break;
-    case 'relaxed': {natureColors.def = getTypeColor('grass'); natureColors.spe = getTypeColor('fire');}; break;
-    case 'impish': {natureColors.def = getTypeColor('grass'); natureColors.spa = getTypeColor('fire');}; break;
-    case 'lax': {natureColors.def = getTypeColor('grass'); natureColors.spd = getTypeColor('fire');}; break;
-    case 'timid': {natureColors.spe = getTypeColor('grass'); natureColors.atk = getTypeColor('fire');}; break;
-    case 'hasty': {natureColors.spe = getTypeColor('grass'); natureColors.def = getTypeColor('fire');}; break;
-    case 'jolly': {natureColors.spe = getTypeColor('grass'); natureColors.spa = getTypeColor('fire');}; break;
-    case 'naive': {natureColors.spe = getTypeColor('grass'); natureColors.spd = getTypeColor('fire');}; break;
-    case 'modest': {natureColors.spa = getTypeColor('grass'); natureColors.atk = getTypeColor('fire');}; break;
-    case 'mild': {natureColors.spa = getTypeColor('grass'); natureColors.def = getTypeColor('fire');}; break;
-    case 'quiet': {natureColors.spa = getTypeColor('grass'); natureColors.spe = getTypeColor('fire');}; break;
-    case 'rash': {natureColors.spa = getTypeColor('grass'); natureColors.spd = getTypeColor('fire');}; break;
-    case 'calm': {natureColors.spd = getTypeColor('grass'); natureColors.atk = getTypeColor('fire');}; break;
-    case 'gentle': {natureColors.spd = getTypeColor('grass'); natureColors.def = getTypeColor('fire');}; break;
-    case 'sassy': {natureColors.spd = getTypeColor('grass'); natureColors.spe = getTypeColor('fire');}; break;
-    case 'careful': {natureColors.spd = getTypeColor('grass'); natureColors.spa = getTypeColor('fire');}; break;
+  switch (natureLower) {
+    case 'lonely': { natureColors.atk = getTypeColor('grass'); natureColors.def = getTypeColor('fire'); }; break;
+    case 'brave': { natureColors.atk = getTypeColor('grass'); natureColors.spe = getTypeColor('fire'); }; break;
+    case 'adamant': { natureColors.atk = getTypeColor('grass'); natureColors.spa = getTypeColor('fire'); }; break;
+    case 'naughty': { natureColors.atk = getTypeColor('grass'); natureColors.spd = getTypeColor('fire'); }; break;
+    case 'bold': { natureColors.def = getTypeColor('grass'); natureColors.atk = getTypeColor('fire'); }; break;
+    case 'relaxed': { natureColors.def = getTypeColor('grass'); natureColors.spe = getTypeColor('fire'); }; break;
+    case 'impish': { natureColors.def = getTypeColor('grass'); natureColors.spa = getTypeColor('fire'); }; break;
+    case 'lax': { natureColors.def = getTypeColor('grass'); natureColors.spd = getTypeColor('fire'); }; break;
+    case 'timid': { natureColors.spe = getTypeColor('grass'); natureColors.atk = getTypeColor('fire'); }; break;
+    case 'hasty': { natureColors.spe = getTypeColor('grass'); natureColors.def = getTypeColor('fire'); }; break;
+    case 'jolly': { natureColors.spe = getTypeColor('grass'); natureColors.spa = getTypeColor('fire'); }; break;
+    case 'naive': { natureColors.spe = getTypeColor('grass'); natureColors.spd = getTypeColor('fire'); }; break;
+    case 'modest': { natureColors.spa = getTypeColor('grass'); natureColors.atk = getTypeColor('fire'); }; break;
+    case 'mild': { natureColors.spa = getTypeColor('grass'); natureColors.def = getTypeColor('fire'); }; break;
+    case 'quiet': { natureColors.spa = getTypeColor('grass'); natureColors.spe = getTypeColor('fire'); }; break;
+    case 'rash': { natureColors.spa = getTypeColor('grass'); natureColors.spd = getTypeColor('fire'); }; break;
+    case 'calm': { natureColors.spd = getTypeColor('grass'); natureColors.atk = getTypeColor('fire'); }; break;
+    case 'gentle': { natureColors.spd = getTypeColor('grass'); natureColors.def = getTypeColor('fire'); }; break;
+    case 'sassy': { natureColors.spd = getTypeColor('grass'); natureColors.spe = getTypeColor('fire'); }; break;
+    case 'careful': { natureColors.spd = getTypeColor('grass'); natureColors.spa = getTypeColor('fire'); }; break;
     // Other natures have no modifiers
   }
 
@@ -385,18 +397,18 @@ function showTableSet(body, set) {
   };
 
   // Loop over the stats
-  for(const key in set.ivs){
+  for (const key in set.ivs) {
 
     // Get the value for the iv
     const val = set.ivs[key];
 
     // If iv is 0
-    if (val === 0){
+    if (val === 0) {
       // Set the statColor to red
       ivColors[key] = getTypeColor('fire');
     }
     // Stat is not perfect
-    else if (val < 31){
+    else if (val < 31) {
       // Set statColor to yellow
       ivColors[key] = getTypeColor('electric');
     }
@@ -418,18 +430,18 @@ function showTableSet(body, set) {
   };
 
   // Loop over the stats
-  for(const key in set.evs){
+  for (const key in set.evs) {
 
     // Get the value for the iv
     const val = set.evs[key];
 
     // If iv is 0
-    if (val === 0){
+    if (val === 0) {
       // Set the statColor to red
       evColors[key] = getTypeColor('fire');
     }
     // Stat is less than halfway
-    else if (val <= 128){
+    else if (val <= 128) {
       // Set statColor to yellow
       evColors[key] = getTypeColor('electric');
     }
@@ -444,7 +456,7 @@ function showTableSet(body, set) {
   let level = 100;
 
   // Level is defined in set
-  if ('level' in set.other){
+  if ('level' in set.other) {
     // Get the level from the set
     level = parseInt(set.other.level);
   }
@@ -456,7 +468,7 @@ function showTableSet(body, set) {
   const standardLevels = [5, 50, 100];
 
   // If the level is a standard level
-  if (standardLevels.includes(level)){
+  if (standardLevels.includes(level)) {
     // Set the level color to green
     levelColor = getTypeColor('grass');
   }
@@ -465,7 +477,88 @@ function showTableSet(body, set) {
     // Set level color to yellow
     levelColor = getTypeColor('electric');
   }
-  
+
+  // List of move colors
+  const moveColors = [];
+
+  // Loop over the moves
+  for (move of set.moves) {
+
+    // Type placeholder
+    let type = null;
+
+    // Move color
+    let moveColor = "";
+
+    // Convert the move to lower case
+    moveLower = move.toLowerCase();
+
+    // Account for special cases
+    switch (moveLower) {
+      // Tera Blast
+      case 'tera blast': {
+        // Match tera color
+        moveColor = teraColor;
+      }; break;
+      // General Case
+      default: {
+
+        // If the move contains 'hidden power'
+        if (moveLower.includes('hidden power')) {
+          // Seperate the type of the hidden power from the name
+          type = moveLower.split(']')[0].split('[')[1];
+        }
+        else // Move is not hidden power
+        {
+          // Find a move matching the move name
+          moveData = MOVES.find(x => x.name == moveLower);
+
+          // If move data is found
+          if (moveData) {
+            // Get the move type
+            type = moveData.type;
+          }
+          else // Move not found
+          {
+            console.warn(`Data for move '${moveLower}' not found!`)
+          }
+        }
+      }; break;
+    }
+
+    // Type is not null
+    if (type) {
+
+      // Move type is normal
+      if (type == 'normal'){
+        // Switch on ability
+        switch (abilityLower){
+          // Refridgerate
+          case 'refridgerate': {
+            // Convert to ice
+            type = 'ice';
+          }; break;
+          // Pixilate
+          case 'pixilate': {
+            // Convert to fairy
+            type = 'fairy';
+          }; break;
+          // Aerilate
+          case 'aerilate': {
+            // Convert to flying
+            type = 'flying';
+          }; break;
+        }
+      }
+
+      // Get the colour for the move type
+      moveColor = getTypeColor(type);
+    }
+
+    // Add to the list of colors
+    moveColors.push(moveColor);
+  }
+
   let row_content = `
   <tr>
     <th class='bordered align-middle'>
@@ -483,8 +576,8 @@ function showTableSet(body, set) {
       Tera Type
     </th>
     <td class='bordered' id=tera1 style='${teraColor}'>`
-      // Add the tera type to the form
-      + teraType +
+    // Add the tera type to the form
+    + teraType +
     `</td>
   </tr>
   <tr>
@@ -492,8 +585,8 @@ function showTableSet(body, set) {
       Ability
     </th>
     <td class='bordered' id=ability1 style='${abilityColor}'>`
-      // Add the ability to the form
-      + set.ability +
+    // Add the ability to the form
+    + set.ability +
     `</td>
     <td class='bordered'>
         <sup>
@@ -563,7 +656,7 @@ function showTableSet(body, set) {
     <th class='bordered'>
         Move 1
     </th>
-    <td class='bordered' id='move11'>`
+    <td class='bordered' id='move11' style='${moveColors[0]}'>`
     // Add the first move to the form
     + set.moves[0] +
     `</td>
@@ -589,7 +682,7 @@ function showTableSet(body, set) {
     <th class='bordered'>
         Move 2
     </th>
-    <td class='bordered' id='move2'>`
+    <td class='bordered' id='move2' style='${moveColors[1]}'>`
     // Add the first move to the form
     + set.moves[1] +
     `</td>
@@ -615,7 +708,7 @@ function showTableSet(body, set) {
     <th class='bordered'>
         Move 3
     </th>
-    <td class='bordered' id='move31'>`
+    <td class='bordered' id='move31' style='${moveColors[2]}'>`
     // Add the first move to the form
     + set.moves[2] +
     `</td>
@@ -641,7 +734,7 @@ function showTableSet(body, set) {
     <th class='bordered'>
         Move 4
     </th>
-    <td class='bordered' id='move41'>`
+    <td class='bordered' id='move41' style='${moveColors[3]}'>`
     // Add the first move to the form
     + set.moves[3] +
     `</td>
@@ -726,7 +819,7 @@ function showPageTeam(format, folder, team) {
   }
 
   // Description is defined in the data
-  if (keys.includes('desc')){
+  if (keys.includes('desc')) {
     // Get the description element
     const siteDesc = document.getElementById('sitedesc');
 
@@ -753,10 +846,10 @@ function showPageTeam(format, folder, team) {
   const backlnk = document.getElementById('backlnk');
 
   // Replace the on-click event with the new link
-  backlnk.onclick = function(){
+  backlnk.onclick = function () {
     // Go back to previous page
     history.back();
-  }; 
+  };
 
   // Replace the backlink text with 'back to teams'
   backlnk.innerHTML = 'Go Back';
@@ -930,12 +1023,12 @@ function getColSprite(sets) {
   return col.join("");
 }
 
-function getPrettyName(name){
+function getPrettyName(name) {
   // Name placeholder
   let placeholder = name;
 
   // If name in pretty names
-  if (name in NAMES){
+  if (name in NAMES) {
     // Use the pretty name
     placeholder = NAMES[name];
   }
@@ -1132,26 +1225,6 @@ function showTableHome(body, format = null, folder = null) {
   teamCount.innerHTML = `Teams Found: ${counter}`;
 }
 
-function getDefaultFormat(){
-  // Get the default format
-  const formats = Object.keys(TEAMS);
-
-  // At least one format
-  if (formats.length > 0){
-
-    // Sort the keys alphabetically
-    formats.sort().reverse();
-
-    // Return the first element
-    return formats[0];
-  }
-  else // No formats found
-  {
-    // No format
-    return null;
-  }
-}
-
 function showFormatDropdown() {
   // Get the format drop down element
   let format = document.getElementById('sel-format');
@@ -1277,7 +1350,7 @@ function showPageHome(format = null, folder = null) {
   // Format is null
   if (format == null) {
     // Get the default format
-    format = getDefaultFormat();
+    format = DEFAULT_FORMAT;
   }
 
   // Update format value
@@ -1290,7 +1363,7 @@ function showPageHome(format = null, folder = null) {
   let sitetitle = format;
 
   // Format has a pretty name
-  if (format in NAMES){
+  if (format in NAMES) {
     // Use the pretty name instead
     sitetitle = NAMES[format];
   }
@@ -1314,7 +1387,7 @@ function showPageHome(format = null, folder = null) {
     let sitefolder = folder;
 
     // Folder has pretty name
-    if (folder in NAMES){
+    if (folder in NAMES) {
       // Use the pretty name instead
       sitefolder = NAMES[folder];
     }
@@ -1330,7 +1403,7 @@ function showPageHome(format = null, folder = null) {
     // Update folder value
     selFolder.value = folder;
   }
-  
+
   // Show the title home section
   showPageTitle(sitetitle);
 
