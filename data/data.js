@@ -10750,7 +10750,7 @@ const TEAMS = {
               hp: 252,
               spa: 0,
             },
-            moves: ["Minimize", "Defense Curl", "SoftBoiled", "Seismic Toss"],
+            moves: ["Minimize", "Defense Curl", "Soft-Boiled", "Seismic Toss"],
             ability: "Serene Grace",
             nature: "Bold",
           },
@@ -30647,6 +30647,10 @@ const TEAMS = {
         name: "standard meta lele",
       },
       {
+        owner: {
+          name: "Krystal",
+          link: "https://twitter.com/Krystalolachu"
+        },
         sets: [
           {
             other: {
@@ -30728,7 +30732,7 @@ const TEAMS = {
               hp: 252,
               spa: 0,
             },
-            moves: ["Seismic Toss", "SoftBoiled", "Defense Curl", "Minimize"],
+            moves: ["Seismic Toss", "Soft-Boiled", "Defense Curl", "Minimize"],
             ability: "Natural Cure",
             nature: "Bold",
           },
@@ -30816,8 +30820,13 @@ const TEAMS = {
           },
         ],
         name: "chansey shuckle",
+        desc: "Chansey stall team, built around using Smeargle + Carbink to set Trick Room and Guard Split + Minimise to buff Chansey."
       },
       {
+        owner: {
+          name: "Sir Scrubbington",
+          link: "https://twitter.com/SirScrubbington",
+        },
         sets: [
           {
             other: {
@@ -30967,7 +30976,7 @@ const TEAMS = {
               "Volt Switch",
             ],
             ability: "Electric Surge",
-            nature: "",
+            nature: "Timid",
           },
           {
             other: {
@@ -30998,9 +31007,14 @@ const TEAMS = {
             nature: "Jolly",
           },
         ],
-        name: "ashton ttar mence",
+        name: "ttar salamence",
+        desc: "Mega Salamence team based on the team used by <a class='text-secondary' href='https://twitter.com/AshtonCoxGAZ'>Ashton Cox</a> to make top 4 at the Oceania International Championships."
       },
       {
+        owner: {
+          name: "Sejun Park", 
+          link: "https://twitter.com/pokemon_tcg",
+        },
         sets: [
           {
             other: {
@@ -31178,8 +31192,13 @@ const TEAMS = {
           },
         ],
         name: "sejun sand",
+        desc: "Offensive sand team with dual setup modes popularised by Sejun Park before the Oceania International Championships."
       },
       {
+        owner: {
+          name: 'Wolfe Glick',
+          link: 'https://twitter.com/WolfeyGlick' 
+        },
         sets: [
           {
             other: {
@@ -31350,9 +31369,14 @@ const TEAMS = {
             nature: "Modest",
           },
         ],
-        name: "wolfe aggron",
+        name: "wolfe steelix",
+        desc: "Mega Steelix team used by Wolfe Glick early on in 2018."
       },
       {
+        owner: {
+          name: "Sir Scrubbington",
+          link: "https://twitter.com/SirScrubbington",
+        },
         sets: [
           {
             other: {
@@ -31524,6 +31548,7 @@ const TEAMS = {
           },
         ],
         name: "hard rain",
+        desc: "Hard-hitting dual-setter rain team which was popular in the early 2018 metagame."
       },
     ],
   },

@@ -149,6 +149,7 @@ function showTableSet(body, set) {
     }; break;
 
     // Fire Type
+    case 'heat rock': 
     case 'cameruptite': 
     case 'blazikenite': 
     case 'charizardite y': 
@@ -209,6 +210,7 @@ function showTableSet(body, set) {
     }; break;
 
     // Ice Type
+    case 'icy rock': 
     case 'glalitite': 
     case 'yache berry':
     case 'never-melt ice':
@@ -260,6 +262,7 @@ function showTableSet(body, set) {
     }; break;
 
     // Rock Type
+    case 'smooth rock': 
     case 'diancite': 
     case 'tyranitarite': 
     case 'aerodactylite':
@@ -290,6 +293,7 @@ function showTableSet(body, set) {
     }; break;
 
     // Water Type
+    case 'damp rock': 
     case 'sharpedonite': 
     case 'slowbronite': 
     case 'blastoisinite': 
