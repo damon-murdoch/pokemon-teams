@@ -4,7 +4,11 @@ const DEFAULT_FORMAT = 'gen9doubles';
 
 // Type Colors
 const COLORS = {
-  '-': "color: rgb(160, 160, 160);",
+  // Default Color
+  'default': "color: rgb(228, 228, 228);",
+  // Empty Color
+  '-': "color: rgb(128, 128, 128);",
+  // Type Colors
   'bug': "color: rgb(196, 206, 142);", 
   'dark': "color: rgb(160, 126, 102);", 
   'dragon': "color: rgb(173, 151, 219);", 
@@ -3745,7 +3749,7 @@ const TEAMS = {
           name: "Sir Scrubbington",
           link: "https://twitter.com/SirScrubbington",
         },
-        desc: "Standard Xerneas + Groudon team which was used to make top 8 of the Australian national championships in 2016.", 
+        desc: "Standard Xerneas + Groudon team which I used to make top 8 of the Australian national championships in 2016.", 
         sets: [
           {
             other: {},
@@ -5935,7 +5939,7 @@ const TEAMS = {
           name: "Sir Scrubbington",
           link: "https://twitter.com/SirScrubbington",
         },
-        desc: "Dialga + Scarf Kyogre team which was used to win a local grassroots tournament in 2016.", 
+        desc: "Dialga + Scarf Kyogre team which I used to win a local grassroots tournament in 2016.", 
         sets: [
           {
             other: {
@@ -6668,7 +6672,7 @@ const TEAMS = {
           name: "Sir Scrubbington",
           link: "https://twitter.com/SirScrubbington",
         },
-        desc: "Scolipede Baton Pass team which was used to win the UQ vs. QUT Grassroots Event in 2017.", 
+        desc: "Scolipede Baton Pass team which I used to win the UQ vs. QUT Grassroots Event in 2017.", 
         sets: [
           {
             other: {
@@ -6861,7 +6865,7 @@ const TEAMS = {
           name: "Sir Scrubbington",
           link: "https://twitter.com/SirScrubbington",
         },
-        desc: "Hyper-offensive rain team which was used in the UQ vs. QUT grassroots competition in 2018.", 
+        desc: "Hyper-offensive rain team which I used in the UQ vs. QUT grassroots competition in 2018.", 
         sets: [
           {
             other: {
@@ -7215,6 +7219,10 @@ const TEAMS = {
   gen3doublesou: {
     vgc2003: [
       {
+        owner: {
+          name: "Sir Scrubbington",
+          link: "https://twitter.com/SirScrubbington",
+        },
         sets: [
           {
             other: {},
@@ -7392,8 +7400,13 @@ const TEAMS = {
           },
         ],
         name: "shiftry sun",
+        desc: "Sun team built around Sunny Day Latios + Fake Out Offensive Shiftry."
       },
       {
+        owner: {
+          name: "Sir Scrubbington",
+          link: "https://twitter.com/SirScrubbington",
+        },
         sets: [
           {
             other: {
@@ -7575,8 +7588,13 @@ const TEAMS = {
           },
         ],
         name: "latias setup",
+        desc: "Bulky offense team based around setup Calm Mind + Recover Latias.", 
       },
       {
+        owner: {
+          name: "Sir Scrubbington",
+          link: "https://twitter.com/SirScrubbington",
+        },
         sets: [
           {
             other: {
@@ -7753,8 +7771,13 @@ const TEAMS = {
           },
         ],
         name: "latios rain",
+        desc: "Rain team based around Rain Dance Latios + Fake Out Offensive Ludicolo.", 
       },
       {
+        owner: {
+          name: "Sir Scrubbington",
+          link: "https://twitter.com/SirScrubbington",
+        },
         sets: [
           {
             other: {
@@ -7926,8 +7949,13 @@ const TEAMS = {
           },
         ],
         name: "manectric rain",
+        desc: "Offensive rain team based around Ludicolo and Rain Dance Manectric.", 
       },
       {
+        owner: {
+          name: "Sir Scrubbington",
+          link: "https://twitter.com/SirScrubbington",
+        },
         sets: [
           {
             other: {
@@ -8109,6 +8137,7 @@ const TEAMS = {
           },
         ],
         name: "registeel support",
+        desc: "Bulky offense team based around Iron Defense + Amnesia Seismic Toss Registeel.",
       },
     ],
   },
@@ -8116,6 +8145,10 @@ const TEAMS = {
     vgc2022s12: [
       {
         name: "standard sun",
+        owner: {
+          name: "Sir Scrubbington",
+          link: "https://twitter.com/SirScrubbington",
+        },
         sets: [
           {
             ability: "Drought",
@@ -8283,9 +8316,15 @@ const TEAMS = {
             species: "Gastrodon",
           },
         ],
+        desc: "Standard Series 12 Sun team based off <a class='text-secondary' href='https://twitter.com/gozira2004'> Rinya's </a> popular sun team.", 
       },
       {
+        owner: {
+          name: "Sir Scrubbington",
+          link: "https://twitter.com/SirScrubbington",
+        },
         name: "standard swordfish",
+        desc: "Standard Zacian + Kyogre team which was very popular at the 2022 Brisbane Regional Championships.", 
         sets: [
           {
             ability: "Drizzle",
@@ -8463,7 +8502,12 @@ const TEAMS = {
         ],
       },
       {
+        owner: {
+          name: "Sir Scrubbington",
+          link: "https://twitter.com/SirScrubbington",
+        },
         name: "brisbane ice rider",
+        desc: "Kyogre + Ice Rider team which I used at the 2023 Brisbane Regional Championships.", 
         sets: [
           {
             ability: "Drizzle",
@@ -23133,6 +23177,10 @@ const TEAMS = {
   gen8vgc2021series11: {
     default: [
       {
+        owner: {
+          name: "Sir Scrubbington",
+          link: "https://twitter.com/SirScrubbington",
+        },
         sets: [
           {
             other: {},
@@ -23307,8 +23355,13 @@ const TEAMS = {
           },
         ],
         name: "dual primals",
+        desc: "Standard Kyogre + VenuCoal team which was popular in online tournaments. Tailwind Tornadus is often used over Thundurus.", 
       },
       {
+        owner: {
+          name: "Sir Scrubbington",
+          link: "https://twitter.com/SirScrubbington",
+        },
         sets: [
           {
             other: {
@@ -23485,12 +23538,17 @@ const TEAMS = {
           },
         ],
         name: "zacian venu coal",
+        desc: "Zacian + VenuCoal team which was popular in online tournaments.", 
       },
     ],
   },
   gen7vgc2018: {
     postbank: [
       {
+        owner: {
+          name: "Sir Scrubbington",
+          link: "https://twitter.com/SirScrubbington",
+        },
         sets: [
           {
             other: {
@@ -23667,6 +23725,7 @@ const TEAMS = {
           },
         ],
         name: "standard latias",
+        desc: "", 
       },
       {
         sets: [
@@ -26459,6 +26518,10 @@ const TEAMS = {
     ],
     prebank: [
       {
+        owner: {
+          name: "Sir Scrubbington",
+          link: "https://twitter.com/SirScrubbington",
+        },
         sets: [
           {
             other: {
@@ -26632,8 +26695,13 @@ const TEAMS = {
           },
         ],
         name: "japan snarl trap",
+        desc: "Snarl Mega Manectric + Gothitelle control team popular in Japan.", 
       },
       {
+        owner: {
+          name: "Sir Scrubbington",
+          link: "https://twitter.com/SirScrubbington",
+        },
         sets: [
           {
             other: {
@@ -26809,8 +26877,13 @@ const TEAMS = {
           },
         ],
         name: "hard room",
+        desc: "Hard Trick Room team based on <a class='text-secondary' href='https://twitter.com/SheldonReimann'>Meg Reimann's</a> Junior OCIC Finalist team.",
       },
       {
+        owner: {
+          name: "Sir Scrubbington",
+          link: "https://twitter.com/SirScrubbington",
+        },
         sets: [
           {
             other: {
@@ -26988,8 +27061,13 @@ const TEAMS = {
           },
         ],
         name: "lele blim zard y",
+        desc: "Hyper-Offensive Lele Drifblim + Zard Y team which overwhelms your opponent with strong attacks.",
       },
       {
+        owner: {
+          name: "Sir Scrubbington",
+          link: "https://twitter.com/SirScrubbington",
+        },
         sets: [
           {
             other: {
@@ -27044,7 +27122,7 @@ const TEAMS = {
               spa: 0,
             },
             moves: ["Fake Out", "Double-Edge", "Low Kick", "Roar"],
-            ability: "Early Bird",
+            ability: "Scrappy",
             nature: "Adamant",
           },
           {
@@ -27166,8 +27244,13 @@ const TEAMS = {
           },
         ],
         name: "calm mind cresselia",
+        desc: "Bulky Dual-Mega team based around supporting Calm Mind + Moonlight Cresselia to sweep teams.", 
       },
       {
+        owner: {
+          name: "Sir Scrubbington",
+          link: "https://twitter.com/SirScrubbington",
+        },
         sets: [
           {
             other: {
@@ -27344,9 +27427,14 @@ const TEAMS = {
             nature: "Modest",
           },
         ],
-        name: "zard y mimilax",
+        name: "zard y mimikyu snorlax",
+        desc: "Hyper-offensive mixed-mode Charizard Y team which provides multiple lead options to pressure opponents.", 
       },
       {
+        owner: {
+          name: "Sir Scrubbington",
+          link: "https://twitter.com/SirScrubbington",
+        },
         sets: [
           {
             other: {},
@@ -27509,177 +27597,18 @@ const TEAMS = {
             nature: "Adamant",
           },
         ],
-        name: "zard y goodstuffs",
+        name: "zard y balance",
+        desc: "Standard Charizard Y balance team popularised by <a class='text-secondary' href='https://twitter.com/CarsonConfer'>Carson Confer<a> at the 2018 Oceania International Championships."
       },
       {
-        sets: [
-          {
-            other: {},
-            species: "Charizard",
-            ivs: {
-              spe: 31,
-              def: 31,
-              atk: 0,
-              spd: 31,
-              hp: 31,
-              spa: 31,
-            },
-            gender: "",
-            item: "Charizardite Y",
-            nickname: "",
-            evs: {
-              spe: 252,
-              def: 4,
-              atk: 0,
-              spd: 4,
-              hp: 4,
-              spa: 244,
-            },
-            moves: ["Overheat", "Heat Wave", "Solar Beam", "Protect"],
-            ability: "Drought",
-            nature: "Timid",
-          },
-          {
-            other: {},
-            species: "Tapu Koko",
-            ivs: {
-              spe: 31,
-              def: 31,
-              atk: 0,
-              spd: 31,
-              hp: 31,
-              spa: 31,
-            },
-            gender: "",
-            item: "Electrium Z",
-            nickname: "",
-            evs: {
-              spe: 252,
-              def: 4,
-              atk: 0,
-              spd: 4,
-              hp: 4,
-              spa: 244,
-            },
-            moves: ["Thunderbolt", "Volt Switch", "Dazzling Gleam", "Protect"],
-            ability: "Electric Surge",
-            nature: "Timid",
-          },
-          {
-            other: {},
-            species: "Kartana",
-            ivs: {
-              spe: 31,
-              def: 31,
-              atk: 31,
-              spd: 31,
-              hp: 31,
-              spa: 31,
-            },
-            gender: "",
-            item: "Focus Sash",
-            nickname: "",
-            evs: {
-              spe: 252,
-              def: 0,
-              atk: 252,
-              spd: 0,
-              hp: 4,
-              spa: 0,
-            },
-            moves: ["Tailwind", "Leaf Blade", "Sacred Sword", "Detect"],
-            ability: "Beast Boost",
-            nature: "Jolly",
-          },
-          {
-            other: {},
-            species: "Landorus-Therian",
-            ivs: {
-              spe: 31,
-              def: 31,
-              atk: 31,
-              spd: 31,
-              hp: 31,
-              spa: 31,
-            },
-            gender: "",
-            item: "Assault Vest",
-            nickname: "",
-            evs: {
-              spe: 252,
-              def: 4,
-              atk: 164,
-              spd: 68,
-              hp: 20,
-              spa: 0,
-            },
-            moves: ["Earthquake", "Rock Slide", "Knock Off", "U-turn"],
-            ability: "Intimidate",
-            nature: "Adamant",
-          },
-          {
-            other: {
-              level: "50",
-            },
-            species: "Porygon2",
-            ivs: {
-              spe: 31,
-              def: 31,
-              atk: 0,
-              spd: 31,
-              hp: 31,
-              spa: 31,
-            },
-            gender: "",
-            item: "Eviolite",
-            nickname: "",
-            evs: {
-              spe: 4,
-              def: 188,
-              atk: 0,
-              spd: 68,
-              hp: 244,
-              spa: 4,
-            },
-            moves: ["Ice Beam", "Shadow Ball", "Recover", "Trick Room"],
-            ability: "Download",
-            nature: "Calm",
-          },
-          {
-            other: {
-              level: "50",
-            },
-            species: "Tyranitar",
-            ivs: {
-              spe: 31,
-              def: 31,
-              atk: 31,
-              spd: 31,
-              hp: 31,
-              spa: 31,
-            },
-            gender: "",
-            item: "Life Orb",
-            nickname: "",
-            evs: {
-              spe: 20,
-              def: 4,
-              atk: 228,
-              spd: 4,
-              hp: 252,
-              spa: 0,
-            },
-            moves: ["Rock Slide", "Low Kick", "Crunch", "Protect"],
-            ability: "Sand Stream",
-            nature: "Adamant",
-          },
-        ],
-        name: "carson zard y",
-      },
-      {
+        owner: {
+          name: "Sir Scrubbington",
+          link: "https://twitter.com/SirScrubbington",
+        },
         sets: [
           {
             other: {
+              shiny: "Yes",
               level: "50",
             },
             species: "Gardevoir",
@@ -27703,7 +27632,7 @@ const TEAMS = {
               spa: 12,
             },
             moves: ["Hyper Voice", "Psychic", "Trick Room", "Protect"],
-            ability: "Synchronize",
+            ability: "Trace",
             nature: "Modest",
           },
           {
@@ -27848,9 +27777,14 @@ const TEAMS = {
             nature: "Timid",
           },
         ],
-        name: "garde goodstuffs",
+        desc: "Balanced Mega Gardevoir team which can be used with both a Gardevoir Trick Room and Azumarill Belly Drum mode.",
+        name: "gardevoir balance",
       },
       {
+        owner: {
+          name: "Alister Sandover", 
+          link: "https://twitter.com/vivalavlade"
+        },
         sets: [
           {
             other: {
@@ -28022,8 +27956,13 @@ const TEAMS = {
           },
         ],
         name: "alister rain",
+        desc: "Mixed-Mega rain team built by Alister Sandover in 2018."
       },
       {
+        owner: {
+          name: "Sir Scrubbington",
+          link: "https://twitter.com/SirScrubbington",
+        },
         sets: [
           {
             other: {
@@ -28197,8 +28136,13 @@ const TEAMS = {
           },
         ],
         name: "mixed perish",
+        desc: "Mixed-mode Perish Trap team which provides a control mode and offense mode for different matchups.", 
       },
       {
+        owner: {
+          name: "Sir Scrubbington",
+          link: "https://twitter.com/SirScrubbington",
+        },
         sets: [
           {
             other: {
@@ -28370,8 +28314,13 @@ const TEAMS = {
           },
         ],
         name: "rain perish",
+        desc: "Mixed-mode rain Perish Trap team which provides both an offensive and control mode for different matchups."
       },
       {
+        owner: {
+          name: "Dave Cognetta", 
+          link: "https://twitter.com/DesuVGC", 
+        },
         sets: [
           {
             other: {
@@ -28547,9 +28496,14 @@ const TEAMS = {
             nature: "Timid",
           },
         ],
-        name: "desu kommo",
+        name: "desu kommo-o",
+        desc: "Kommo-o team used by Dave Cigbetta (DesuVGC) to make top 8 at the Oceania International Championships."
       },
       {
+        owner: {
+          name: "Ashton Cox", 
+          link: "https://twitter.com/AshtonCoxGAZ"
+        },
         sets: [
           {
             other: {
@@ -28721,8 +28675,13 @@ const TEAMS = {
           },
         ],
         name: "ashton perish",
+        desc: "Hard Perish Trap team used by Ashton Cox in the Oceania Zelda Challenge in 2018.",
       },
       {
+        owner: {
+          name: "Sir Scrubbington",
+          link: "https://twitter.com/SirScrubbington",
+        },
         sets: [
           {
             other: {
@@ -28894,8 +28853,13 @@ const TEAMS = {
           },
         ],
         name: "mega gyarados",
+        desc: "Balanced Mega Gyarados team built around using Fake Out + Intimidate to enable Gyarados to sweep.", 
       },
       {
+        owner: {
+          name: "Sir Scrubbington",
+          link: "https://twitter.com/SirScrubbington",
+        },
         sets: [
           {
             other: {
@@ -28922,7 +28886,7 @@ const TEAMS = {
               spa: 0,
             },
             moves: ["Fake Out", "Double-Edge", "Low Kick", "Protect"],
-            ability: "Early Bird",
+            ability: "Scrappy",
             nature: "Adamant",
           },
           {
@@ -29071,9 +29035,14 @@ const TEAMS = {
             nature: "Modest",
           },
         ],
-        name: "volcarona goodstuffs",
+        name: "volcarona balance",
+        desc: "Balanced Volcarona team built around using Fake Out + Intimidate to set up Quiver Dance, Calm Mind and Tailwind.",
       },
       {
+        owner: {
+          name: "Mr.GX",
+          link: "https://twitter.com/MrGX_VGC",
+        },
         sets: [
           {
             other: {
@@ -29244,9 +29213,14 @@ const TEAMS = {
             nature: "Timid",
           },
         ],
-        name: "mrgx kangstuffs",
+        name: "mr. gx kang suicune",
+        desc: "Offensive team based around Mega Kangaskhan and Suicune built by Mr.GX in early 2018.",
       },
       {
+        owner: {
+          name: "Sir Scrubbington",
+          link: "https://twitter.com/SirScrubbington",
+        },
         sets: [
           {
             other: {
@@ -29417,9 +29391,14 @@ const TEAMS = {
             nature: "Modest",
           },
         ],
-        name: "kang goodstuffs",
+        name: "kangaskhan balance",
+        desc: "Balanced Mega Kangaskhan team based on the team used by <a class='text-secondary' href='https://twitter.com/nontaro_vgc'>Nontaro</a> to top the VGC 2018 ladder on Showdown.", 
       },
       {
+        owner: {
+          name: "Sir Scrubbington",
+          link: "https://twitter.com/SirScrubbington",
+        },
         sets: [
           {
             other: {
@@ -29596,366 +29575,13 @@ const TEAMS = {
           },
         ],
         name: "standard latias",
+        desc: "Standard Mega Latias team built around supporting Latias while it uses Calm Mind and Recover to set up.", 
       },
       {
-        sets: [
-          {
-            other: {
-              level: "50",
-              shiny: "Yes",
-            },
-            species: "Latias",
-            ivs: {
-              spe: 31,
-              def: 31,
-              atk: 0,
-              spd: 31,
-              hp: 31,
-              spa: 31,
-            },
-            gender: "",
-            item: "Latiasite",
-            nickname: "",
-            evs: {
-              spe: 76,
-              def: 92,
-              atk: 0,
-              spd: 20,
-              hp: 252,
-              spa: 68,
-            },
-            moves: ["Psychic", "Ice Beam", "Tailwind", "Recover"],
-            ability: "Levitate",
-            nature: "Bold",
-          },
-          {
-            other: {
-              level: "50",
-            },
-            species: "Aegislash",
-            ivs: {
-              spe: 31,
-              def: 31,
-              atk: 0,
-              spd: 31,
-              hp: 31,
-              spa: 31,
-            },
-            gender: "",
-            item: "Ghostium Z",
-            nickname: "",
-            evs: {
-              spe: 132,
-              def: 0,
-              atk: 0,
-              spd: 0,
-              hp: 124,
-              spa: 252,
-            },
-            moves: [
-              "Shadow Ball",
-              "Flash Cannon",
-              "Wide Guard",
-              "King's Shield",
-            ],
-            ability: "Stance Change",
-            nature: "Modest",
-          },
-          {
-            other: {
-              level: "50",
-            },
-            species: "Landorus-Therian",
-            ivs: {
-              spe: 31,
-              def: 31,
-              atk: 31,
-              spd: 31,
-              hp: 31,
-              spa: 31,
-            },
-            gender: "",
-            item: "Groundium Z",
-            nickname: "",
-            evs: {
-              spe: 188,
-              def: 12,
-              atk: 252,
-              spd: 20,
-              hp: 36,
-              spa: 0,
-            },
-            moves: ["Earthquake", "Rock Slide", "U-turn", "Protect"],
-            ability: "Intimidate",
-            nature: "Adamant",
-          },
-          {
-            other: {
-              level: "50",
-            },
-            species: "Incineroar",
-            ivs: {
-              spe: 31,
-              def: 31,
-              atk: 31,
-              spd: 31,
-              hp: 31,
-              spa: 31,
-            },
-            gender: "",
-            item: "Assault Vest",
-            nickname: "",
-            evs: {
-              spe: 164,
-              def: 12,
-              atk: 196,
-              spd: 4,
-              hp: 132,
-              spa: 0,
-            },
-            moves: ["Flare Blitz", "Darkest Lariat", "Low Kick", "Fake Out"],
-            ability: "Blaze",
-            nature: "Adamant",
-          },
-          {
-            other: {
-              level: "50",
-            },
-            species: "Kartana",
-            ivs: {
-              spe: 31,
-              def: 31,
-              atk: 31,
-              spd: 31,
-              hp: 31,
-              spa: 31,
-            },
-            gender: "",
-            item: "Focus Sash",
-            nickname: "",
-            evs: {
-              spe: 252,
-              def: 4,
-              atk: 244,
-              spd: 4,
-              hp: 4,
-              spa: 0,
-            },
-            moves: ["Tailwind", "Leaf Blade", "Sacred Sword", "Detect"],
-            ability: "Beast Boost",
-            nature: "Jolly",
-          },
-          {
-            other: {
-              level: "50",
-            },
-            species: "Tapu Fini",
-            ivs: {
-              spe: 31,
-              def: 31,
-              atk: 0,
-              spd: 31,
-              hp: 31,
-              spa: 31,
-            },
-            gender: "",
-            item: "Mago Berry",
-            nickname: "",
-            evs: {
-              spe: 12,
-              def: 56,
-              atk: 0,
-              spd: 144,
-              hp: 252,
-              spa: 44,
-            },
-            moves: ["Muddy Water", "Moonblast", "Icy Wind", "Swagger"],
-            ability: "Misty Surge",
-            nature: "Calm",
-          },
-        ],
-        name: "fede latias",
-      },
-      {
-        sets: [
-          {
-            other: {
-              level: "50",
-              shiny: "Yes",
-            },
-            species: "Latias",
-            ivs: {
-              spe: 31,
-              def: 31,
-              atk: 0,
-              spd: 31,
-              hp: 31,
-              spa: 31,
-            },
-            gender: "",
-            item: "Latiasite",
-            nickname: "",
-            evs: {
-              spe: 76,
-              def: 92,
-              atk: 0,
-              spd: 20,
-              hp: 252,
-              spa: 68,
-            },
-            moves: ["Psychic", "Ice Beam", "Tailwind", "Recover"],
-            ability: "Levitate",
-            nature: "Bold",
-          },
-          {
-            other: {
-              level: "50",
-            },
-            species: "Landorus-Therian",
-            ivs: {
-              spe: 31,
-              def: 31,
-              atk: 31,
-              spd: 31,
-              hp: 31,
-              spa: 31,
-            },
-            gender: "",
-            item: "Groundium Z",
-            nickname: "",
-            evs: {
-              spe: 188,
-              def: 12,
-              atk: 252,
-              spd: 20,
-              hp: 36,
-              spa: 0,
-            },
-            moves: ["Earthquake", "Rock Slide", "U-turn", "Protect"],
-            ability: "Intimidate",
-            nature: "Adamant",
-          },
-          {
-            other: {
-              level: "50",
-            },
-            species: "Ferrothorn",
-            ivs: {
-              spe: 0,
-              def: 31,
-              atk: 31,
-              spd: 31,
-              hp: 31,
-              spa: 31,
-            },
-            gender: "",
-            item: "Leftovers",
-            nickname: "",
-            evs: {
-              spe: 0,
-              def: 0,
-              atk: 156,
-              spd: 100,
-              hp: 252,
-              spa: 0,
-            },
-            moves: ["Power Whip", "Gyro Ball", "Leech Seed", "Protect"],
-            ability: "Iron Barbs",
-            nature: "Sassy",
-          },
-          {
-            other: {
-              level: "50",
-            },
-            species: "Tapu Fini",
-            ivs: {
-              spe: 31,
-              def: 31,
-              atk: 0,
-              spd: 31,
-              hp: 31,
-              spa: 31,
-            },
-            gender: "",
-            item: "Mago Berry",
-            nickname: "",
-            evs: {
-              spe: 12,
-              def: 56,
-              atk: 0,
-              spd: 144,
-              hp: 252,
-              spa: 44,
-            },
-            moves: ["Muddy Water", "Moonblast", "Icy Wind", "Swagger"],
-            ability: "Misty Surge",
-            nature: "Calm",
-          },
-          {
-            other: {
-              level: "50",
-            },
-            species: "Tapu Koko",
-            ivs: {
-              spe: 31,
-              def: 31,
-              atk: 0,
-              spd: 31,
-              hp: 31,
-              spa: 31,
-            },
-            gender: "",
-            item: "Life Orb",
-            nickname: "",
-            evs: {
-              spe: 252,
-              def: 0,
-              atk: 0,
-              spd: 4,
-              hp: 0,
-              spa: 252,
-            },
-            moves: [
-              "Thunderbolt",
-              "Hidden Power [Ice]",
-              "Volt Switch",
-              "Protect",
-            ],
-            ability: "Electric Surge",
-            nature: "Timid",
-          },
-          {
-            other: {
-              level: "50",
-            },
-            species: "Tyranitar",
-            ivs: {
-              spe: 31,
-              def: 31,
-              atk: 31,
-              spd: 31,
-              hp: 31,
-              spa: 31,
-            },
-            gender: "",
-            item: "Shuca Berry",
-            nickname: "",
-            evs: {
-              spe: 0,
-              def: 4,
-              atk: 228,
-              spd: 28,
-              hp: 188,
-              spa: 60,
-            },
-            moves: ["Rock Slide", "Crunch", "Fire Blast", "Protect"],
-            ability: "Sand Stream",
-            nature: "Brave",
-          },
-        ],
-        name: "latias tapus",
-      },
-      {
+        owner: {
+          name: "Avatar Fede", 
+          link: "https://twitter.com/AvatarFede"
+        },
         sets: [
           {
             other: {
@@ -30128,9 +29754,14 @@ const TEAMS = {
             nature: "Brave",
           },
         ],
-        name: "fede snarl trap",
+        name: "lele snarl trap",
+        desc: "Offensively orientated Snarl Trap team used by Avatar Fede at the Oceania International Championships in 2018.", 
       },
       {
+        owner: {
+          name: "Sir Scrubbington",
+          link: "https://twitter.com/SirScrubbington",
+        },
         sets: [
           {
             other: {
@@ -30157,7 +29788,7 @@ const TEAMS = {
               spa: 0,
             },
             moves: ["Play Rough", "Iron Head", "Sucker Punch", "Protect"],
-            ability: "Hyper Cutter",
+            ability: "Intimidate",
             nature: "Adamant",
           },
           {
@@ -30302,8 +29933,13 @@ const TEAMS = {
           },
         ],
         name: "goth maw perish",
+        desc: "Mixed rain + Perish Trap team used to make top cut in the Oceania Zelda Challenge in 2018.",
       },
       {
+        owner: {
+          name: "Sir Scrubbington",
+          link: "https://twitter.com/SirScrubbington",
+        },
         sets: [
           {
             other: {
@@ -30475,8 +30111,13 @@ const TEAMS = {
           },
         ],
         name: "standard meta fini",
+        desc: "Standard Metagross + Tapu Fini balance team which was popular at the 2018 Oceania International Championships.",
       },
       {
+        owner: {
+          name: "Sir Scrubbington",
+          link: "https://twitter.com/SirScrubbington",
+        },
         sets: [
           {
             other: {},
@@ -30645,9 +30286,14 @@ const TEAMS = {
             nature: "Modest",
           },
         ],
-        name: "standard ttar meta",
+        name: "ttar volc setup spam",
+        desc: "Offensive team with three seperate setup options, supported by Alolan Persian and Scarf Tapu Bulu.", 
       },
       {
+        owner: {
+          name: "Sir Scrubbington",
+          link: "https://twitter.com/SirScrubbington",
+        },
         sets: [
           {
             other: {
@@ -30818,9 +30464,14 @@ const TEAMS = {
             nature: "Modest",
           },
         ],
-        name: "oceania lele metagross",
+        desc: "Defensively-oriented Lele Metagross team which I used at the Oceania International Championships in 2018.",
+        name: "bulky lele metagross",
       },
       {
+        owner: {
+          name: "Sir Scrubbington",
+          link: "https://twitter.com/SirScrubbington",
+        },
         sets: [
           {
             other: {
@@ -30992,6 +30643,7 @@ const TEAMS = {
             nature: "Modest",
           },
         ],
+        desc: "Standard Metagross + Tapu Lele team which was popular at the Oceania International Championships in 2018.", 
         name: "standard meta lele",
       },
       {

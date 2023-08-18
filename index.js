@@ -70,6 +70,9 @@ function showTableSet(body, set) {
   // Switch on item (lower case)
   switch (itemLower) {
     // Bug Type
+    case 'beedrillite': 
+    case 'scizorite': 
+    case 'heracronite': 
     case 'tanga berry':
     case 'silver powder':
     case 'insect plate':
@@ -79,6 +82,10 @@ function showTableSet(body, set) {
     }; break;
 
     // Dark Type
+    case 'sablenite': 
+    case 'absolite': 
+    case 'houndoominite': 
+    case 'gyaradosite':
     case 'colbur berry':
     case 'black glasses':
     case 'dread plate':
@@ -89,6 +96,11 @@ function showTableSet(body, set) {
     }; break;
 
     // Dragon Type
+    case 'salamencite': 
+    case 'sceptilite': 
+    case 'garchompite': 
+    case 'ampharosite': 
+    case 'charizardite x': 
     case 'haban berry':
     case 'dragon fang':
     case 'draco plate':
@@ -99,6 +111,7 @@ function showTableSet(body, set) {
     }; break;
 
     // Electric Type
+    case 'manectite': 
     case 'wacan berry':
     case 'magnet':
     case 'zap plate':
@@ -112,6 +125,8 @@ function showTableSet(body, set) {
     }; break;
 
     // Fairy Type
+    case 'audinite': 
+    case 'altarianite': 
     case 'roseli berry':
     case 'pixie plate':
     case 'misty seed':
@@ -121,6 +136,10 @@ function showTableSet(body, set) {
     }; break;
 
     // Fighting Type
+    case 'lopunnite': 
+    case 'lucarionite': 
+    case 'medichamite': 
+    case 'mewtwonite x': 
     case 'chople berry':
     case 'black belt':
     case 'fist plate':
@@ -130,6 +149,9 @@ function showTableSet(body, set) {
     }; break;
 
     // Fire Type
+    case 'cameruptite': 
+    case 'blazikenite': 
+    case 'charizardite y': 
     case 'occa berry':
     case 'charcoal':
     case 'red orb':
@@ -140,6 +162,7 @@ function showTableSet(body, set) {
     }; break;
 
     // Flying Type
+    case 'pinsirite':
     case 'coba berry':
     case 'sharp beak':
     case 'sky plate':
@@ -149,6 +172,8 @@ function showTableSet(body, set) {
     }; break;
 
     // Ghost Type
+    case 'bannettite': 
+    case 'gengarite':
     case 'kasib berry':
     case 'spell tag':
     case 'spooky plate':
@@ -161,6 +186,8 @@ function showTableSet(body, set) {
     }; break;
 
     // Grass Type
+    case 'abomasite': 
+    case 'venusaurite': 
     case 'rindo berry':
     case 'miracle seed':
     case 'meadow plate':
@@ -182,6 +209,7 @@ function showTableSet(body, set) {
     }; break;
 
     // Ice Type
+    case 'glalitite': 
     case 'yache berry':
     case 'never-melt ice':
     case 'icicle plate':
@@ -191,6 +219,8 @@ function showTableSet(body, set) {
     }; break;
 
     // Normal Type
+    case 'pidgeotite': 
+    case 'kangaskhanite': 
     case 'chilan berry':
     case 'silk scarf':
     case 'blank plate':
@@ -211,6 +241,12 @@ function showTableSet(body, set) {
     }; break;
 
     // Psychic Type
+    case 'galladite':
+    case 'latiasite':
+    case 'latiosite': 
+    case 'gardevoirite':
+    case 'mewtwonite y': 
+    case 'alakazite': 
     case 'payapa berry':
     case 'twisted spoon':
     case 'stone plate':
@@ -219,22 +255,31 @@ function showTableSet(body, set) {
     case 'psychic seed':
     case 'ultranecrozium z':
     case 'mewnium z':
-    case 'rockium z': {
+    case 'psychium z': {
       itemColor = getTypeColor('psychic');
     }; break;
 
     // Rock Type
+    case 'diancite': 
+    case 'tyranitarite': 
+    case 'aerodactylite':
     case 'charti berry':
     case 'hard stone':
     case 'mind plate':
     case 'psychic gem':
     case 'rock incense':
     case 'lycanium z':
-    case 'psychium z': {
+    case 'rockium z': {
       itemColor = getTypeColor('rock');
     }; break;
 
     // Steel Type
+    case 'steelixite': 
+    case 'mawilite': 
+    case 'aggronite': 
+    case 'metagrossite': 
+    case 'rusted sword': 
+    case 'rusted shield':
     case 'babiri berry':
     case 'metal coat':
     case 'iron plate':
@@ -245,6 +290,10 @@ function showTableSet(body, set) {
     }; break;
 
     // Water Type
+    case 'sharpedonite': 
+    case 'slowbronite': 
+    case 'blastoisinite': 
+    case 'swampertite':
     case 'passho berry':
     case 'mystic water':
     case 'splash plate':
@@ -255,6 +304,11 @@ function showTableSet(body, set) {
     case 'primarium z':
     case 'waterium z': {
       itemColor = getTypeColor('water');
+    }; break;
+
+    // Default
+    default: {
+      itemColor = getTypeColor('default');
     }; break;
   }
 
@@ -267,7 +321,15 @@ function showTableSet(body, set) {
   // Switch on ability (lower case)
   switch (abilityLower) {
 
+    // Ghost
+    case 'disguise':
+    case 'stance change': 
+    case 'as one (spectrier)': {
+      abilityColor = getTypeColor('ghost');
+    }; break;
+
     // Water
+    case 'torrent': 
     case 'primordial rain':
     case 'water bubble':
     case 'swift swim':
@@ -279,6 +341,7 @@ function showTableSet(body, set) {
     }; break;
 
     // Fire
+    case 'blaze': 
     case 'flame body':
     case 'orichalcum pulse':
     case 'primordial sun':
@@ -298,7 +361,8 @@ function showTableSet(body, set) {
     case 'snow cloak':
     case 'slush rush':
     case 'refridgerate':
-    case 'snow warning': {
+    case 'snow warning':
+    case 'as one (glastrier)': {
       abilityColor = getTypeColor('ice');
     }; break;
 
@@ -321,6 +385,7 @@ function showTableSet(body, set) {
     }; break;
 
     // Electric
+    case 'transistor':
     case 'quark drive':
     case 'electric surge': {
       abilityColor = getTypeColor('electric');
@@ -332,11 +397,14 @@ function showTableSet(body, set) {
     }; break;
 
     // Grass
+    case 'overgrow': 
     case 'grassy surge': {
       abilityColor = getTypeColor('grass');
     }; break;
 
     // Fairy
+    case 'intrepid sword': 
+    case 'dauntless shield': 
     case 'pixilate':
     case 'fairy aura':
     case 'misty surge': {
@@ -346,6 +414,11 @@ function showTableSet(body, set) {
     // Dark
     case 'dark aura': {
       abilityColor = getTypeColor('dark');
+    }; break;
+
+    // Default
+    default: {
+      abilityColor = getTypeColor('default');
     }; break;
   }
 
@@ -385,6 +458,9 @@ function showTableSet(body, set) {
     case 'careful': { natureColors.spd = getTypeColor('grass'); natureColors.spa = getTypeColor('fire'); }; break;
     // Other natures have no modifiers
   }
+
+  // Nature color (default)
+  const natureColor = getTypeColor('default');
 
   // IV colours
   const ivColors = {
@@ -630,7 +706,7 @@ function showTableSet(body, set) {
     <th>
       Nature
     </th>
-    <td>`
+    <td style='${natureColor}'>`
     + set.nature +
     `
     </td>
@@ -1247,7 +1323,7 @@ function showFormatDropdown() {
     option.id = key;
 
     // Set innerhtml to the key
-    option.innerHTML = key;
+    option.innerHTML = getPrettyName(key);
 
     // Add the option to the select
     format.appendChild(option);
@@ -1296,7 +1372,7 @@ function showFolderDropdown(format) {
     option.id = key;
 
     // Set innerhtml to the key
-    option.innerHTML = key;
+    option.innerHTML = getPrettyName(key);
 
     // Add the option to the select
     folder.appendChild(option);
