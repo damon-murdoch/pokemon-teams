@@ -56,7 +56,7 @@ function showTableSet(body, set) {
   const species = POKEMON.find(x => x.species == speciesLower);
 
   // Species is found
-  if (species){
+  if (species) {
     // Get the colour for the species first type
     speciesColor = getTypeColor(species.type1);
   }
@@ -93,9 +93,9 @@ function showTableSet(body, set) {
   // Switch on item (lower case)
   switch (itemLower) {
     // Bug Type
-    case 'beedrillite': 
-    case 'scizorite': 
-    case 'heracronite': 
+    case 'beedrillite':
+    case 'scizorite':
+    case 'heracronite':
     case 'tanga berry':
     case 'silver powder':
     case 'insect plate':
@@ -105,9 +105,9 @@ function showTableSet(body, set) {
     }; break;
 
     // Dark Type
-    case 'sablenite': 
-    case 'absolite': 
-    case 'houndoominite': 
+    case 'sablenite':
+    case 'absolite':
+    case 'houndoominite':
     case 'gyaradosite':
     case 'colbur berry':
     case 'black glasses':
@@ -119,11 +119,11 @@ function showTableSet(body, set) {
     }; break;
 
     // Dragon Type
-    case 'salamencite': 
-    case 'sceptilite': 
-    case 'garchompite': 
-    case 'ampharosite': 
-    case 'charizardite x': 
+    case 'salamencite':
+    case 'sceptilite':
+    case 'garchompite':
+    case 'ampharosite':
+    case 'charizardite x':
     case 'haban berry':
     case 'dragon fang':
     case 'draco plate':
@@ -134,7 +134,7 @@ function showTableSet(body, set) {
     }; break;
 
     // Electric Type
-    case 'manectite': 
+    case 'manectite':
     case 'wacan berry':
     case 'magnet':
     case 'zap plate':
@@ -148,8 +148,6 @@ function showTableSet(body, set) {
     }; break;
 
     // Fairy Type
-    case 'audinite': 
-    case 'altarianite': 
     case 'roseli berry':
     case 'pixie plate':
     case 'misty seed':
@@ -159,10 +157,6 @@ function showTableSet(body, set) {
     }; break;
 
     // Fighting Type
-    case 'lopunnite': 
-    case 'lucarionite': 
-    case 'medichamite': 
-    case 'mewtwonite x': 
     case 'chople berry':
     case 'black belt':
     case 'fist plate':
@@ -172,10 +166,7 @@ function showTableSet(body, set) {
     }; break;
 
     // Fire Type
-    case 'heat rock': 
-    case 'cameruptite': 
-    case 'blazikenite': 
-    case 'charizardite y': 
+    case 'heat rock':
     case 'occa berry':
     case 'charcoal':
     case 'red orb':
@@ -186,7 +177,6 @@ function showTableSet(body, set) {
     }; break;
 
     // Flying Type
-    case 'pinsirite':
     case 'coba berry':
     case 'sharp beak':
     case 'sky plate':
@@ -196,8 +186,6 @@ function showTableSet(body, set) {
     }; break;
 
     // Ghost Type
-    case 'bannettite': 
-    case 'gengarite':
     case 'kasib berry':
     case 'spell tag':
     case 'spooky plate':
@@ -210,8 +198,6 @@ function showTableSet(body, set) {
     }; break;
 
     // Grass Type
-    case 'abomasite': 
-    case 'venusaurite': 
     case 'rindo berry':
     case 'miracle seed':
     case 'meadow plate':
@@ -233,8 +219,7 @@ function showTableSet(body, set) {
     }; break;
 
     // Ice Type
-    case 'icy rock': 
-    case 'glalitite': 
+    case 'icy rock':
     case 'yache berry':
     case 'never-melt ice':
     case 'icicle plate':
@@ -244,8 +229,6 @@ function showTableSet(body, set) {
     }; break;
 
     // Normal Type
-    case 'pidgeotite': 
-    case 'kangaskhanite': 
     case 'chilan berry':
     case 'silk scarf':
     case 'blank plate':
@@ -266,17 +249,11 @@ function showTableSet(body, set) {
     }; break;
 
     // Psychic Type
-    case 'galladite':
-    case 'latiasite':
-    case 'latiosite': 
-    case 'gardevoirite':
-    case 'mewtwonite y': 
-    case 'alakazite': 
     case 'payapa berry':
     case 'twisted spoon':
-    case 'stone plate':
+    case 'mind plate':
+    case 'psychic gem':
     case 'odd incense':
-    case 'rock gem':
     case 'psychic seed':
     case 'ultranecrozium z':
     case 'mewnium z':
@@ -285,14 +262,11 @@ function showTableSet(body, set) {
     }; break;
 
     // Rock Type
-    case 'smooth rock': 
-    case 'diancite': 
-    case 'tyranitarite': 
-    case 'aerodactylite':
+    case 'smooth rock':
     case 'charti berry':
     case 'hard stone':
-    case 'mind plate':
-    case 'psychic gem':
+    case 'stone plate':
+    case 'rock gem':
     case 'rock incense':
     case 'lycanium z':
     case 'rockium z': {
@@ -300,12 +274,6 @@ function showTableSet(body, set) {
     }; break;
 
     // Steel Type
-    case 'steelixite': 
-    case 'mawilite': 
-    case 'aggronite': 
-    case 'metagrossite': 
-    case 'rusted sword': 
-    case 'rusted shield':
     case 'babiri berry':
     case 'metal coat':
     case 'iron plate':
@@ -316,17 +284,12 @@ function showTableSet(body, set) {
     }; break;
 
     // Water Type
-    case 'damp rock': 
-    case 'sharpedonite': 
-    case 'slowbronite': 
-    case 'blastoisinite': 
-    case 'swampertite':
+    case 'damp rock':
     case 'passho berry':
     case 'mystic water':
     case 'splash plate':
     case 'wave incense':
     case 'sea incense':
-    case 'blue orb':
     case 'water gem':
     case 'primarium z':
     case 'waterium z': {
@@ -348,17 +311,8 @@ function showTableSet(body, set) {
   // Switch on ability (lower case)
   switch (abilityLower) {
 
-    // Ghost
-    case 'disguise':
-    case 'stance change': 
-    case 'as one (spectrier)': {
-      abilityColor = getTypeColor('ghost');
-    }; break;
-
     // Water
-    case 'torrent': 
     case 'primordial rain':
-    case 'water bubble':
     case 'swift swim':
     case 'rain dish':
     case 'hydration':
@@ -368,28 +322,19 @@ function showTableSet(body, set) {
     }; break;
 
     // Fire
-    case 'blaze': 
-    case 'flame body':
     case 'orichalcum pulse':
     case 'primordial sun':
     case 'flower gift':
-    case 'leaf guard':
     case 'solar power':
-    case 'protosynthesis':
-    case 'flash fire':
     case 'chlorophyll':
     case 'drought': {
       abilityColor = getTypeColor('fire');
     }; break;
 
     // Hail / Snow
-    case 'ice face':
-    case 'ice body':
-    case 'snow cloak':
     case 'slush rush':
     case 'refridgerate':
-    case 'snow warning':
-    case 'as one (glastrier)': {
+    case 'snow warning': {
       abilityColor = getTypeColor('ice');
     }; break;
 
@@ -403,17 +348,13 @@ function showTableSet(body, set) {
     }; break;
 
     // Flying
-    case 'levitate':
     case 'aerilate':
     case 'air lock':
-    case 'gale wings':
     case 'delta stream': {
       abilityColor = getTypeColor('flying');
     }; break;
 
     // Electric
-    case 'transistor':
-    case 'quark drive':
     case 'electric surge': {
       abilityColor = getTypeColor('electric');
     }; break;
@@ -424,14 +365,11 @@ function showTableSet(body, set) {
     }; break;
 
     // Grass
-    case 'overgrow': 
     case 'grassy surge': {
       abilityColor = getTypeColor('grass');
     }; break;
 
     // Fairy
-    case 'intrepid sword': 
-    case 'dauntless shield': 
     case 'pixilate':
     case 'fairy aura':
     case 'misty surge': {
@@ -585,7 +523,7 @@ function showTableSet(body, set) {
   const moveColors = [];
 
   // If there are less than 4 moves
-  while (set.moves.length < 4){
+  while (set.moves.length < 4) {
     set.moves.push("(No Move)");
   }
 
@@ -643,9 +581,9 @@ function showTableSet(body, set) {
     if (type) {
 
       // Move type is normal
-      if (type == 'normal'){
+      if (type == 'normal') {
         // Switch on ability
-        switch (abilityLower){
+        switch (abilityLower) {
           // Refridgerate
           case 'refridgerate': {
             // Convert to ice
@@ -879,11 +817,11 @@ function showTableSet(body, set) {
   // Create the copy set link
   let btn = document.createElement('button');
   btn.innerHTML = `Copy ${set.species} Set`;
-  
+
   // Set the class list for the button
   btn.classList.add('btn');
   btn.classList.add('btn-link');
-  btn.style = `${speciesColor}`;
+  btn.classList.add('text-secondary');
 
 
   // Export to clipboard event listener
@@ -1229,6 +1167,24 @@ function getPrettyName(name) {
   return placeholder;
 }
 
+function pokemonSortFunction(a, b){
+
+    
+
+    // Convert both to lower case
+    a_species = a.species.toLowerCase();
+    b_species = b.species.toLowerCase();
+
+    // A before B, return -1
+    if (a_species > b_species)
+      return -1;
+    // B before A, return 1
+    if (b_species > a_species)
+      return 1
+    // Same, return 0
+    return 0;
+}
+
 function showRowTeam(body, format, folder, index, data) {
   // Table row element which will be appended
   let tr = document.createElement('tr');
@@ -1238,6 +1194,12 @@ function showRowTeam(body, format, folder, index, data) {
 
   // Pretty folder name
   let folderName = getPrettyName(folder);
+
+  // Create a copy of the sets
+  const sets = data.sets;
+
+  // Sort using custom sort function
+  sets.sort(pokemonSortFunction);
 
   // Table row content
   let row = [
