@@ -5714,13 +5714,13 @@ const POKEMON = [
   },
   {
     "dex": 898,
-    "species": "calyrex-ice-rider",
+    "species": "calyrex-ice",
     "type1": "psychic",
     "type2": "ice"
   },
   {
     "dex": 898,
-    "species": "calyrex-shadow-rider",
+    "species": "calyrex-shadow",
     "type1": "psychic",
     "type2": "ghost"
   },
