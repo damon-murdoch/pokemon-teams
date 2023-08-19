@@ -993,8 +993,14 @@ function showPageTeam(format, folder, team) {
   // Set the class list for the row
   row.classList.add('row');
 
+  // Get the sets from the data
+  const sets = data.sets;
+
+  // Sort using custom sort function
+  sets.sort(pokemonSortFunction);
+
   // Loop over the sets
-  for (let set of data.sets) {
+  for (let set of sets) {
     // Create the column element
     let col = document.createElement('div');
 
@@ -1167,22 +1173,85 @@ function getPrettyName(name) {
   return placeholder;
 }
 
-function pokemonSortFunction(a, b){
+// Pokemon Sort Function
+// Sort uses the following priorities:
+// Restricted > Mega > Z > Gmax > Alphabetical (Z-A)
+function pokemonSortFunction(a, b) {
 
-    
+  // Convert both to lower case
+  const a_species = a.species.toLowerCase();
+  const b_species = b.species.toLowerCase();
 
-    // Convert both to lower case
-    a_species = a.species.toLowerCase();
-    b_species = b.species.toLowerCase();
+  // Check if the pokemon are in the restricted set
+  const r_includes_a = RESTRICTED.includes(a_species)
+  const r_includes_b = RESTRICTED.includes(b_species)
 
-    // A before B, return -1
-    if (a_species > b_species)
-      return -1;
-    // B before A, return 1
-    if (b_species > a_species)
-      return 1
-    // Same, return 0
-    return 0;
+  // If both of the values match
+  if (r_includes_a == r_includes_b){
+
+    // Get the item for the pokemon
+    const a_item = a.item.toLowerCase();
+    const b_item = b.item.toLowerCase();
+
+    // Check if the pokemon are holding mega stones
+    const m_includes_a = MEGA_STONES.includes(a_item);
+    const m_includes_b = MEGA_STONES.includes(b_item);
+
+    // If both of the values match
+    if (m_includes_a == m_includes_b){
+
+      // Check if the pokemon are holding z crystals
+      const z_includes_a = Z_CRYSTALS.includes(a_item);
+      const z_includes_b = Z_CRYSTALS.includes(b_item);
+
+      // If both of the values match
+      if (z_includes_a == z_includes_b){
+
+        // Check if the pokemon are gmaxes
+        const g_includes_a = a_species.includes('-gmax');
+        const g_includes_b = b_species.includes('-gmax');
+
+        // If both of the values match
+        if (g_includes_a == g_includes_b){
+
+          // Sort Alphabetically
+
+          // A before B, return -1
+          if (a_species > b_species)
+            return -1;
+          // B before A, return 1
+          if (b_species > a_species)
+            return 1
+          // Same, return 0
+          return 0;
+        }
+
+        // Gmax > Non-Gmax
+        if (g_includes_a)
+          return -1;
+        if (g_includes_b)
+          return 1;
+      }
+
+      // Z > Non-Z
+      if (z_includes_a)
+        return -1;
+      if (z_includes_b)
+        return 1;
+    }
+
+    // Mega > Non-Mega
+    if (m_includes_a)
+        return -1;
+    if (m_includes_b)
+      return 1;
+  }
+
+  // Restricted > Non-Restricted
+  if (r_includes_a)
+    return -1;
+  if (r_includes_b)
+    return 1;
 }
 
 function showRowTeam(body, format, folder, index, data) {

@@ -5,31 +5,109 @@ const DEFAULT_FORMAT = 'gen9doubles';
 // List of restricted pokemon
 // These appear first in the team list
 const RESTRICTED = [
-  'mewtwo', 'giratina', 'cosmoem', 'lugia', 
-  'reshiram', 'solgaleo', 'ho-oh', 'zekrom', 
-  'lunala', 'kyogre', 'kyurem', 'necrozma', 
-  'groudon', 'xerneas', 'zacian', 'rayquaza', 
-  'yveltal', 'zamazenta', 'dialga', 'zygarde', 
-  'eternatus', 'palkia', 'cosmog', 'calyrex', 
-  'koraidon', 'miraidon', 'dialga-origin', 
-  'mewtwo-mega-y', 'mewtwo-mega-x', 'giratina-origin', 
-  'kyogre-primal', 'kyurem-white', 'kyurem-black', 
-  'necrozma-dusk-mane', 'necrozma-dawn-wings', 'groudon-primal', 
-  'xerneas-neutral', 'zacian-crowned', 'rayquaza-mega', 
-  'zamazenta-crowned', 'zygarde-50%', 'zygarde-10%', 
+  'mewtwo', 'giratina', 'cosmoem', 'lugia',
+  'reshiram', 'solgaleo', 'ho-oh', 'zekrom',
+  'lunala', 'kyogre', 'kyurem', 'necrozma',
+  'groudon', 'xerneas', 'zacian', 'rayquaza',
+  'yveltal', 'zamazenta', 'dialga', 'zygarde',
+  'eternatus', 'palkia', 'cosmog', 'calyrex',
+  'koraidon', 'miraidon', 'dialga-origin',
+  'mewtwo-mega-y', 'mewtwo-mega-x', 'giratina-origin',
+  'kyogre-primal', 'kyurem-white', 'kyurem-black',
+  'necrozma-dusk-mane', 'necrozma-dawn-wings', 'groudon-primal',
+  'xerneas-neutral', 'zacian-crowned', 'rayquaza-mega',
+  'zamazenta-crowned', 'zygarde-50%', 'zygarde-10%',
   'zygarde-complete', 'palkia-origin', 'calyrex-ice', 'calyrex-shadow'
 ];
 
-// List of mega pokemon
+// List of mega stones
 // These appear second in the team list
-const MEGA = [
-
+const MEGA_STONES = [
+  "abomasite",
+  "absolite",
+  "aerodactylite",
+  "aggronite",
+  "alakazite",
+  "altarianite",
+  "ampharosite",
+  "audinite",
+  "banettite",
+  "beedrillite",
+  "blastoisinite",
+  "blazikenite",
+  "cameruptite",
+  "charizardite x",
+  "charizardite y",
+  "diancite",
+  "galladite",
+  "garchompite",
+  "gardevoirite",
+  "gengarite",
+  "glalitite",
+  "gyaradosite",
+  "heracronite",
+  "houndoominite",
+  "kangaskhanite",
+  "latiasite",
+  "latiosite",
+  "lopunnite",
+  "lucarionite",
+  "manectite",
+  "mawilite",
+  "medichamite",
+  "metagrossite",
+  "mewtwonite x",
+  "mewtwonite y",
+  "pidgeotite",
+  "pinsirite",
+  "sablenite",
+  "salamencite",
+  "sceptilite",
+  "scizorite",
+  "sharpedonite",
+  "slowbronite",
+  "steelixite",
+  "swampertite",
+  "tyranitarite",
+  "venusaurite"
 ]
 
 // List of Z-Moves
 // These appear third in the team list
-const Z = [
-
+const Z_CRYSTALS = [
+  "bugnium z",
+  "darkinium z",
+  "dragonium z",
+  "electrium z",
+  "fairium z",
+  "fightinium z",
+  "firium z",
+  "flyinium z",
+  "ghostium z",
+  "grassium z",
+  "groundium z",
+  "icium z",
+  "normalium z",
+  "poisium z",
+  "psychium z",
+  "rockium z",
+  "steelium z",
+  "waterium z",
+  "aloraichium z",
+  "decidium z",
+  "eevium z",
+  "incinium z",
+  "kommonium z",
+  "lunalium z",
+  "lycanium z",
+  "mewnium z",
+  "mimikium z",
+  "pikashunium z",
+  "primarium z",
+  "snorlium z",
+  "solganium z",
+  "tapunium z",
+  "ultranecrozium z"
 ]
 
 // Type Colors
@@ -39,24 +117,24 @@ const COLORS = {
   // Empty Color
   '-': "color: rgb(128, 128, 128);",
   // Type Colors
-  'bug': "color: rgb(196, 206, 142);", 
-  'dark': "color: rgb(160, 126, 102);", 
-  'dragon': "color: rgb(173, 151, 219);", 
-  'electric': "color: rgb(224, 184, 107);", 
-  'fairy': "color: rgb(222, 160, 213);", 
-  'fighting': "color: rgb(206, 133, 98);", 
-  'fire': "color: rgb(219, 98, 80);", 
-  'flying': "color: rgb(133, 161, 219);", 
-  'ghost': "color: rgb(146, 123, 191);", 
-  'grass': "color: rgb(133, 191, 123);", 
-  'ground': "color: rgb(219, 184, 132);", 
-  'ice': "color: rgb(132, 212, 219);", 
-  'normal': "color: rgb(185, 185, 164);", 
-  'poison': "color: rgb(185, 123, 164);", 
-  'psychic': "color: rgb(219, 123, 148);", 
-  'rock': "color: rgb(185, 164, 123);", 
-  'steel': "color: rgb(164, 164, 185);", 
-  'water': "color: rgb(107, 151, 219);", 
+  'bug': "color: rgb(196, 206, 142);",
+  'dark': "color: rgb(160, 126, 102);",
+  'dragon': "color: rgb(173, 151, 219);",
+  'electric': "color: rgb(224, 184, 107);",
+  'fairy': "color: rgb(222, 160, 213);",
+  'fighting': "color: rgb(206, 133, 98);",
+  'fire': "color: rgb(219, 98, 80);",
+  'flying': "color: rgb(133, 161, 219);",
+  'ghost': "color: rgb(146, 123, 191);",
+  'grass': "color: rgb(133, 191, 123);",
+  'ground': "color: rgb(219, 184, 132);",
+  'ice': "color: rgb(132, 212, 219);",
+  'normal': "color: rgb(185, 185, 164);",
+  'poison': "color: rgb(185, 123, 164);",
+  'psychic': "color: rgb(219, 123, 148);",
+  'rock': "color: rgb(185, 164, 123);",
+  'steel': "color: rgb(164, 164, 185);",
+  'water': "color: rgb(107, 151, 219);",
 };
 
 // Pretty Format / Folder Names
@@ -67,7 +145,7 @@ const COLORS = {
 const NAMES = {
   default: "Default",
   vgc2023preseason: "VGC 2023 Pre-Season",
-  spikemuthcup: "Spikemuth Cup", 
+  spikemuthcup: "Spikemuth Cup",
   gen9doubles: "Gen 9 Doubles",
   vgc2023regulationd: "VGC 2023 Regulation D",
   vgc2023regulationc: "VGC 2023 Regulation C",
@@ -95,20 +173,20 @@ const NAMES = {
   sunseries: "Sun Series",
   moonseries: "Moon Series",
   ultraseries: "Ultra Series",
-  gen8vgc2020: "Gen 8 VGC 2020", 
-  vgc2020s06: "Series 6", 
-  vgc2020s05: "Series 5", 
-  vgc2020s04: "Series 4", 
-  vgc2020s03: "Series 3", 
-  vgc2020s02: "Series 2", 
-  nodynamax: "No Dynamax", 
-  gen8vgc2021: "Gen 8 VGC 2021", 
-  vgc2020s08: "Series 8", 
-  vgc2020s07: "Series 7", 
-  gen6lc: "Gen 6 Little Cup", 
-  gen6vgc2014: "Gen 6 VGC 2014", 
-  gen6vgc2015: "Gen 6 VGC 2015", 
-  battlesubway: "Battle Subway", 
+  gen8vgc2020: "Gen 8 VGC 2020",
+  vgc2020s06: "Series 6",
+  vgc2020s05: "Series 5",
+  vgc2020s04: "Series 4",
+  vgc2020s03: "Series 3",
+  vgc2020s02: "Series 2",
+  nodynamax: "No Dynamax",
+  gen8vgc2021: "Gen 8 VGC 2021",
+  vgc2020s08: "Series 8",
+  vgc2020s07: "Series 7",
+  gen6lc: "Gen 6 Little Cup",
+  gen6vgc2014: "Gen 6 VGC 2014",
+  gen6vgc2015: "Gen 6 VGC 2015",
+  battlesubway: "Battle Subway",
   spookycup: "Spooky Cup",
   vgc2023regulationb: "VGC 2023 Regulation B",
   vgc2023regulationa: "VGC 2023 Regulation A",
@@ -124,7 +202,7 @@ const TEAMS = {
           name: "Sir Scrubbington",
           link: "https://twitter.com/SirScrubbington",
         },
-        desc: "Balanced team based on a common core used at the 2023 World Championships.", 
+        desc: "Balanced team based on a common core used at the 2023 World Championships.",
         sets: [
           {
             "species": "Landorus-Therian",
@@ -331,14 +409,14 @@ const TEAMS = {
             }
           }
         ]
-      }, 
+      },
       {
-        name: "Bulky Tailwind", 
+        name: "Bulky Tailwind",
         owner: {
           name: "Sir Scrubbington",
           link: "https://twitter.com/SirScrubbington",
         },
-        desc: "Bulky offense team built around Specs Flutter Mane, Urshifu and Tornadus. Heatran, Amoonguss and Lando act as bulky support.", 
+        desc: "Bulky offense team built around Specs Flutter Mane, Urshifu and Tornadus. Heatran, Amoonguss and Lando act as bulky support.",
         sets: [
           {
             "species": "Landorus-Therian",
@@ -542,12 +620,12 @@ const TEAMS = {
         ]
       },
       {
-        name: "Ursaluna Trick Room", 
+        name: "Ursaluna Trick Room",
         owner: {
           name: "Sir Scrubbington",
           link: "https://twitter.com/SirScrubbington",
         },
-        desc: "Standard Ursaluna Trick Room team which uses Amoonguss as redirection support. Inspired by <a class='text-secondary' href='https://twitter.com/Huyubare_Poke'>Ko Tsukide's</a> Victory Road team.", 
+        desc: "Standard Ursaluna Trick Room team which uses Amoonguss as redirection support. Inspired by <a class='text-secondary' href='https://twitter.com/Huyubare_Poke'>Ko Tsukide's</a> Victory Road team.",
         sets: [
           {
             "species": "Urshifu-Rapid-Strike",
@@ -758,7 +836,7 @@ const TEAMS = {
           name: "Sir Scrubbington",
           link: "https://twitter.com/SirScrubbington",
         },
-        desc: "Chi-Yu + Flutter Mane team I used to place 2nd at a local tournament, which uses Fissure Garganacl as a tech.", 
+        desc: "Chi-Yu + Flutter Mane team I used to place 2nd at a local tournament, which uses Fissure Garganacl as a tech.",
         sets: [
           {
             "species": "Chi-Yu",
@@ -973,7 +1051,7 @@ const TEAMS = {
           name: "Sir Scrubbington",
           link: "https://twitter.com/SirScrubbington",
         },
-        desc: "Standard Chi-Yu + Flutter Mane team which uses Clear Amulet Iron Hands as Fake Out support.", 
+        desc: "Standard Chi-Yu + Flutter Mane team which uses Clear Amulet Iron Hands as Fake Out support.",
         sets: [
           {
             "species": "Chi-Yu",
@@ -1395,14 +1473,14 @@ const TEAMS = {
             }
           }
         ]
-      }, 
+      },
       {
         name: "Brisbane Chien-Pao Dragonite",
         owner: {
           name: "Sir Scrubbington",
           link: "https://twitter.com/SirScrubbington",
         },
-        desc: "Standard Chien-Pao + Dragonite team which opts to run Life Orb Dragonite for more versatility.", 
+        desc: "Standard Chien-Pao + Dragonite team which opts to run Life Orb Dragonite for more versatility.",
         sets: [
           {
             "species": "Chien-Pao",
@@ -1617,7 +1695,7 @@ const TEAMS = {
           name: "Sir Scrubbington",
           link: "https://twitter.com/SirScrubbington",
         },
-        desc: "Standard Chien-Pao + Dragonite team which aims to overwhelms the opponent with strong physical attacks.", 
+        desc: "Standard Chien-Pao + Dragonite team which aims to overwhelms the opponent with strong physical attacks.",
         sets: [
           {
             "species": "Flutter Mane",
@@ -2040,8 +2118,8 @@ const TEAMS = {
     ],
     vgc2023regulationb: [
       {
-        name: "Roaring Moon Rain", 
-        desc: "Unique rain team including Tera Flying Roaring Moon and Brute Bonnet for redirection support.", 
+        name: "Roaring Moon Rain",
+        desc: "Unique rain team including Tera Flying Roaring Moon and Brute Bonnet for redirection support.",
         sets: [
           {
             "species": "Gholdengo",
@@ -2248,9 +2326,9 @@ const TEAMS = {
         name: "Oceania Garganacl Mimikyu",
         owner: {
           name: "Sam Pandelis (@Mihoskies)",
-          link: "https://twitter.com/mihoskies", 
+          link: "https://twitter.com/mihoskies",
         },
-        desc: "Unique bulky offense team used by Sam Pandelis at the 2023 Oceania International Championships.", 
+        desc: "Unique bulky offense team used by Sam Pandelis at the 2023 Oceania International Championships.",
         sets: [
           {
             "species": "Garganacl",
@@ -2454,12 +2532,12 @@ const TEAMS = {
         ]
       },
       {
-        name: "Oceania Gavin Rain", 
+        name: "Oceania Gavin Rain",
         owner: {
-          name: "Gavin Michaels", 
+          name: "Gavin Michaels",
           link: "https://twitter.com/komvgc"
         },
-        desc: "Offensive rain team used by Gavin Michaels to win the 2023 Oceania International Championships.", 
+        desc: "Offensive rain team used by Gavin Michaels to win the 2023 Oceania International Championships.",
         sets: [
           {
             "species": "Amoonguss",
@@ -2662,7 +2740,7 @@ const TEAMS = {
         ]
       },
       {
-        name: "Oceania Perish Trap", 
+        name: "Oceania Perish Trap",
         owner: {
           name: "Sir Scrubbington",
           link: "https://twitter.com/SirScrubbington",
@@ -2881,7 +2959,7 @@ const TEAMS = {
           name: "Sir Scrubbington",
           link: "https://twitter.com/SirScrubbington",
         },
-        desc: "Hyper-offensive Tatsugiri + Dondozo team updated for Regulation B. Inspired by <a class='text-secondary' href='https://twitter.com/ChuppaVGC'>Chuppa Cross IV's</a> Series 1 Dondozo team.", 
+        desc: "Hyper-offensive Tatsugiri + Dondozo team updated for Regulation B. Inspired by <a class='text-secondary' href='https://twitter.com/ChuppaVGC'>Chuppa Cross IV's</a> Series 1 Dondozo team.",
         sets: [
           {
             "species": "Meowscarada",
@@ -3082,11 +3160,11 @@ const TEAMS = {
             }
           }
         ]
-      }, 
+      },
       {
         name: "Garganacl Bulky Offense",
         owner: {},
-        desc: "Standard bulky offense team built around using your offensive Pokemon to enable Garganacl to stall out the opposing team.", 
+        desc: "Standard bulky offense team built around using your offensive Pokemon to enable Garganacl to stall out the opposing team.",
         sets: [
           {
             "species": "Iron Hands",
@@ -3302,7 +3380,7 @@ const TEAMS = {
           name: "Sir Scrubbington",
           link: "https://twitter.com/SirScrubbington",
         },
-        desc: "Early-meta balance team built around Assault Vest Hydreigon and Nasty Plot Life Orb Gholdengo.", 
+        desc: "Early-meta balance team built around Assault Vest Hydreigon and Nasty Plot Life Orb Gholdengo.",
         sets: [
           {
             "species": "Murkrow",
@@ -3509,7 +3587,7 @@ const TEAMS = {
             }
           }
         ]
-      }, 
+      },
       {
         name: "Dondozo Hyper Offense",
         owner: {
@@ -4335,7 +4413,7 @@ const TEAMS = {
           name: "Aaron Zheng (@CybertronVGC)",
           link: "https://twitter.com/CybertronVGC",
         },
-        desc: "Balanced team Aaron Zheng used to win US Nationals in seniors in 2012.", 
+        desc: "Balanced team Aaron Zheng used to win US Nationals in seniors in 2012.",
         sets: [
           {
             other: {},
@@ -4506,7 +4584,7 @@ const TEAMS = {
           name: "Ray Rizzo",
           link: "https://twitter.com/RayRizzoVGC",
         },
-        desc: "Team Ray Rizzo used to win his third consecutive World Championship in 2012.", 
+        desc: "Team Ray Rizzo used to win his third consecutive World Championship in 2012.",
         sets: [
           {
             other: {},
@@ -4680,7 +4758,7 @@ const TEAMS = {
           name: "Sir Scrubbington",
           link: "https://twitter.com/SirScrubbington",
         },
-        desc: "Powerful offensive rain team used to sweep the Double Battle Subway in BW/B2W2.", 
+        desc: "Powerful offensive rain team used to sweep the Double Battle Subway in BW/B2W2.",
         sets: [
           {
             other: {
@@ -5650,7 +5728,7 @@ const TEAMS = {
         ],
         name: "gebebo worlds",
         owner: {
-          name: "gebebo", 
+          name: "gebebo",
           link: "https://twitter.com/gebebo"
         },
         desc: "Balanced trick room team used by Gebebo to make finals at the Pokemon World Championships in 2013.",
@@ -6025,7 +6103,7 @@ const TEAMS = {
           name: 'Jack Buckley (@Arahpthos)',
           link: "https://twitter.com/Arahpthos",
         },
-        desc: "Strong Dual Primals team used by Jack Buckley to win the Brisbane Regional Championships in 2016.", 
+        desc: "Strong Dual Primals team used by Jack Buckley to win the Brisbane Regional Championships in 2016.",
         sets: [
           {
             other: {
@@ -6214,7 +6292,7 @@ const TEAMS = {
           name: "Sir Scrubbington",
           link: "https://twitter.com/SirScrubbington",
         },
-        desc: "Gravity + Trick Room team built around a fast Sableye + Blizzard mode and a slow Bronzong + Groudon mode.", 
+        desc: "Gravity + Trick Room team built around a fast Sableye + Blizzard mode and a slow Bronzong + Groudon mode.",
         sets: [
           {
             other: {
@@ -6582,7 +6660,7 @@ const TEAMS = {
           name: "Paul Chua",
           link: "https://twitter.com/Paul_Chua_",
         },
-        desc: "Unique Rayquaza + Groudon team used by Paul Chua at the 2016 Pokemon World Championships.", 
+        desc: "Unique Rayquaza + Groudon team used by Paul Chua at the 2016 Pokemon World Championships.",
         sets: [
           {
             other: {
@@ -6765,7 +6843,7 @@ const TEAMS = {
           name: "Sir Scrubbington",
           link: "https://twitter.com/SirScrubbington",
         },
-        desc: "Standard Xerneas + Groudon Bronzong team which was popular around and after the 2016 World Championships.", 
+        desc: "Standard Xerneas + Groudon Bronzong team which was popular around and after the 2016 World Championships.",
         sets: [
           {
             other: {
@@ -6952,7 +7030,7 @@ const TEAMS = {
           name: "Sir Scrubbington",
           link: "https://twitter.com/SirScrubbington",
         },
-        desc: "Standard Xerneas + Groudon team which I used to make top 8 of the Australian national championships in 2016.", 
+        desc: "Standard Xerneas + Groudon team which I used to make top 8 of the Australian national championships in 2016.",
         sets: [
           {
             other: {},
@@ -7128,7 +7206,7 @@ const TEAMS = {
           name: "Sir Scrubbington",
           link: "https://twitter.com/SirScrubbington",
         },
-        desc: "Xerneas + Groudon team built around Soak Golduck and Shedinja, which many ladder teams were unable to hit.", 
+        desc: "Xerneas + Groudon team built around Soak Golduck and Shedinja, which many ladder teams were unable to hit.",
         sets: [
           {
             other: {
@@ -7315,7 +7393,7 @@ const TEAMS = {
           name: "Sir Scrubbington",
           link: "https://twitter.com/SirScrubbington",
         },
-        desc: "Xerneas + Groudon team built around abusing the pressure created by Xerneas + Smeargle to get soak off on Shedinja.", 
+        desc: "Xerneas + Groudon team built around abusing the pressure created by Xerneas + Smeargle to get soak off on Shedinja.",
         sets: [
           {
             other: {
@@ -7496,7 +7574,7 @@ const TEAMS = {
       {
         owner: {
           name: "Sam Pandelis (@Mihoskies)",
-          link: "https://twitter.com/mihoskies", 
+          link: "https://twitter.com/mihoskies",
         },
         desc: "Yveltal + Groudon team Sam Pandelis used to make top 16 at the 2016 Pokemon World Championships.",
         sets: [
@@ -7680,7 +7758,7 @@ const TEAMS = {
           name: "Arash Ommati",
           link: "https://twitter.com/Mean_vgc",
         },
-        desc: "Yveltal + Groudon team Arash Ommati used to win the German National Championships in 2016.", 
+        desc: "Yveltal + Groudon team Arash Ommati used to win the German National Championships in 2016.",
         sets: [
           {
             other: {
@@ -7860,7 +7938,7 @@ const TEAMS = {
           name: "Sir Scrubbington",
           link: "https://twitter.com/SirScrubbington",
         },
-        desc: "Standard Kyogre + Zekrom team which was commonly used for a positive Rayquaza + Kyogre matchup in post-worlds 2016.", 
+        desc: "Standard Kyogre + Zekrom team which was commonly used for a positive Rayquaza + Kyogre matchup in post-worlds 2016.",
         sets: [
           {
             other: {
@@ -8230,9 +8308,9 @@ const TEAMS = {
       {
         owner: {
           name: 'Wolfe Glick',
-          link: 'https://twitter.com/WolfeyGlick' 
+          link: 'https://twitter.com/WolfeyGlick'
         },
-        desc: "Meta-defining Rayquaza + Kyogre team Wolfe Glick used to win the World Championships in 2016.", 
+        desc: "Meta-defining Rayquaza + Kyogre team Wolfe Glick used to win the World Championships in 2016.",
         sets: [
           {
             other: {},
@@ -8408,7 +8486,7 @@ const TEAMS = {
           name: 'Jack Buckley (@Arahpthos)',
           link: "https://twitter.com/Arahpthos",
         },
-        desc: "Early-meta Rayquaza + Kyogre team built around using offensive Raichu to pressure opposing Kyogre.", 
+        desc: "Early-meta Rayquaza + Kyogre team built around using offensive Raichu to pressure opposing Kyogre.",
         sets: [
           {
             other: {
@@ -8591,7 +8669,7 @@ const TEAMS = {
           name: "Sir Scrubbington",
           link: "https://twitter.com/SirScrubbington",
         },
-        desc: "Standard Xerneas + Kyogre team which uses Infernape as Fake-Out support for Xerneas.", 
+        desc: "Standard Xerneas + Kyogre team which uses Infernape as Fake-Out support for Xerneas.",
         sets: [
           {
             other: {
@@ -8773,7 +8851,7 @@ const TEAMS = {
           name: "Daniel Walker (@Ludicola)",
           link: "https://twitter.com/Ludicola31"
         },
-        desc: "Unique Xerneas + Rayquaza team which was used by Daniel Walker at the 2016 Australian National Championships.", 
+        desc: "Unique Xerneas + Rayquaza team which was used by Daniel Walker at the 2016 Australian National Championships.",
         sets: [
           {
             other: {
@@ -8962,7 +9040,7 @@ const TEAMS = {
           name: "Sir Scrubbington",
           link: "https://twitter.com/SirScrubbington",
         },
-        desc: "Dialga + Ho-Oh Team built for a grassroots tournament which banned the top 10 most used Pokemon in VGC 2016.", 
+        desc: "Dialga + Ho-Oh Team built for a grassroots tournament which banned the top 10 most used Pokemon in VGC 2016.",
         sets: [
           {
             other: {
@@ -9142,7 +9220,7 @@ const TEAMS = {
           name: "Sir Scrubbington",
           link: "https://twitter.com/SirScrubbington",
         },
-        desc: "Dialga + Scarf Kyogre team which I used to win a local grassroots tournament in 2016.", 
+        desc: "Dialga + Scarf Kyogre team which I used to win a local grassroots tournament in 2016.",
         sets: [
           {
             other: {
@@ -9324,7 +9402,7 @@ const TEAMS = {
           name: "Sir Scrubbington",
           link: "https://twitter.com/SirScrubbington",
         },
-        desc: "Dialga + Kyogre Team built for a grassroots tournament which banned the top 10 most used Pokemon in VGC 2016.", 
+        desc: "Dialga + Kyogre Team built for a grassroots tournament which banned the top 10 most used Pokemon in VGC 2016.",
         sets: [
           {
             other: {
@@ -9506,7 +9584,7 @@ const TEAMS = {
           name: "Sir Scrubbington",
           link: "https://twitter.com/SirScrubbington",
         },
-        desc: "Dialga + Mewtwo Team built for a grassroots tournament which banned the top 10 most used Pokemon in VGC 2016.", 
+        desc: "Dialga + Mewtwo Team built for a grassroots tournament which banned the top 10 most used Pokemon in VGC 2016.",
         sets: [
           {
             other: {
@@ -9688,7 +9766,7 @@ const TEAMS = {
           name: "Sir Scrubbington",
           link: "https://twitter.com/SirScrubbington",
         },
-        desc: "Sheer cats meme team built for a grassroots tournament which banned the top 10 most used Pokemon in VGC 2016.", 
+        desc: "Sheer cats meme team built for a grassroots tournament which banned the top 10 most used Pokemon in VGC 2016.",
         sets: [
           {
             other: {
@@ -9875,7 +9953,7 @@ const TEAMS = {
           name: "Sir Scrubbington",
           link: "https://twitter.com/SirScrubbington",
         },
-        desc: "Scolipede Baton Pass team which I used to win the UQ vs. QUT Grassroots Event in 2017.", 
+        desc: "Scolipede Baton Pass team which I used to win the UQ vs. QUT Grassroots Event in 2017.",
         sets: [
           {
             other: {
@@ -10068,7 +10146,7 @@ const TEAMS = {
           name: "Sir Scrubbington",
           link: "https://twitter.com/SirScrubbington",
         },
-        desc: "Hyper-offensive rain team which I used in the UQ vs. QUT grassroots competition in 2018.", 
+        desc: "Hyper-offensive rain team which I used in the UQ vs. QUT grassroots competition in 2018.",
         sets: [
           {
             other: {
@@ -10256,7 +10334,7 @@ const TEAMS = {
           name: "Sir Scrubbington",
           link: "https://twitter.com/SirScrubbington",
         },
-        desc: "Mega Medicham + Regenerator team I used at the UQ vs. QUT competition in 2019.", 
+        desc: "Mega Medicham + Regenerator team I used at the UQ vs. QUT competition in 2019.",
         sets: [
           {
             other: {},
@@ -10791,7 +10869,7 @@ const TEAMS = {
           },
         ],
         name: "latias setup",
-        desc: "Bulky offense team based around setup Calm Mind + Recover Latias.", 
+        desc: "Bulky offense team based around setup Calm Mind + Recover Latias.",
       },
       {
         owner: {
@@ -10974,7 +11052,7 @@ const TEAMS = {
           },
         ],
         name: "latios rain",
-        desc: "Rain team based around Rain Dance Latios + Fake Out Offensive Ludicolo.", 
+        desc: "Rain team based around Rain Dance Latios + Fake Out Offensive Ludicolo.",
       },
       {
         owner: {
@@ -11152,7 +11230,7 @@ const TEAMS = {
           },
         ],
         name: "manectric rain",
-        desc: "Offensive rain team based around Ludicolo and Rain Dance Manectric.", 
+        desc: "Offensive rain team based around Ludicolo and Rain Dance Manectric.",
       },
       {
         owner: {
@@ -11352,7 +11430,7 @@ const TEAMS = {
           name: "Sir Scrubbington",
           link: "https://twitter.com/SirScrubbington",
         },
-        desc: "Standard bulky offense team built around using Incineroar and Rillaboom to support your bulky setup Pokemon.", 
+        desc: "Standard bulky offense team built around using Incineroar and Rillaboom to support your bulky setup Pokemon.",
         sets: [
           {
             "species": "Tapu Fini",
@@ -11729,7 +11807,7 @@ const TEAMS = {
             species: "Gastrodon",
           },
         ],
-        desc: "Standard Series 12 Sun team based off <a class='text-secondary' href='https://twitter.com/gozira2004'> Rinya's </a> popular sun team.", 
+        desc: "Standard Series 12 Sun team based off <a class='text-secondary' href='https://twitter.com/gozira2004'> Rinya's </a> popular sun team.",
       },
       {
         owner: {
@@ -11737,7 +11815,7 @@ const TEAMS = {
           link: "https://twitter.com/SirScrubbington",
         },
         name: "standard swordfish",
-        desc: "Standard Zacian + Kyogre team which was very popular at the 2022 Brisbane Regional Championships.", 
+        desc: "Standard Zacian + Kyogre team which was very popular at the 2022 Brisbane Regional Championships.",
         sets: [
           {
             ability: "Drizzle",
@@ -11920,7 +11998,7 @@ const TEAMS = {
           link: "https://twitter.com/SirScrubbington",
         },
         name: "brisbane ice rider",
-        desc: "Kyogre + Ice Rider team which I used at the 2023 Brisbane Regional Championships.", 
+        desc: "Kyogre + Ice Rider team which I used at the 2023 Brisbane Regional Championships.",
         sets: [
           {
             ability: "Drizzle",
@@ -26768,7 +26846,7 @@ const TEAMS = {
           },
         ],
         name: "dual primals",
-        desc: "Standard Kyogre + VenuCoal team which was popular in online tournaments. Tailwind Tornadus is often used over Thundurus.", 
+        desc: "Standard Kyogre + VenuCoal team which was popular in online tournaments. Tailwind Tornadus is often used over Thundurus.",
       },
       {
         owner: {
@@ -26951,7 +27029,7 @@ const TEAMS = {
           },
         ],
         name: "zacian venu coal",
-        desc: "Zacian + VenuCoal team which was popular in online tournaments.", 
+        desc: "Zacian + VenuCoal team which was popular in online tournaments.",
       },
     ],
   },
@@ -27138,7 +27216,7 @@ const TEAMS = {
           },
         ],
         name: "standard latias",
-        desc: "", 
+        desc: "",
       },
       {
         sets: [
@@ -30108,7 +30186,7 @@ const TEAMS = {
           },
         ],
         name: "japan snarl trap",
-        desc: "Snarl Mega Manectric + Gothitelle control team popular in Japan.", 
+        desc: "Snarl Mega Manectric + Gothitelle control team popular in Japan.",
       },
       {
         owner: {
@@ -30657,7 +30735,7 @@ const TEAMS = {
           },
         ],
         name: "calm mind cresselia",
-        desc: "Bulky Dual-Mega team based around supporting Calm Mind + Moonlight Cresselia to sweep teams.", 
+        desc: "Bulky Dual-Mega team based around supporting Calm Mind + Moonlight Cresselia to sweep teams.",
       },
       {
         owner: {
@@ -30841,7 +30919,7 @@ const TEAMS = {
           },
         ],
         name: "zard y mimikyu snorlax",
-        desc: "Hyper-offensive mixed-mode Charizard Y team which provides multiple lead options to pressure opponents.", 
+        desc: "Hyper-offensive mixed-mode Charizard Y team which provides multiple lead options to pressure opponents.",
       },
       {
         owner: {
@@ -31195,7 +31273,7 @@ const TEAMS = {
       },
       {
         owner: {
-          name: "Alister Sandover", 
+          name: "Alister Sandover",
           link: "https://twitter.com/vivalavlade"
         },
         sets: [
@@ -31549,7 +31627,7 @@ const TEAMS = {
           },
         ],
         name: "mixed perish",
-        desc: "Mixed-mode Perish Trap team which provides a control mode and offense mode for different matchups.", 
+        desc: "Mixed-mode Perish Trap team which provides a control mode and offense mode for different matchups.",
       },
       {
         owner: {
@@ -31731,8 +31809,8 @@ const TEAMS = {
       },
       {
         owner: {
-          name: "Dave Cognetta", 
-          link: "https://twitter.com/DesuVGC", 
+          name: "Dave Cognetta",
+          link: "https://twitter.com/DesuVGC",
         },
         sets: [
           {
@@ -31914,7 +31992,7 @@ const TEAMS = {
       },
       {
         owner: {
-          name: "Ashton Cox", 
+          name: "Ashton Cox",
           link: "https://twitter.com/AshtonCoxGAZ"
         },
         sets: [
@@ -32266,7 +32344,7 @@ const TEAMS = {
           },
         ],
         name: "mega gyarados",
-        desc: "Balanced Mega Gyarados team built around using Fake Out + Intimidate to enable Gyarados to sweep.", 
+        desc: "Balanced Mega Gyarados team built around using Fake Out + Intimidate to enable Gyarados to sweep.",
       },
       {
         owner: {
@@ -32805,7 +32883,7 @@ const TEAMS = {
           },
         ],
         name: "kangaskhan balance",
-        desc: "Balanced Mega Kangaskhan team based on the team used by <a class='text-secondary' href='https://twitter.com/nontaro_vgc'>Nontaro</a> to top the VGC 2018 ladder on Showdown.", 
+        desc: "Balanced Mega Kangaskhan team based on the team used by <a class='text-secondary' href='https://twitter.com/nontaro_vgc'>Nontaro</a> to top the VGC 2018 ladder on Showdown.",
       },
       {
         owner: {
@@ -32988,11 +33066,11 @@ const TEAMS = {
           },
         ],
         name: "standard latias",
-        desc: "Standard Mega Latias team built around supporting Latias while it uses Calm Mind and Recover to set up.", 
+        desc: "Standard Mega Latias team built around supporting Latias while it uses Calm Mind and Recover to set up.",
       },
       {
         owner: {
-          name: "Avatar Fede", 
+          name: "Avatar Fede",
           link: "https://twitter.com/AvatarFede"
         },
         sets: [
@@ -33168,7 +33246,7 @@ const TEAMS = {
           },
         ],
         name: "lele snarl trap",
-        desc: "Offensively orientated Snarl Trap team used by Avatar Fede at the Oceania International Championships in 2018.", 
+        desc: "Offensively orientated Snarl Trap team used by Avatar Fede at the Oceania International Championships in 2018.",
       },
       {
         owner: {
@@ -33700,7 +33778,7 @@ const TEAMS = {
           },
         ],
         name: "ttar volc setup spam",
-        desc: "Offensive team with three seperate setup options, supported by Alolan Persian and Scarf Tapu Bulu.", 
+        desc: "Offensive team with three seperate setup options, supported by Alolan Persian and Scarf Tapu Bulu.",
       },
       {
         owner: {
@@ -34056,7 +34134,7 @@ const TEAMS = {
             nature: "Modest",
           },
         ],
-        desc: "Standard Metagross + Tapu Lele team which was popular at the Oceania International Championships in 2018.", 
+        desc: "Standard Metagross + Tapu Lele team which was popular at the Oceania International Championships in 2018.",
         name: "standard meta lele",
       },
       {
@@ -34425,7 +34503,7 @@ const TEAMS = {
       },
       {
         owner: {
-          name: "Sejun Park", 
+          name: "Sejun Park",
           link: "https://twitter.com/pokemon_tcg",
         },
         sets: [
@@ -34610,7 +34688,7 @@ const TEAMS = {
       {
         owner: {
           name: 'Wolfe Glick',
-          link: 'https://twitter.com/WolfeyGlick' 
+          link: 'https://twitter.com/WolfeyGlick'
         },
         sets: [
           {
