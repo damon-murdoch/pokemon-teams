@@ -35,12 +35,35 @@ function getTypeColor(type) {
 
 // Get the table for the set
 function showTableSet(body, set) {
+
+  // Container for the table
+  let table_div = document.createElement('div');
+
   // Create the table for the given set
   let table = document.createElement('table');
 
   // Set the classlist to the table
   table.classList.add('table');
   table.classList.add('table-dark');
+
+  // Lower-case version of the species name
+  const speciesLower = set.species.toLowerCase();
+
+  // Species Name Text Colour
+  let speciesColor = "";
+
+  // Find the data for the given pokemon species
+  const species = POKEMON.find(x => x.species == speciesLower);
+
+  // Species is found
+  if (species){
+    // Get the colour for the species first type
+    speciesColor = getTypeColor(species.type1);
+  }
+  else // Species not found
+  {
+    console.warn(`Data for species '${speciesLower}' not found!`);
+  }
 
   // Tera Type Placeholder
   // For formats that don't support it
@@ -561,6 +584,11 @@ function showTableSet(body, set) {
   // List of move colors
   const moveColors = [];
 
+  // If there are less than 4 moves
+  while (set.moves.length < 4){
+    set.moves.push("(No Move)");
+  }
+
   // Loop over the moves
   for (move of set.moves) {
 
@@ -575,6 +603,11 @@ function showTableSet(body, set) {
 
     // Account for special cases
     switch (moveLower) {
+      // No Move
+      case '(no move)': {
+        // No move color
+        moveColor = getTypeColor('-');
+      }; break;
       // Tera Blast
       case 'tera blast': {
         // Match tera color
@@ -644,7 +677,7 @@ function showTableSet(body, set) {
     <th class='bordered align-middle'>
         Pokémon
     </th>
-    <th class='bordered align-middle' id='species'>`
+    <th class='bordered align-middle' id='species' style='${speciesColor}'>`
     + set.species +
     `</th>
     <td class='bordered align-middle' rowspan=2>`
@@ -838,11 +871,62 @@ function showTableSet(body, set) {
   </tr>
   `;
 
+  // Div for containing the set copy link
+  let link_div = document.createElement('div');
+  link_div.classList.add('text-center');
+  link_div.classList.add('mt-0');
+
+  // Create the copy set link
+  let btn = document.createElement('button');
+  btn.innerHTML = `Copy ${set.species} Set`;
+  
+  // Set the class list for the button
+  btn.classList.add('btn');
+  btn.classList.add('btn-link');
+  btn.style = `${speciesColor}`;
+
+
+  // Export to clipboard event listener
+  btn.addEventListener('click', async event => {
+
+    // If the clipboard module exists in the client's browser
+    if (navigator.clipboard) {
+      // Export string which will be copied to the clipboard
+      content = parseJson([set]);
+
+      try {
+        // Copy the string to the clipboard
+        await navigator.clipboard.writeText(content);
+
+        // Successful copy alert
+        window.alert(set.species + " copied to clipboard successfully.");
+      }
+      catch (err) {
+        // Report the failure to the error console
+        console.error('Failed to copy content "' + content + '"! Reason: "' + err + '"');
+      }
+    }
+    else // Clipboard module is not available
+    {
+      // Report failure to console, continue
+      console.error('Clipboard interaction not supported by browser.');
+    }
+  });
+
+  // Add the button to the link div
+  link_div.appendChild(btn);
+
+  // Add the link div to the body
+  table_div.appendChild(link_div);
+
   // Add the row to the table
   table.innerHTML = row_content;
 
-  // Add the row to the content
-  body.appendChild(table);
+  // Add the table to the div
+  table_div.appendChild(table);
+
+  // Add the div to the content
+  body.appendChild(table_div);
 }
 
 // Show the team page
@@ -901,10 +985,32 @@ function showPageTeam(format, folder, team) {
   // Description is defined in the data
   if (keys.includes('desc')) {
     // Get the description element
-    const siteDesc = document.getElementById('sitedesc');
+    const sitedesc = document.getElementById('sitedesc');
 
     // Set the description to the team description
-    siteDesc.innerHTML = data.desc;
+    sitedesc.innerHTML = data.desc;
+  }
+  else // No description
+  {
+    sitedesc.innerHTML = `No description found - offer a correction `;
+
+    // Create the link element
+    const desclink = document.createElement('a');
+
+    // Grey link text
+    desclink.classList.add('text-secondary');
+
+    // Open link in new tab
+    desclink.target = "_blank";
+
+    // Sample link text
+    desclink.innerHTML = 'here';
+
+    // Set the link to the issues section of the repository (Convert any spaces to pluses to preserve formatting)
+    desclink.href = `https://github.com/damon-murdoch/pokemon-teams/issues/new?title=Add+Description:+${format}/${folder}/${name.replace(' ', '+')}`
+
+    // Add the link to the description
+    sitedesc.appendChild(desclink);
   }
 
   // Add the link to the subtitle
@@ -967,22 +1073,23 @@ function showPageTeam(format, folder, team) {
   // Add the row to the container
   container.appendChild(row);
 
-  // Add the table to the body
-  body.appendChild(container);
-
   // Create the paste export button
   let btn = document.createElement('button');
 
   // Set the id for the button
   btn.id = 'paste-export';
-  btn.innerHTML = "Showdown Export";
+  btn.innerHTML = "Copy Team to Clipboard";
 
   // Set the class list for the button
   btn.classList.add('btn');
-  btn.classList.add('btn-secondary');
+  btn.classList.add('btn-link');
+  btn.classList.add('text-secondary');
 
   // Add the button to the body
   body.appendChild(btn);
+
+  // Add the table to the body
+  body.appendChild(container);
 
   // Export to clipboard event listener
   document.getElementById('paste-export').addEventListener('click', async event => {
@@ -997,7 +1104,7 @@ function showPageTeam(format, folder, team) {
         await navigator.clipboard.writeText(content);
 
         // Successful copy alert
-        window.alert("Team '" + data.name + "' copied to clipboard successfully.");
+        window.alert(name + " copied to clipboard successfully.");
       }
       catch (err) {
         // Report the failure to the error console
@@ -1299,7 +1406,7 @@ function showTableHome(body, format = null, folder = null) {
   }
 
   // Update the team counter element
-  const teamCount = document.getElementById('teamCount');
+  const teamCount = document.getElementById('sitedesc');
 
   // Update the team count content
   teamCount.innerHTML = `Teams Found: ${counter}`;

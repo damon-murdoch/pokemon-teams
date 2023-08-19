@@ -3300,7 +3300,7 @@ const TEAMS = {
             },
             gender: "m",
             item: "Focus Sash",
-            nickname: "Bob Ross",
+            nickname: "",
             evs: {
               spe: 252,
               def: 6,
@@ -3728,7 +3728,7 @@ const TEAMS = {
             },
             gender: "m",
             item: "Focus Sash",
-            nickname: "Bob Ross",
+            nickname: "",
             evs: {
               spe: 0,
               def: 252,
@@ -4057,7 +4057,7 @@ const TEAMS = {
             },
             gender: "",
             item: "Focus Sash",
-            nickname: "MC Hammer",
+            nickname: "",
             evs: {
               spe: 252,
               def: 0,
@@ -4086,7 +4086,7 @@ const TEAMS = {
             },
             gender: "m",
             item: "Mental Herb",
-            nickname: "Bob Ross",
+            nickname: "",
             evs: {
               spe: 0,
               def: 252,
@@ -4129,7 +4129,7 @@ const TEAMS = {
             },
             gender: "",
             item: "Red Orb",
-            nickname: "Mastodon",
+            nickname: "",
             evs: {
               spe: 252,
               def: 4,
@@ -4158,7 +4158,7 @@ const TEAMS = {
             },
             gender: "",
             item: "Power Herb",
-            nickname: "Boomdude",
+            nickname: "",
             evs: {
               spe: 252,
               def: 12,
@@ -4187,7 +4187,7 @@ const TEAMS = {
             },
             gender: "",
             item: "Salamencite",
-            nickname: "Arahpthos",
+            nickname: "",
             evs: {
               spe: 252,
               def: 0,
@@ -4216,7 +4216,7 @@ const TEAMS = {
             },
             gender: "",
             item: "Mental Herb",
-            nickname: "MalcolmIsBad",
+            nickname: "",
             evs: {
               spe: 0,
               def: 132,
@@ -4245,7 +4245,7 @@ const TEAMS = {
             },
             gender: "",
             item: "Focus Sash",
-            nickname: "MC Hammer",
+            nickname: "",
             evs: {
               spe: 252,
               def: 0,
@@ -4274,7 +4274,7 @@ const TEAMS = {
             },
             gender: "",
             item: "Choice Scarf",
-            nickname: "Bob Ross",
+            nickname: "",
             evs: {
               spe: 252,
               def: 144,
@@ -4427,7 +4427,7 @@ const TEAMS = {
             },
             gender: "m",
             item: "Choice Scarf",
-            nickname: "Bob Ross",
+            nickname: "",
             evs: {
               spe: 252,
               def: 172,
@@ -4979,7 +4979,7 @@ const TEAMS = {
             },
             gender: "f",
             item: "Mental Herb",
-            nickname: "Bob Ross",
+            nickname: "",
             evs: {
               spe: 252,
               def: 0,
@@ -5736,7 +5736,7 @@ const TEAMS = {
             },
             gender: "m",
             item: "Choice Scarf",
-            nickname: "Bob Ross",
+            nickname: "",
             evs: {
               spe: 252,
               def: 172,
@@ -6689,7 +6689,7 @@ const TEAMS = {
             },
             gender: "",
             item: "Heracronite",
-            nickname: "LUNATIC",
+            nickname: "",
             evs: {
               spe: 252,
               def: 4,
@@ -6722,7 +6722,7 @@ const TEAMS = {
             },
             gender: "",
             item: "Fightinium Z",
-            nickname: "GUARDIAN ANGEL",
+            nickname: "",
             evs: {
               spe: 252,
               def: 4,
@@ -6750,7 +6750,7 @@ const TEAMS = {
             },
             gender: "",
             item: "Kee Berry",
-            nickname: "UFO LOVER",
+            nickname: "",
             evs: {
               spe: 4,
               def: 252,
@@ -6778,7 +6778,7 @@ const TEAMS = {
             },
             gender: "",
             item: "Life Orb",
-            nickname: "RAIN DANCE",
+            nickname: "",
             evs: {
               spe: 252,
               def: 4,
@@ -6811,7 +6811,7 @@ const TEAMS = {
             },
             gender: "m",
             item: "Black Sludge",
-            nickname: "TIME WILL TELL",
+            nickname: "",
             evs: {
               spe: 252,
               def: 4,
@@ -6839,7 +6839,7 @@ const TEAMS = {
             },
             gender: "",
             item: "Life Orb",
-            nickname: "ON THE MOON",
+            nickname: "",
             evs: {
               spe: 252,
               def: 4,
@@ -6882,7 +6882,7 @@ const TEAMS = {
             },
             gender: "f",
             item: "Swampertite",
-            nickname: "Sweet",
+            nickname: "",
             evs: {
               spe: 252,
               def: 0,
@@ -6910,7 +6910,7 @@ const TEAMS = {
             },
             gender: "f",
             item: "Buginium Z",
-            nickname: "Sadistic",
+            nickname: "",
             evs: {
               spe: 252,
               def: 0,
@@ -6971,7 +6971,7 @@ const TEAMS = {
             },
             gender: "",
             item: "Choice Scarf",
-            nickname: "Service",
+            nickname: "",
             evs: {
               spe: 252,
               def: 0,
@@ -6999,7 +6999,7 @@ const TEAMS = {
             },
             gender: "f",
             item: "Choice Scarf",
-            nickname: "Smile",
+            nickname: "",
             evs: {
               spe: 252,
               def: 0,
@@ -7027,7 +7027,7 @@ const TEAMS = {
             },
             gender: "",
             item: "Choice Specs",
-            nickname: "Surprise",
+            nickname: "",
             evs: {
               spe: 252,
               def: 4,
@@ -7068,7 +7068,7 @@ const TEAMS = {
             },
             gender: "",
             item: "Medichamite",
-            nickname: "Star Platinum",
+            nickname: "",
             evs: {
               spe: 252,
               def: 4,
@@ -7094,7 +7094,7 @@ const TEAMS = {
             },
             gender: "",
             item: "Flyinium Z",
-            nickname: "Horus",
+            nickname: "",
             evs: {
               spe: 252,
               def: 0,
@@ -7120,7 +7120,7 @@ const TEAMS = {
             },
             gender: "",
             item: "Leftovers",
-            nickname: "Heirophant",
+            nickname: "",
             evs: {
               spe: 0,
               def: 24,
@@ -7146,7 +7146,7 @@ const TEAMS = {
             },
             gender: "m",
             item: "Leftovers",
-            nickname: "Sun",
+            nickname: "",
             evs: {
               spe: 80,
               def: 0,
@@ -7172,7 +7172,7 @@ const TEAMS = {
             },
             gender: "",
             item: "Choice Scarf",
-            nickname: "The Fool",
+            nickname: "",
             evs: {
               spe: 208,
               def: 68,
@@ -7198,7 +7198,7 @@ const TEAMS = {
             },
             gender: "",
             item: "Black Sludge",
-            nickname: "Justice",
+            nickname: "",
             evs: {
               spe: 0,
               def: 4,
@@ -10707,7 +10707,7 @@ const TEAMS = {
             },
             gender: "",
             item: "Mental Herb",
-            nickname: "RockSolidBan",
+            nickname: "",
             evs: {
               spe: 0,
               def: 252,
@@ -10741,7 +10741,7 @@ const TEAMS = {
             },
             gender: "f",
             item: "Eviolite",
-            nickname: "Banseeeeee",
+            nickname: "",
             evs: {
               spe: 0,
               def: 252,
@@ -10799,7 +10799,7 @@ const TEAMS = {
             },
             gender: "m",
             item: "Focus Sash",
-            nickname: "Little Ban",
+            nickname: "",
             evs: {
               spe: 252,
               def: 4,
@@ -16309,7 +16309,7 @@ const TEAMS = {
             },
             gender: "f",
             item: "Fightinium Z",
-            nickname: "LEGS",
+            nickname: "",
             evs: {
               spe: 252,
               def: 4,
@@ -18499,7 +18499,7 @@ const TEAMS = {
             },
             gender: "f",
             item: "Figy Berry",
-            nickname: "Sverker",
+            nickname: "",
             evs: {
               spe: 0,
               def: 28,
@@ -18725,7 +18725,7 @@ const TEAMS = {
             },
             gender: "",
             item: "Choice Scarf",
-            nickname: "Mr Meeseeks",
+            nickname: "",
             evs: {
               spe: 164,
               def: 36,
@@ -19101,7 +19101,7 @@ const TEAMS = {
             },
             gender: "f",
             item: "Grassium Z",
-            nickname: "best girl",
+            nickname: "",
             evs: {
               spe: 252,
               def: 4,
@@ -19130,7 +19130,7 @@ const TEAMS = {
             },
             gender: "m",
             item: "Ghostium Z",
-            nickname: "dead boi",
+            nickname: "",
             evs: {
               spe: 0,
               def: 236,
@@ -19159,7 +19159,7 @@ const TEAMS = {
             },
             gender: "m",
             item: "Flame Orb",
-            nickname: "hands boi",
+            nickname: "",
             evs: {
               spe: 0,
               def: 108,
@@ -19189,7 +19189,7 @@ const TEAMS = {
             },
             gender: "m",
             item: "Figy Berry",
-            nickname: "thicc boi",
+            nickname: "",
             evs: {
               spe: 0,
               def: 244,
@@ -19217,7 +19217,7 @@ const TEAMS = {
             },
             gender: "",
             item: "Choice Specs",
-            nickname: "wierd boi",
+            nickname: "",
             evs: {
               spe: 36,
               def: 212,
@@ -19246,7 +19246,7 @@ const TEAMS = {
             },
             gender: "m",
             item: "Charcoal",
-            nickname: "hot boi",
+            nickname: "",
             evs: {
               spe: 0,
               def: 0,
@@ -19493,7 +19493,7 @@ const TEAMS = {
             },
             gender: "f",
             item: "Flyinium Z",
-            nickname: "DDRevelation",
+            nickname: "",
             evs: {
               spe: 252,
               def: 4,
@@ -19521,7 +19521,7 @@ const TEAMS = {
             },
             gender: "m",
             item: "Assault Vest",
-            nickname: "Kukui",
+            nickname: "",
             evs: {
               spe: 252,
               def: 4,
@@ -19549,7 +19549,7 @@ const TEAMS = {
             },
             gender: "",
             item: "Focus Sash",
-            nickname: "Legs Goddess",
+            nickname: "",
             evs: {
               spe: 252,
               def: 0,
@@ -19577,7 +19577,7 @@ const TEAMS = {
             },
             gender: "",
             item: "Choice Scarf",
-            nickname: "Mr Meeseeks",
+            nickname: "",
             evs: {
               spe: 164,
               def: 44,
@@ -19605,7 +19605,7 @@ const TEAMS = {
             },
             gender: "f",
             item: "Flame Plate",
-            nickname: "Best Girl",
+            nickname: "",
             evs: {
               spe: 0,
               def: 0,
@@ -19636,7 +19636,7 @@ const TEAMS = {
             },
             gender: "f",
             item: "Grassium Z",
-            nickname: "BOOMPineappl",
+            nickname: "",
             evs: {
               spe: 252,
               def: 0,
@@ -19662,7 +19662,7 @@ const TEAMS = {
             },
             gender: "",
             item: "Poisonium Z",
-            nickname: "LEGSPineappl",
+            nickname: "",
             evs: {
               spe: 252,
               def: 0,
@@ -19688,7 +19688,7 @@ const TEAMS = {
             },
             gender: "f",
             item: "Mental Herb",
-            nickname: "DeadPineappl",
+            nickname: "",
             evs: {
               spe: 0,
               def: 244,
@@ -19716,7 +19716,7 @@ const TEAMS = {
             },
             gender: "f",
             item: "Iapapa Berry",
-            nickname: "FatPineapple",
+            nickname: "",
             evs: {
               spe: 0,
               def: 180,
@@ -19742,7 +19742,7 @@ const TEAMS = {
             },
             gender: "",
             item: "Choice Specs",
-            nickname: "PinkPineappl",
+            nickname: "",
             evs: {
               spe: 28,
               def: 204,
@@ -19768,7 +19768,7 @@ const TEAMS = {
             },
             gender: "f",
             item: "Charcoal",
-            nickname: "FirePineappl",
+            nickname: "",
             evs: {
               spe: 0,
               def: 0,
@@ -20297,7 +20297,7 @@ const TEAMS = {
             },
             gender: "",
             item: "Choice Scarf",
-            nickname: "Mr Meeseeks",
+            nickname: "",
             evs: {
               spe: 164,
               def: 44,
@@ -21508,7 +21508,7 @@ const TEAMS = {
             },
             gender: "m",
             item: "Focus Sash",
-            nickname: "Bob Ross",
+            nickname: "",
             evs: {
               spe: 252,
               def: 4,
@@ -24934,7 +24934,7 @@ const TEAMS = {
             },
             gender: "",
             item: "Iapapa Berry",
-            nickname: "Trashu Bini",
+            nickname: "",
             evs: {
               spe: 4,
               def: 100,
@@ -26181,7 +26181,7 @@ const TEAMS = {
             },
             gender: "f",
             item: "Scizorite",
-            nickname: "Circumscizor",
+            nickname: "",
             evs: {
               spe: 0,
               def: 0,
@@ -27829,7 +27829,7 @@ const TEAMS = {
             },
             gender: "",
             item: "Swampertite",
-            nickname: "Arms",
+            nickname: "",
             evs: {
               spe: 164,
               def: 36,
@@ -29377,7 +29377,7 @@ const TEAMS = {
             },
             gender: "",
             item: "Iapapa Berry",
-            nickname: "Trashu Bini",
+            nickname: "",
             evs: {
               spe: 4,
               def: 100,
@@ -30068,7 +30068,7 @@ const TEAMS = {
             },
             gender: "",
             item: "Iapapa Berry",
-            nickname: "Trashu Bini",
+            nickname: "",
             evs: {
               spe: 4,
               def: 100,
@@ -30932,7 +30932,7 @@ const TEAMS = {
             },
             gender: "",
             item: "Wiki Berry",
-            nickname: "Trashu Bini",
+            nickname: "",
             evs: {
               spe: 4,
               def: 100,
@@ -31393,7 +31393,7 @@ const TEAMS = {
             },
             gender: "m",
             item: "Swampertite",
-            nickname: "Arms",
+            nickname: "",
             evs: {
               spe: 164,
               def: 36,
@@ -37656,7 +37656,7 @@ const TEAMS = {
             },
             gender: "",
             item: "Power Herb",
-            nickname: "oh deer",
+            nickname: "",
             evs: {
               spe: 252,
               def: 20,
@@ -37685,7 +37685,7 @@ const TEAMS = {
             },
             gender: "f",
             item: "Salamencite",
-            nickname: "green eggs",
+            nickname: "",
             evs: {
               spe: 124,
               def: 4,
@@ -37802,7 +37802,7 @@ const TEAMS = {
             },
             gender: "",
             item: "Red Orb",
-            nickname: "pdonnieson",
+            nickname: "",
             evs: {
               spe: 252,
               def: 4,
@@ -37830,7 +37830,7 @@ const TEAMS = {
             },
             gender: "",
             item: "Power Herb",
-            nickname: "oh deer",
+            nickname: "",
             evs: {
               spe: 252,
               def: 20,
@@ -37859,7 +37859,7 @@ const TEAMS = {
             },
             gender: "f",
             item: "Salamencite",
-            nickname: "green eggs",
+            nickname: "",
             evs: {
               spe: 124,
               def: 4,
@@ -37887,7 +37887,7 @@ const TEAMS = {
             },
             gender: "f",
             item: "Incinium Z",
-            nickname: "chomusuke",
+            nickname: "",
             evs: {
               spe: 84,
               def: 4,
@@ -37913,7 +37913,7 @@ const TEAMS = {
             },
             gender: "f",
             item: "Focus Sash",
-            nickname: "jeffy",
+            nickname: "",
             evs: {
               spe: 0,
               def: 100,
@@ -37941,7 +37941,7 @@ const TEAMS = {
             },
             gender: "",
             item: "Choice Scarf",
-            nickname: "concern",
+            nickname: "",
             evs: {
               spe: 252,
               def: 4,
@@ -40437,7 +40437,7 @@ const TEAMS = {
             },
             gender: "",
             item: "Blue Orb",
-            nickname: "Makinohara",
+            nickname: "",
             evs: {
               spe: 100,
               def: 116,
@@ -40465,7 +40465,7 @@ const TEAMS = {
             },
             gender: "",
             item: "Black Glasses",
-            nickname: "Koga",
+            nickname: "",
             evs: {
               spe: 252,
               def: 4,
@@ -40493,7 +40493,7 @@ const TEAMS = {
             },
             gender: "",
             item: "Gengarite",
-            nickname: "Sakurajima",
+            nickname: "",
             evs: {
               spe: 252,
               def: 4,
@@ -40526,7 +40526,7 @@ const TEAMS = {
             },
             gender: "",
             item: "Assault Vest",
-            nickname: "Azusagawa",
+            nickname: "",
             evs: {
               spe: 28,
               def: 92,
@@ -40554,7 +40554,7 @@ const TEAMS = {
             },
             gender: "",
             item: "Safety Goggles",
-            nickname: "Futaba",
+            nickname: "",
             evs: {
               spe: 0,
               def: 4,
@@ -40582,7 +40582,7 @@ const TEAMS = {
             },
             gender: "",
             item: "Choice Scarf",
-            nickname: "Toyohama",
+            nickname: "",
             evs: {
               spe: 220,
               def: 4,
@@ -41861,7 +41861,7 @@ const TEAMS = {
             },
             gender: "",
             item: "Assault Vest",
-            nickname: "MomsLipstick",
+            nickname: "",
             evs: {
               spe: 252,
               def: 4,
@@ -41889,7 +41889,7 @@ const TEAMS = {
             },
             gender: "",
             item: "Power Herb",
-            nickname: "Oh Deer",
+            nickname: "",
             evs: {
               spe: 252,
               def: 44,
@@ -41917,7 +41917,7 @@ const TEAMS = {
             },
             gender: "f",
             item: "Incinium Z",
-            nickname: "Chomusuke",
+            nickname: "",
             evs: {
               spe: 76,
               def: 0,
@@ -41945,7 +41945,7 @@ const TEAMS = {
             },
             gender: "f",
             item: "Focus Sash",
-            nickname: "BigChungus",
+            nickname: "",
             evs: {
               spe: 252,
               def: 4,
@@ -41973,7 +41973,7 @@ const TEAMS = {
             },
             gender: "",
             item: "Shuca Berry",
-            nickname: "Snackapacka",
+            nickname: "",
             evs: {
               spe: 0,
               def: 20,
@@ -42001,7 +42001,7 @@ const TEAMS = {
             },
             gender: "",
             item: "Wiki Berry",
-            nickname: "Trashu Bini",
+            nickname: "",
             evs: {
               spe: 68,
               def: 116,
@@ -44397,7 +44397,7 @@ const TEAMS = {
             },
             gender: "",
             item: "Figy Berry",
-            nickname: "Chomusuke",
+            nickname: "",
             evs: {
               spe: 76,
               def: 0,
@@ -50126,7 +50126,7 @@ const TEAMS = {
             },
             gender: "m",
             item: "Gengarite",
-            nickname: "Pharaoh Man",
+            nickname: "",
             evs: {
               spe: 220,
               def: 100,
@@ -50155,7 +50155,7 @@ const TEAMS = {
             },
             gender: "m",
             item: "Life Orb",
-            nickname: "Pump Man",
+            nickname: "",
             evs: {
               spe: 252,
               def: 4,
@@ -50184,7 +50184,7 @@ const TEAMS = {
             },
             gender: "m",
             item: "Focus Sash",
-            nickname: "Rush",
+            nickname: "",
             evs: {
               spe: 252,
               def: 4,
@@ -50213,7 +50213,7 @@ const TEAMS = {
             },
             gender: "m",
             item: "Coba Berry",
-            nickname: "Wood Man",
+            nickname: "",
             evs: {
               spe: 140,
               def: 164,
@@ -50242,7 +50242,7 @@ const TEAMS = {
             },
             gender: "m",
             item: "Sitrus Berry",
-            nickname: "Toad Man",
+            nickname: "",
             evs: {
               spe: 0,
               def: 196,
@@ -50271,7 +50271,7 @@ const TEAMS = {
             },
             gender: "m",
             item: "Choice Scarf",
-            nickname: "Storm Eagle",
+            nickname: "",
             evs: {
               spe: 108,
               def: 0,
@@ -51838,7 +51838,7 @@ const TEAMS = {
             },
             gender: "m",
             item: "Lum Berry",
-            nickname: "Shafty",
+            nickname: "",
             evs: {
               spe: 0,
               def: 4,
@@ -51934,7 +51934,7 @@ const TEAMS = {
             },
             gender: "f",
             item: "Gengarite",
-            nickname: "Pockycat",
+            nickname: "",
             evs: {
               spe: 220,
               def: 20,
@@ -53732,7 +53732,7 @@ const TEAMS = {
             },
             gender: "m",
             item: "Focus Sash",
-            nickname: "Bob Ross",
+            nickname: "",
             evs: {
               spe: 252,
               def: 252,
