@@ -17,7 +17,11 @@
     style="
       background-image: url(img/header.png);
       background-repeat: no-repeat;
-      background-size: 100vw 100vh;
+      background-position: 50% 50%;
+      background-size: cover;
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
     "
   >
     <div
@@ -25,28 +29,32 @@
         background-color: rgba(24, 24, 24, 0.8);
         width: 100vw;
         height: 100vh;
-        background-size: 100vw 100vh;
-      "
+        background-size: cover;
+        overflow: hidden;
+        "
     >
 
-      <div id="header" class="navbar navbar-expand-lg navbar-dark bg-dark">
-
-        <!-- Navbar Content -->
-        <div class="collapse navbar-collapse" id="navbar-content">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="https://dragapult.xyz"> 
-                Back to Dragapult.xyz
-              </a>
-            </li>
-          </ul>
-        </div>
+    <div id="header" class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <!-- Navigation Bar -->
+      <div class='d-flex justify-content-center'>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand text-secondary" href="https://www.dragapult.xyz">
+            <img src="img/favicon.ico" width="30" height="30" class="d-inline-block align-top" alt="icon">
+            Dragapult.xyz
+          </a>
+          <div id='navbar' class='d-flex justify-content-center'>
+            <a class='text-secondary' href="https://www.dragapult.xyz/index.html?vgc">
+              Other VGC Resources
+            </a>
+          </div>
+        </nav>
       </div>
+    </div>
 
       <!-- Container keeping page the correct width -->
       <div 
         class='overflow-auto text-center container bg-dark rounded my-2' 
-        style='width: 100%; max-width: 960px; opacity: 0.8; max-height:90vh;'
+        style='width: 100%; max-width: 960px; opacity: 0.8; max-height:85vh;'
       >
         <div id='title' class='text-justify text-light'>
           <p class='h2' id="sitetitle">
