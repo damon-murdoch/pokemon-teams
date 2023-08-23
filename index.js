@@ -1018,22 +1018,19 @@ function showPageTeam(format, folder, team) {
   container.appendChild(row);
 
   // Create the paste export button
-  let btn = document.createElement('button');
+  let btn_paste = document.createElement('button');
 
   // Set the id for the button
-  btn.id = 'paste-export';
-  btn.innerHTML = "Copy Team to Clipboard";
+  btn_paste.id = 'paste-export';
+  btn_paste.innerHTML = "Copy to Clipboard";
 
   // Set the class list for the button
-  btn.classList.add('btn');
-  btn.classList.add('btn-link');
-  btn.classList.add('text-secondary');
+  btn_paste.classList.add('btn');
+  btn_paste.classList.add('btn-link');
+  btn_paste.classList.add('text-secondary');
 
   // Add the button to the body
-  body.appendChild(btn);
-
-  // Add the table to the body
-  body.appendChild(container);
+  body.appendChild(btn_paste);
 
   // Export to clipboard event listener
   document.getElementById('paste-export').addEventListener('click', async event => {
@@ -1041,7 +1038,7 @@ function showPageTeam(format, folder, team) {
     // If the clipboard module exists in the client's browser
     if (navigator.clipboard) {
       // Export string which will be copied to the clipboard
-      content = parseJson(data.sets);
+      const content = parseJson(data.sets);
 
       try {
         // Copy the string to the clipboard
@@ -1061,6 +1058,39 @@ function showPageTeam(format, folder, team) {
       console.error('Clipboard interaction not supported by browser.');
     }
   });
+
+  // Create the coverage export button
+  let btn_coverage = document.createElement('button');
+  
+  // Set the id for the button
+  btn_coverage.id = 'coverage-export';
+  btn_coverage.innerHTML = "Open in Coverage Calculator";
+
+  // Set the class list for the button
+  btn_coverage.classList.add('btn');
+  btn_coverage.classList.add('btn-link');
+  btn_coverage.classList.add('text-secondary');
+
+  // Add the button to the body
+  body.appendChild(btn_coverage);
+
+  // Export to clipboard event listener
+  document.getElementById('coverage-export').addEventListener('click', async event => {
+    // Export string which will be copied to the clipboard
+    const content = parseJson(data.sets);
+
+    // Convert paste to base-64
+    const base64 = btoa(content, 'base64');
+
+    // Base url for the coverage calculator
+    const url = 'https://www.dragapult.xyz/coverage-calculator';
+
+    // Open the coverage calculator for the team
+    window.open(`${url}?team=${base64}`, '_blank');
+  });
+  
+  // Add the table to the body
+  body.appendChild(container);
 }
 
 function toCapitalCase(str) {
