@@ -870,21 +870,21 @@ const POKEMON = [
     "type1": "normal"
   },
   {
-    "dex": 128,
-    "species": "tauros-paldea",
-    "type1": "fighting"
+    dex: "128",
+    species: "tauros-paldea-combat",
+    type1: "fighting",
   },
   {
-    "dex": 128,
-    "species": "tauros-paldea",
-    "type1": "fighting",
-    "type2": "fire"
+    dex: "128",
+    species: "tauros-paldea-blaze",
+    type1: "fighting",
+    type2: "fire",
   },
   {
-    "dex": 128,
-    "species": "tauros-paldea",
-    "type1": "fighting",
-    "type2": "water"
+    dex: "128",
+    species: "tauros-paldea-aqua",
+    type1: "fighting",
+    type2: "water",
   },
   {
     "dex": 129,
