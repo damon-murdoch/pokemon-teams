@@ -6423,7 +6423,7 @@ const POKEMON = [
     "type2": "psychic"
   },
   {
-    "dex": 0,
+    "dex": 1011,
     "species": "dipplin",
     "type1": "grass",
     "type2": "dragon"
@@ -6447,24 +6447,45 @@ const POKEMON = [
     "type2": "psychic"
   },
   {
-    "dex": 0,
+    "dex": 1017,
     "species": "ogerpon",
-    "type1": "unknown"
+    "type1": "grass"
   },
   {
-    "dex": 0,
+    "dex": 1017,
+    "species": "ogerpon-wellspring-mask",
+    "type1": "grass",
+    "type2": "water"
+  },
+  {
+    "dex": 1017,
+    "species": "ogerpon-hearthflame-mask",
+    "type1": "grass",
+    "type2": "fire"
+  },
+  {
+    "dex": 1017,
+    "species": "ogerpon-cornerstone-mask",
+    "type1": "grass",
+    "type2": "rock"
+  },
+  {
+    "dex": 1014,
     "species": "okidogi",
-    "type1": "unknown"
+    "type1": "poison",
+    "type2": "fighting",
   },
   {
-    "dex": 0,
+    "dex": 1015,
     "species": "munkidori",
-    "type1": "unknown"
+    "type1": "poison",
+    "type2": "psychic",
   },
   {
-    "dex": 0,
+    "dex": 1016,
     "species": "fezandipiti",
-    "type1": "unknown"
+    "type1": "poison",
+    "type2": "fairy",
   },
   {
     "dex": 0,

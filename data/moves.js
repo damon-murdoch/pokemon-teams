@@ -8999,5 +8999,45 @@ MOVES = [
     "power": 100,
     "accuracy": 100,
     "gen": "ix"
+  }, 
+  {
+    "number": 901,
+    "name": "blood moon",
+    "type": "normal",
+    "category": "special",
+    "pp": 5,
+    "power": 140,
+    "accuracy": 100,
+    "gen": "ix"
+  },
+  {
+    "number": 902,
+    "name": "matcha gotcha",
+    "type": "grass",
+    "category": "special",
+    "pp": 15,
+    "power": 80,
+    "accuracy": 90,
+    "gen": "ix"
+  },
+  {
+    "number": 903,
+    "name": "syrup bomb",
+    "type": "grass",
+    "category": "special",
+    "pp": 10,
+    "power": 60,
+    "accuracy": 85,
+    "gen": "ix"
+  },
+  {
+    "number": 904,
+    "name": "ivy cudgel",
+    "type": "grass",
+    "category": "physical",
+    "pp": 10,
+    "power": 100,
+    "accuracy": 100,
+    "gen": "ix"
   }
 ]
