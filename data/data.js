@@ -231,7 +231,7 @@ const TEAMS = {
   gen9doubles: {
     vgc2023regulatione: [
       {
-        name: "standard ogerpon-h offense",
+        name: "ogerpon tailwind",
         owner: {
           name: "Sir Scrubbington",
           link: "https://twitter.com/SirScrubbington",
