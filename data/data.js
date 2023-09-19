@@ -231,6 +231,220 @@ const TEAMS = {
   gen9doubles: {
     vgc2023regulatione: [
       {
+        name: "standard ogerpon-h offense",
+        owner: {
+          name: "Sir Scrubbington",
+          link: "https://twitter.com/SirScrubbington",
+        },
+        desc: "Standard tailwind team built around the overwhelming offensive pressure of Urshifu and Ogerpon.",
+        sets: [
+          {
+            "species": "Ogerpon-Hearthflame",
+            "nickname": "",
+            "gender": "",
+            "ability": "Mold Breaker",
+            "evs": {
+              "hp": 4,
+              "atk": 244,
+              "def": 4,
+              "spa": 0,
+              "spd": 4,
+              "spe": 252
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Jolly",
+            "item": "Hearthflame Mask",
+            "moves": [
+              "Spiky Shield",
+              "Wood Hammer",
+              "Grassy Glide",
+              "Ivy Cudgel"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Fire"
+            }
+          },
+          {
+            "species": "Tornadus",
+            "nickname": "",
+            "gender": "",
+            "ability": "Prankster",
+            "evs": {
+              "hp": 4,
+              "atk": 0,
+              "def": 44,
+              "spa": 204,
+              "spd": 4,
+              "spe": 252
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 0,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Timid",
+            "item": "Covert Cloak",
+            "moves": [
+              "Bleakwind Storm",
+              "Icy Wind",
+              "Tailwind",
+              "Taunt"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Flying"
+            }
+          },
+          {
+            "species": "Urshifu-Rapid-Strike",
+            "nickname": "Urshifu",
+            "gender": "",
+            "ability": "Unseen Fist",
+            "evs": {
+              "hp": 60,
+              "atk": 156,
+              "def": 4,
+              "spa": 0,
+              "spd": 108,
+              "spe": 180
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Adamant",
+            "item": "Safety Goggles",
+            "moves": [
+              "Protect",
+              "Aqua Jet",
+              "Close Combat",
+              "Surging Strikes"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Water"
+            }
+          },
+          {
+            "species": "Chien-Pao",
+            "nickname": "",
+            "gender": "",
+            "ability": "Sword of Ruin",
+            "evs": {
+              "hp": 4,
+              "atk": 244,
+              "def": 4,
+              "spa": 0,
+              "spd": 4,
+              "spe": 252
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Jolly",
+            "item": "Focus Sash",
+            "moves": [
+              "Protect",
+              "Sucker Punch",
+              "Icicle Crash",
+              "Crunch"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Ghost"
+            }
+          },
+          {
+            "species": "Rillaboom",
+            "nickname": "",
+            "gender": "",
+            "ability": "Grassy Surge",
+            "evs": {
+              "hp": 244,
+              "atk": 132,
+              "def": 36,
+              "spa": 0,
+              "spd": 44,
+              "spe": 52
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Adamant",
+            "item": "Assault Vest",
+            "moves": [
+              "Wood Hammer",
+              "Stomping Tantrum",
+              "Grassy Glide",
+              "Fake Out"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Grass"
+            }
+          },
+          {
+            "species": "Flutter Mane",
+            "nickname": "",
+            "gender": "",
+            "ability": "Protosynthesis",
+            "evs": {
+              "hp": 188,
+              "atk": 0,
+              "def": 132,
+              "spa": 36,
+              "spd": 4,
+              "spe": 148
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 0,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Modest",
+            "item": "Booster Energy",
+            "moves": [
+              "Protect",
+              "Substitute",
+              "Dazzling Gleam",
+              "Shadow Ball"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Grass"
+            }
+          }
+        ]
+      },
+      {
         name: "mixed mode perish",
         owner: {
           name: "Sir Scrubbington",

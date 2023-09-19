@@ -181,6 +181,7 @@ function showTableSet(body, set) {
     case "flame plate":
     case "fire gem":
     case "firium z":
+    case "hearthflame mask": 
       {
         itemColor = getTypeColor("fire");
       }
@@ -296,6 +297,7 @@ function showTableSet(body, set) {
     case "rock incense":
     case "lycanium z":
     case "rockium z":
+    case "cornerstone mask": 
       {
         itemColor = getTypeColor("rock");
       }
@@ -351,6 +353,7 @@ function showTableSet(body, set) {
     case "hydration":
     case "dry skin":
     case "drizzle":
+    case "wellspring mask": 
       {
         abilityColor = getTypeColor("water");
       }

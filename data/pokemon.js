@@ -6453,19 +6453,19 @@ const POKEMON = [
   },
   {
     "dex": 1017,
-    "species": "ogerpon-wellspring-mask",
+    "species": "ogerpon-wellspring",
     "type1": "grass",
     "type2": "water"
   },
   {
     "dex": 1017,
-    "species": "ogerpon-hearthflame-mask",
+    "species": "ogerpon-hearthflame",
     "type1": "grass",
     "type2": "fire"
   },
   {
     "dex": 1017,
-    "species": "ogerpon-cornerstone-mask",
+    "species": "ogerpon-cornerstone",
     "type1": "grass",
     "type2": "rock"
   },
