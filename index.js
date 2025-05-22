@@ -40,8 +40,7 @@ function showTableSet(body, set) {
   let table = document.createElement("table");
 
   // Set the classlist to the table
-  table.classList.add("table");
-  table.classList.add("table-dark");
+  table.classList.add("table", "table-dark");
 
   // Lower-case version of the species name
   const speciesLower = set.species.toLowerCase();
@@ -1572,6 +1571,19 @@ function showRowTeam(body, format, folder, index, data) {
   body.appendChild(tr);
 }
 
+function teamsSortFunc(a, b) {
+  // Check format
+  if (a.fmt != b.fmt)
+    return a.fmt.localeCompare(b.fmt);
+
+  // Check folder
+  if (a.fldr != b.fldr)
+    return a.fldr.localeCompare(b.fldr);
+  
+  // Check name
+  return a.team.name.localeCompare(b.team.name);
+}
+
 function showTableHome(body, format = null, folder = null) {
   // Lists containing formats /
   // folders to be processed
@@ -1633,22 +1645,36 @@ function showTableHome(body, format = null, folder = null) {
     // Reverse the sort
     folders.reverse();
 
-    // Loop over the folders
+    // List of teams
+    let teams = [];
+
+    // Loop over the folders 
     for (let fldr of folders) {
       // Index of the team
       let i = 0;
 
       // Loop over the teams
-      for (team of TEAMS[fmt][fldr]) {
-        // Add a row for the team to the table
-        showRowTeam(body, fmt, fldr, i, team);
-
-        // Increment the index
-        i++;
+      for (const team of TEAMS[fmt][fldr]) {
+        // Add team to the list
+        teams.push({
+          fmt: fmt, 
+          fldr: fldr, 
+          team: team, 
+          index: i++
+        });
       }
 
       // Add iterator to team count
       counter += i;
+    }
+
+    // Sort the teams by name
+    teams.sort(teamsSortFunc);
+
+    // Loop over the teams
+    for (const team of teams) {
+      // Add a row for the team to the table
+      showRowTeam(body, team.fmt, team.fldr, team.index, team.team);
     }
   }
 
@@ -1661,18 +1687,18 @@ function showTableHome(body, format = null, folder = null) {
 
 function showFormatDropdown() {
   // Get the format drop down element
-  let format = document.getElementById("sel-format");
+  const format = document.getElementById("sel-format");
 
   // Get the keys from the teams
-  let keys = Object.keys(TEAMS);
+  const keys = Object.keys(TEAMS);
 
-  // Sort the keys alphabetically
+  // Sort the keys (reverse)
   keys.sort().reverse();
 
   // Get the format keys
-  for (let key of keys) {
+  for (const key of keys) {
     // Option for the format
-    let option = document.createElement("option");
+    const option = document.createElement("option");
 
     // Set option value to the key
     option.value = key;
@@ -1708,20 +1734,38 @@ function setFormat(format) {
   window.location.href = window.location.pathname + "?" + params.toString();
 }
 
+function getDefaultFolder(format) {
+  // Get the keys from the teams
+  const keys = Object.keys(TEAMS[format]);
+
+  // At least one key
+  if (keys.length > 0) {
+
+    // Sort the keys
+    keys.sort().reverse();
+
+    // Return first key
+    return keys.at(0);
+  }
+
+  // No key found
+  return null;
+}
+
 function showFolderDropdown(format) {
   // Get the format drop down element
-  let folder = document.getElementById("sel-folder");
+  const folder = document.getElementById("sel-folder");
 
   // Get the keys from the teams
-  let keys = Object.keys(TEAMS[format]);
+  const keys = Object.keys(TEAMS[format]);
 
-  // Sort the keys alphabetically
-  keys.sort();
+  // Sort the keys
+  keys.sort().reverse();
 
   // Get the format keys
-  for (let key of keys) {
+  for (const key of keys) {
     // Option for the format
-    let option = document.createElement("option");
+    const option = document.createElement("option");
 
     // Set option value to the key
     option.value = key;
@@ -1740,7 +1784,7 @@ function showFolderDropdown(format) {
 function setFolder(folder) {
   // If team is selected
   if (params.has("team")) {
-    // Get the team from the params
+    // Clear team parameter
     params.delete("team");
   }
 
@@ -1792,6 +1836,12 @@ function showPageHome(format = null, folder = null) {
 
   // Update the folder drop-down
   showFolderDropdown(format);
+
+  // Folder not selected
+  if (folder === null) {
+    // Set the folder to the default
+    folder = getDefaultFolder(format);
+  }
 
   // Placeholder string
   let sitetitle = format;
@@ -1854,9 +1904,7 @@ function showPageHome(format = null, folder = null) {
   let table = document.createElement("table");
 
   // Set the classes for the table
-  table.classList.add("table");
-  table.classList.add("table-dark");
-  table.classList.add("table-striped");
+  table.classList.add("table", "table-dark", "table-striped");
 
   // Create the table header
   table.innerHTML = `

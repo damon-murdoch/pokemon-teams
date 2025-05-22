@@ -6429,24 +6429,6 @@ const POKEMON = [
     "type2": "dragon"
   },
   {
-    "dex": 0,
-    "species": "archaludon",
-    "type1": "steel",
-    "type2": "dragon"
-  },
-  {
-    "dex": 0,
-    "species": "raging bolt",
-    "type1": "electric",
-    "type2": "dragon"
-  },
-  {
-    "dex": 0,
-    "species": "iron crown",
-    "type1": "steel",
-    "type2": "psychic"
-  },
-  {
     "dex": 1017,
     "species": "ogerpon",
     "type1": "grass"
@@ -6488,8 +6470,60 @@ const POKEMON = [
     "type2": "fairy",
   },
   {
-    "dex": 0,
+    "dex": 1018,
+    "species": "archaludon",
+    "type1": "steel",
+    "type2": "dragon"
+  },
+  {
+    "dex": 1019,
+    "species": "hydrapple",
+    "type1": "grass",
+    "type2": "dragon"
+  },
+  {
+    "dex": 1020,
+    "species": "gouging fire",
+    "type1": "fire",
+    "type2": "dragon"
+  },
+  {
+    "dex": 1021,
+    "species": "raging bolt",
+    "type1": "electric",
+    "type2": "dragon"
+  },
+  {
+    "dex": 1022,
+    "species": "iron boulder",
+    "type1": "rock",
+    "type2": "psychic"
+  },
+  {
+    "dex": 1023,
+    "species": "iron crown",
+    "type1": "steel",
+    "type2": "psychic"
+  },
+  {
+    "dex": 1024,
     "species": "terapagos",
-    "type1": "unknown"
-  }
+    "type1": "normal",
+  },
+  {
+    "dex": 1024,
+    "species": "terapagos-terastal",
+    "type1": "normal",
+  },
+  {
+    "dex": 1024,
+    "species": "terapagos-stellar",
+    "type1": "normal",
+  },
+  {
+    "dex": 1025,
+    "species": "pecharunt",
+    "type1": "poison",
+    "type2": "ghost",
+  },
 ]

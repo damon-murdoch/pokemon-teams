@@ -9,25 +9,23 @@
 // - Move 4
 
 // statTemplate(init: int): object
-// Return a pokemon stat field template, 
+// Return a pokemon stat field template,
 // with a default value in each field of 0
 // or 'init' if specified
-function statTemplate(init=0)
-{
+function statTemplate(init = 0) {
   return {
-    hp: init, 
+    hp: init,
     atk: init,
-    def: init, 
-    spa: init, 
+    def: init,
+    spa: init,
     spd: init,
-    spe: init
-  }
+    spe: init,
+  };
 }
 
 // setTemplate(void): object
 // Return a pokemon set template
-function setTemplate()
-{
+function setTemplate() {
   return {
     species: "",
     nickname: "",
@@ -38,45 +36,59 @@ function setTemplate()
     nature: "",
     item: "",
     moves: [],
-    other: {}
+    other: {},
+  };
+}
+
+function parseSimpleStats(stats, str) {
+  // Split on the seperator
+  const tokens = str.split("/");
+
+  // Correct token count
+  if (tokens.length == 6) {
+    // Dereference stats
+    stats.hp = Number(tokens[0]);
+    stats.atk = Number(tokens[1]);
+    stats.def = Number(tokens[2]);
+    stats.spa = Number(tokens[3]);
+    stats.spd = Number(tokens[4]);
+    stats.spe = Number(tokens[5]);
+    // Return stats
+    return stats;
+  } else {
+    throw Error(`Invalid token count ${tokens.length}!`);
   }
 }
 
-// parseStats(stats: object, str: string): object
-// Given an existing stats object and a string containing stats, 
-// Parses the string and returns a new stats object containing the fields
-function parseStats(stats, str)
-{
+function parseStats(stats, str) {
   // Split on the seperator
-  let s = str.split('/');
+  let s = str.split("/");
 
   // Loop over the stats
-  for (stat of s)
-  {
+  for (const stat of s) {
     // Split the stat on the space
-    st = stat.trim().split(' ');
+    const st = stat.trim().split(" ");
 
     // Switch on the stat
-    switch(st[1].toLowerCase())
-    {
-      case 'hp': 
+    switch (st[1].toLowerCase()) {
+      case "hp":
         stats.hp = parseInt(st[0]);
-      break;
-      case 'atk': 
+        break;
+      case "atk":
         stats.atk = parseInt(st[0]);
-      break;
-      case 'def': 
+        break;
+      case "def":
         stats.def = parseInt(st[0]);
-      break;
-      case 'spa': 
+        break;
+      case "spa":
         stats.spa = parseInt(st[0]);
-      break;
-      case 'spd': 
+        break;
+      case "spd":
         stats.spd = parseInt(st[0]);
-      break;
-      case 'spe': 
+        break;
+      case "spe":
         stats.spe = parseInt(st[0]);
-      break;
+        break;
     }
   }
 
@@ -107,7 +119,30 @@ function parseSets(str)
     // Case 3: No Item: Nickname (Species) (Gender)
     // Case 4: Full: Nickname (Species) (Gender) @ Item
 
-    if (line.includes('@') || // Will always trigger if item is specified
+
+    // If the line contains the 'ability:' text
+    if (line.toLowerCase().includes('ability:'))
+    {
+      // Set the ability to the ability pulled from the text
+      current.ability = line.split(':')[1].trim();
+    }
+    
+    // If the line  contains the 'evs:' text
+    else if (line.toLowerCase().includes('evs:'))
+    {
+      // Parse the stats from the text, set it to the current
+      current.evs = parseStats(current.evs, line.split(':')[1].trim());
+    }
+
+    // If the line  contains the 'ivs:' text
+    else if (line.toLowerCase().includes('ivs:'))
+    {
+      // Parse the stats from the text, set it to the current
+      current.ivs = parseStats(current.ivs, line.split(':')[1].trim());
+    }
+
+
+    else if (line.includes('@') || // Will always trigger if item is specified
         line.includes('(') || // Will always trigger if gender / nn is specified
         (line.trim() != '' && line.trim().split(' ').length == 1)) // Will trigger if nothing is specified
     {
@@ -185,27 +220,6 @@ function parseSets(str)
           current.item = li[1].trim();
         }
       }
-    }
-
-    // If the line contains the 'ability:' text
-    else if (line.toLowerCase().includes('ability:'))
-    {
-      // Set the ability to the ability pulled from the text
-      current.ability = line.split(':')[1].trim();
-    }
-    
-    // If the line  contains the 'evs:' text
-    else if (line.toLowerCase().includes('evs:'))
-    {
-      // Parse the stats from the text, set it to the current
-      current.evs = parseStats(current.evs, line.split(':')[1].trim());
-    }
-
-    // If the line  contains the 'ivs:' text
-    else if (line.toLowerCase().includes('ivs:'))
-    {
-      // Parse the stats from the text, set it to the current
-      current.ivs = parseStats(current.ivs, line.split(':')[1].trim());
     }
 
     // All other random arbitrary k/v pairs, add to the other property
@@ -387,16 +401,3 @@ function parseJson(sets)
   // Return the list, joined on double newline
   return list.join("\n\n");
 }
-
-// Add this for use in nodejs
-
-/*
-
-module.exports = {
-  statTemplate: statTemplate,
-  setTemplate: setTemplate,
-  parseStats: parseStats, 
-  parseSets: parseSets
-}
-
-*/

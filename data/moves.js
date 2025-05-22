@@ -1,5 +1,4 @@
-// List of moves
-MOVES = [
+const MOVES = [
   {
     "number": 1,
     "name": "pound",
@@ -116,7 +115,7 @@ MOVES = [
     "type": "normal",
     "category": "physical",
     "pp": 5,
-    "power": "\u2014",
+    "power": "\u221e",
     "accuracy": 30,
     "gen": "i"
   },
@@ -177,7 +176,7 @@ MOVES = [
     "category": "status",
     "pp": 20,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "i"
   },
   {
@@ -316,7 +315,7 @@ MOVES = [
     "type": "normal",
     "category": "physical",
     "pp": 5,
-    "power": "\u2014",
+    "power": "\u221e",
     "accuracy": 30,
     "gen": "i"
   },
@@ -457,7 +456,7 @@ MOVES = [
     "category": "status",
     "pp": 20,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "i"
   },
   {
@@ -896,7 +895,7 @@ MOVES = [
     "type": "ground",
     "category": "physical",
     "pp": 5,
-    "power": "\u2014",
+    "power": "\u221e",
     "accuracy": 30,
     "gen": "i"
   },
@@ -1017,7 +1016,7 @@ MOVES = [
     "category": "status",
     "pp": 10,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "i"
   },
   {
@@ -1167,7 +1166,7 @@ MOVES = [
     "category": "physical",
     "pp": 10,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "i"
   },
   {
@@ -1287,7 +1286,7 @@ MOVES = [
     "category": "special",
     "pp": 20,
     "power": 60,
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "i"
   },
   {
@@ -1437,7 +1436,7 @@ MOVES = [
     "category": "status",
     "pp": 10,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "i"
   },
   {
@@ -1647,7 +1646,7 @@ MOVES = [
     "category": "physical",
     "pp": 1,
     "power": 50,
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "i"
   },
   {
@@ -1657,7 +1656,7 @@ MOVES = [
     "category": "status",
     "pp": 1,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "ii"
   },
   {
@@ -1687,7 +1686,7 @@ MOVES = [
     "category": "status",
     "pp": 10,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "ii"
   },
   {
@@ -1697,7 +1696,7 @@ MOVES = [
     "category": "status",
     "pp": 5,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "ii"
   },
   {
@@ -1757,7 +1756,7 @@ MOVES = [
     "category": "status",
     "pp": 30,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "ii"
   },
   {
@@ -1847,7 +1846,7 @@ MOVES = [
     "category": "physical",
     "pp": 20,
     "power": 60,
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "ii"
   },
   {
@@ -1927,7 +1926,7 @@ MOVES = [
     "category": "status",
     "pp": 40,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "ii"
   },
   {
@@ -1987,7 +1986,7 @@ MOVES = [
     "category": "status",
     "pp": 5,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "ii"
   },
   {
@@ -2117,7 +2116,7 @@ MOVES = [
     "category": "status",
     "pp": 5,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "ii"
   },
   {
@@ -2197,7 +2196,7 @@ MOVES = [
     "category": "status",
     "pp": 20,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "ii"
   },
   {
@@ -2327,7 +2326,7 @@ MOVES = [
     "category": "physical",
     "pp": 10,
     "power": 70,
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "ii"
   },
   {
@@ -2437,7 +2436,7 @@ MOVES = [
     "category": "status",
     "pp": 10,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "ii"
   },
   {
@@ -2717,7 +2716,7 @@ MOVES = [
     "category": "status",
     "pp": 10,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "iii"
   },
   {
@@ -2807,7 +2806,7 @@ MOVES = [
     "category": "status",
     "pp": 10,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "iii"
   },
   {
@@ -2847,7 +2846,7 @@ MOVES = [
     "category": "status",
     "pp": 10,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "iii"
   },
   {
@@ -2946,7 +2945,7 @@ MOVES = [
     "type": "psychic",
     "category": "special",
     "pp": 5,
-    "power": 70,
+    "power": 95,
     "accuracy": 100,
     "gen": "iii"
   },
@@ -2956,7 +2955,7 @@ MOVES = [
     "type": "psychic",
     "category": "special",
     "pp": 5,
-    "power": 70,
+    "power": 95,
     "accuracy": 100,
     "gen": "iii"
   },
@@ -3157,7 +3156,7 @@ MOVES = [
     "category": "status",
     "pp": 40,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "iii"
   },
   {
@@ -3247,7 +3246,7 @@ MOVES = [
     "category": "physical",
     "pp": 20,
     "power": 60,
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "iii"
   },
   {
@@ -3286,7 +3285,7 @@ MOVES = [
     "type": "ice",
     "category": "special",
     "pp": 5,
-    "power": "\u2014",
+    "power": "\u221e",
     "accuracy": 30,
     "gen": "iii"
   },
@@ -3317,7 +3316,7 @@ MOVES = [
     "category": "physical",
     "pp": 20,
     "power": 60,
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "iii"
   },
   {
@@ -3347,7 +3346,7 @@ MOVES = [
     "category": "status",
     "pp": 5,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "iii"
   },
   {
@@ -3447,7 +3446,7 @@ MOVES = [
     "category": "special",
     "pp": 20,
     "power": 60,
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "iii"
   },
   {
@@ -3507,7 +3506,7 @@ MOVES = [
     "category": "special",
     "pp": 20,
     "power": 60,
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "iii"
   },
   {
@@ -3567,7 +3566,7 @@ MOVES = [
     "category": "status",
     "pp": 40,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "iv"
   },
   {
@@ -3757,7 +3756,7 @@ MOVES = [
     "category": "special",
     "pp": 5,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "iv"
   },
   {
@@ -3817,7 +3816,7 @@ MOVES = [
     "category": "status",
     "pp": 20,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "iv"
   },
   {
@@ -3837,7 +3836,7 @@ MOVES = [
     "category": "status",
     "pp": 10,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "iv"
   },
   {
@@ -3847,7 +3846,7 @@ MOVES = [
     "category": "status",
     "pp": 10,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "iv"
   },
   {
@@ -3907,7 +3906,7 @@ MOVES = [
     "category": "status",
     "pp": 10,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "iv"
   },
   {
@@ -3957,7 +3956,7 @@ MOVES = [
     "category": "special",
     "pp": 20,
     "power": 80,
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "iv"
   },
   {
@@ -4317,7 +4316,7 @@ MOVES = [
     "category": "status",
     "pp": 15,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "iv"
   },
   {
@@ -4427,7 +4426,7 @@ MOVES = [
     "category": "physical",
     "pp": 20,
     "power": 60,
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "iv"
   },
   {
@@ -4697,7 +4696,7 @@ MOVES = [
     "category": "status",
     "pp": 10,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "v"
   },
   {
@@ -4707,7 +4706,7 @@ MOVES = [
     "category": "status",
     "pp": 10,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "v"
   },
   {
@@ -4767,7 +4766,7 @@ MOVES = [
     "category": "status",
     "pp": 15,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "v"
   },
   {
@@ -4947,7 +4946,7 @@ MOVES = [
     "category": "status",
     "pp": 15,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "v"
   },
   {
@@ -4987,7 +4986,7 @@ MOVES = [
     "category": "special",
     "pp": 15,
     "power": 50,
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "v"
   },
   {
@@ -5047,7 +5046,7 @@ MOVES = [
     "category": "status",
     "pp": 10,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "v"
   },
   {
@@ -5127,7 +5126,7 @@ MOVES = [
     "category": "status",
     "pp": 15,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "v"
   },
   {
@@ -5157,7 +5156,7 @@ MOVES = [
     "category": "status",
     "pp": 15,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "v"
   },
   {
@@ -5737,7 +5736,7 @@ MOVES = [
     "category": "special",
     "pp": 15,
     "power": 40,
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "vi"
   },
   {
@@ -5757,7 +5756,7 @@ MOVES = [
     "category": "status",
     "pp": 20,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "vi"
   },
   {
@@ -5817,7 +5816,7 @@ MOVES = [
     "category": "status",
     "pp": 20,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "vi"
   },
   {
@@ -5887,7 +5886,7 @@ MOVES = [
     "category": "status",
     "pp": 20,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "vi"
   },
   {
@@ -5897,7 +5896,7 @@ MOVES = [
     "category": "status",
     "pp": 20,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "vi"
   },
   {
@@ -6214,360 +6213,180 @@ MOVES = [
     "number": 622,
     "name": "breakneck blitz",
     "type": "normal",
-    "category": "physical",
+    "category": "???",
     "pp": 1,
     "power": "\u2014",
-    "accuracy": "\u2014",
-    "gen": "vii"
-  },
-  {
-    "number": 623,
-    "name": "breakneck blitz",
-    "type": "normal",
-    "category": "special",
-    "pp": 1,
-    "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "vii"
   },
   {
     "number": 624,
     "name": "all-out pummeling",
     "type": "fighting",
-    "category": "physical",
+    "category": "???",
     "pp": 1,
     "power": "\u2014",
-    "accuracy": "\u2014",
-    "gen": "vii"
-  },
-  {
-    "number": 625,
-    "name": "all-out pummeling",
-    "type": "fighting",
-    "category": "special",
-    "pp": 1,
-    "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "vii"
   },
   {
     "number": 626,
     "name": "supersonic skystrike",
     "type": "flying",
-    "category": "physical",
+    "category": "???",
     "pp": 1,
     "power": "\u2014",
-    "accuracy": "\u2014",
-    "gen": "vii"
-  },
-  {
-    "number": 627,
-    "name": "supersonic skystrike",
-    "type": "flying",
-    "category": "special",
-    "pp": 1,
-    "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "vii"
   },
   {
     "number": 628,
     "name": "acid downpour",
     "type": "poison",
-    "category": "physical",
+    "category": "???",
     "pp": 1,
     "power": "\u2014",
-    "accuracy": "\u2014",
-    "gen": "vii"
-  },
-  {
-    "number": 629,
-    "name": "acid downpour",
-    "type": "poison",
-    "category": "special",
-    "pp": 1,
-    "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "vii"
   },
   {
     "number": 630,
     "name": "tectonic rage",
     "type": "ground",
-    "category": "physical",
+    "category": "???",
     "pp": 1,
     "power": "\u2014",
-    "accuracy": "\u2014",
-    "gen": "vii"
-  },
-  {
-    "number": 631,
-    "name": "tectonic rage",
-    "type": "ground",
-    "category": "special",
-    "pp": 1,
-    "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "vii"
   },
   {
     "number": 632,
     "name": "continental crush",
     "type": "rock",
-    "category": "physical",
+    "category": "???",
     "pp": 1,
     "power": "\u2014",
-    "accuracy": "\u2014",
-    "gen": "vii"
-  },
-  {
-    "number": 633,
-    "name": "continental crush",
-    "type": "rock",
-    "category": "special",
-    "pp": 1,
-    "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "vii"
   },
   {
     "number": 634,
     "name": "savage spin-out",
     "type": "bug",
-    "category": "physical",
+    "category": "???",
     "pp": 1,
     "power": "\u2014",
-    "accuracy": "\u2014",
-    "gen": "vii"
-  },
-  {
-    "number": 635,
-    "name": "savage spin-out",
-    "type": "bug",
-    "category": "special",
-    "pp": 1,
-    "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "vii"
   },
   {
     "number": 636,
     "name": "never-ending nightmare",
     "type": "ghost",
-    "category": "physical",
+    "category": "???",
     "pp": 1,
     "power": "\u2014",
-    "accuracy": "\u2014",
-    "gen": "vii"
-  },
-  {
-    "number": 637,
-    "name": "never-ending nightmare",
-    "type": "ghost",
-    "category": "special",
-    "pp": 1,
-    "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "vii"
   },
   {
     "number": 638,
     "name": "corkscrew crash",
     "type": "steel",
-    "category": "physical",
+    "category": "???",
     "pp": 1,
     "power": "\u2014",
-    "accuracy": "\u2014",
-    "gen": "vii"
-  },
-  {
-    "number": 639,
-    "name": "corkscrew crash",
-    "type": "steel",
-    "category": "special",
-    "pp": 1,
-    "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "vii"
   },
   {
     "number": 640,
     "name": "inferno overdrive",
     "type": "fire",
-    "category": "physical",
+    "category": "???",
     "pp": 1,
     "power": "\u2014",
-    "accuracy": "\u2014",
-    "gen": "vii"
-  },
-  {
-    "number": 641,
-    "name": "inferno overdrive",
-    "type": "fire",
-    "category": "special",
-    "pp": 1,
-    "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "vii"
   },
   {
     "number": 642,
     "name": "hydro vortex",
     "type": "water",
-    "category": "physical",
+    "category": "???",
     "pp": 1,
     "power": "\u2014",
-    "accuracy": "\u2014",
-    "gen": "vii"
-  },
-  {
-    "number": 643,
-    "name": "hydro vortex",
-    "type": "water",
-    "category": "special",
-    "pp": 1,
-    "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "vii"
   },
   {
     "number": 644,
     "name": "bloom doom",
     "type": "grass",
-    "category": "physical",
+    "category": "???",
     "pp": 1,
     "power": "\u2014",
-    "accuracy": "\u2014",
-    "gen": "vii"
-  },
-  {
-    "number": 645,
-    "name": "bloom doom",
-    "type": "grass",
-    "category": "special",
-    "pp": 1,
-    "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "vii"
   },
   {
     "number": 646,
     "name": "gigavolt havoc",
     "type": "electric",
-    "category": "physical",
+    "category": "???",
     "pp": 1,
     "power": "\u2014",
-    "accuracy": "\u2014",
-    "gen": "vii"
-  },
-  {
-    "number": 647,
-    "name": "gigavolt havoc",
-    "type": "electric",
-    "category": "special",
-    "pp": 1,
-    "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "vii"
   },
   {
     "number": 648,
     "name": "shattered psyche",
     "type": "psychic",
-    "category": "physical",
+    "category": "???",
     "pp": 1,
     "power": "\u2014",
-    "accuracy": "\u2014",
-    "gen": "vii"
-  },
-  {
-    "number": 649,
-    "name": "shattered psyche",
-    "type": "psychic",
-    "category": "special",
-    "pp": 1,
-    "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "vii"
   },
   {
     "number": 650,
     "name": "subzero slammer",
     "type": "ice",
-    "category": "physical",
+    "category": "???",
     "pp": 1,
     "power": "\u2014",
-    "accuracy": "\u2014",
-    "gen": "vii"
-  },
-  {
-    "number": 651,
-    "name": "subzero slammer",
-    "type": "ice",
-    "category": "special",
-    "pp": 1,
-    "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "vii"
   },
   {
     "number": 652,
     "name": "devastating drake",
     "type": "dragon",
-    "category": "physical",
+    "category": "???",
     "pp": 1,
     "power": "\u2014",
-    "accuracy": "\u2014",
-    "gen": "vii"
-  },
-  {
-    "number": 653,
-    "name": "devastating drake",
-    "type": "dragon",
-    "category": "special",
-    "pp": 1,
-    "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "vii"
   },
   {
     "number": 654,
     "name": "black hole eclipse",
     "type": "dark",
-    "category": "physical",
+    "category": "???",
     "pp": 1,
     "power": "\u2014",
-    "accuracy": "\u2014",
-    "gen": "vii"
-  },
-  {
-    "number": 655,
-    "name": "black hole eclipse",
-    "type": "dark",
-    "category": "special",
-    "pp": 1,
-    "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "vii"
   },
   {
     "number": 656,
     "name": "twinkle tackle",
     "type": "fairy",
-    "category": "physical",
+    "category": "???",
     "pp": 1,
     "power": "\u2014",
-    "accuracy": "\u2014",
-    "gen": "vii"
-  },
-  {
-    "number": 657,
-    "name": "twinkle tackle",
-    "type": "fairy",
-    "category": "special",
-    "pp": 1,
-    "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "vii"
   },
   {
@@ -6577,7 +6396,7 @@ MOVES = [
     "category": "physical",
     "pp": 1,
     "power": 210,
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "vii"
   },
   {
@@ -6657,7 +6476,7 @@ MOVES = [
     "category": "status",
     "pp": 10,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "vii"
   },
   {
@@ -6827,7 +6646,7 @@ MOVES = [
     "category": "status",
     "pp": 10,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "vii"
   },
   {
@@ -6837,7 +6656,7 @@ MOVES = [
     "category": "physical",
     "pp": 10,
     "power": 70,
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "vii"
   },
   {
@@ -6947,7 +6766,7 @@ MOVES = [
     "category": "physical",
     "pp": 1,
     "power": 180,
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "vii"
   },
   {
@@ -6957,7 +6776,7 @@ MOVES = [
     "category": "physical",
     "pp": 1,
     "power": 180,
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "vii"
   },
   {
@@ -6967,7 +6786,7 @@ MOVES = [
     "category": "special",
     "pp": 1,
     "power": 195,
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "vii"
   },
   {
@@ -6977,7 +6796,7 @@ MOVES = [
     "category": "special",
     "pp": 1,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "vii"
   },
   {
@@ -6987,7 +6806,7 @@ MOVES = [
     "category": "physical",
     "pp": 1,
     "power": 195,
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "vii"
   },
   {
@@ -6997,7 +6816,7 @@ MOVES = [
     "category": "special",
     "pp": 1,
     "power": 175,
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "vii"
   },
   {
@@ -7007,7 +6826,7 @@ MOVES = [
     "category": "physical",
     "pp": 1,
     "power": 210,
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "vii"
   },
   {
@@ -7027,7 +6846,7 @@ MOVES = [
     "category": "special",
     "pp": 1,
     "power": 185,
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "vii"
   },
   {
@@ -7187,7 +7006,7 @@ MOVES = [
     "category": "special",
     "pp": 1,
     "power": 195,
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "vii"
   },
   {
@@ -7227,7 +7046,7 @@ MOVES = [
     "category": "special",
     "pp": 1,
     "power": 200,
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "vii"
   },
   {
@@ -7237,7 +7056,7 @@ MOVES = [
     "category": "physical",
     "pp": 1,
     "power": 200,
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "vii"
   },
   {
@@ -7247,7 +7066,7 @@ MOVES = [
     "category": "special",
     "pp": 1,
     "power": 200,
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "vii"
   },
   {
@@ -7257,7 +7076,7 @@ MOVES = [
     "category": "physical",
     "pp": 1,
     "power": 190,
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "vii"
   },
   {
@@ -7267,7 +7086,7 @@ MOVES = [
     "category": "physical",
     "pp": 1,
     "power": 190,
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "vii"
   },
   {
@@ -7277,7 +7096,7 @@ MOVES = [
     "category": "special",
     "pp": 1,
     "power": 185,
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "vii"
   },
   {
@@ -7317,7 +7136,7 @@ MOVES = [
     "category": "special",
     "pp": 20,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "vii"
   },
   {
@@ -7407,7 +7226,7 @@ MOVES = [
     "category": "physical",
     "pp": 20,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "vii"
   },
   {
@@ -7567,7 +7386,7 @@ MOVES = [
     "category": "???",
     "pp": 10,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "viii"
   },
   {
@@ -7577,7 +7396,7 @@ MOVES = [
     "category": "???",
     "pp": 10,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "viii"
   },
   {
@@ -7587,7 +7406,7 @@ MOVES = [
     "category": "???",
     "pp": 10,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "viii"
   },
   {
@@ -7597,7 +7416,7 @@ MOVES = [
     "category": "???",
     "pp": 10,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "viii"
   },
   {
@@ -7607,7 +7426,7 @@ MOVES = [
     "category": "???",
     "pp": 10,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "viii"
   },
   {
@@ -7617,7 +7436,7 @@ MOVES = [
     "category": "???",
     "pp": 10,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "viii"
   },
   {
@@ -7627,7 +7446,7 @@ MOVES = [
     "category": "???",
     "pp": 10,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "viii"
   },
   {
@@ -7637,7 +7456,7 @@ MOVES = [
     "category": "???",
     "pp": 10,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "viii"
   },
   {
@@ -7647,7 +7466,7 @@ MOVES = [
     "category": "???",
     "pp": 10,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "viii"
   },
   {
@@ -7657,7 +7476,7 @@ MOVES = [
     "category": "???",
     "pp": 10,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "viii"
   },
   {
@@ -7667,7 +7486,7 @@ MOVES = [
     "category": "???",
     "pp": 10,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "viii"
   },
   {
@@ -7677,7 +7496,7 @@ MOVES = [
     "category": "???",
     "pp": 10,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "viii"
   },
   {
@@ -7687,7 +7506,7 @@ MOVES = [
     "category": "???",
     "pp": 10,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "viii"
   },
   {
@@ -7697,7 +7516,7 @@ MOVES = [
     "category": "???",
     "pp": 10,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "viii"
   },
   {
@@ -7707,7 +7526,7 @@ MOVES = [
     "category": "???",
     "pp": 10,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "viii"
   },
   {
@@ -7717,7 +7536,7 @@ MOVES = [
     "category": "???",
     "pp": 10,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "viii"
   },
   {
@@ -7727,7 +7546,7 @@ MOVES = [
     "category": "???",
     "pp": 10,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "viii"
   },
   {
@@ -7737,7 +7556,7 @@ MOVES = [
     "category": "???",
     "pp": 10,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "viii"
   },
   {
@@ -7907,7 +7726,7 @@ MOVES = [
     "category": "status",
     "pp": 10,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "viii"
   },
   {
@@ -7927,7 +7746,7 @@ MOVES = [
     "category": "physical",
     "pp": 10,
     "power": 80,
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "viii"
   },
   {
@@ -8026,7 +7845,7 @@ MOVES = [
     "type": "grass",
     "category": "physical",
     "pp": 20,
-    "power": 60,
+    "power": 55,
     "accuracy": 100,
     "gen": "viii"
   },
@@ -8305,7 +8124,7 @@ MOVES = [
     "name": "springtide storm",
     "type": "fairy",
     "category": "special",
-    "pp": 10,
+    "pp": 5,
     "power": 100,
     "accuracy": 80,
     "gen": "viii"
@@ -8495,7 +8314,7 @@ MOVES = [
     "name": "take heart",
     "type": "psychic",
     "category": "status",
-    "pp": 10,
+    "pp": 15,
     "power": "\u2014",
     "accuracy": "\u2014",
     "gen": "viii"
@@ -8577,7 +8396,7 @@ MOVES = [
     "category": "status",
     "pp": 15,
     "power": "\u2014",
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "ix"
   },
   {
@@ -8687,7 +8506,7 @@ MOVES = [
     "category": "physical",
     "pp": 10,
     "power": 85,
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "ix"
   },
   {
@@ -8697,7 +8516,7 @@ MOVES = [
     "category": "physical",
     "pp": 10,
     "power": 70,
-    "accuracy": "\u2014",
+    "accuracy": "\u221e",
     "gen": "ix"
   },
   {
@@ -8999,7 +8818,7 @@ MOVES = [
     "power": 100,
     "accuracy": 100,
     "gen": "ix"
-  }, 
+  },
   {
     "number": 901,
     "name": "blood moon",
@@ -9036,6 +8855,156 @@ MOVES = [
     "type": "grass",
     "category": "physical",
     "pp": 10,
+    "power": 100,
+    "accuracy": 100,
+    "gen": "ix"
+  },
+  {
+    "number": 905,
+    "name": "electro shot",
+    "type": "electric",
+    "category": "special",
+    "pp": 10,
+    "power": 130,
+    "accuracy": 100,
+    "gen": "ix"
+  },
+  {
+    "number": 906,
+    "name": "tera starstorm",
+    "type": "normal",
+    "category": "special",
+    "pp": 5,
+    "power": 120,
+    "accuracy": 100,
+    "gen": "ix"
+  },
+  {
+    "number": 907,
+    "name": "fickle beam",
+    "type": "dragon",
+    "category": "special",
+    "pp": 5,
+    "power": 80,
+    "accuracy": 100,
+    "gen": "ix"
+  },
+  {
+    "number": 908,
+    "name": "burning bulwark",
+    "type": "fire",
+    "category": "status",
+    "pp": 10,
+    "power": "\u2014",
+    "accuracy": "\u2014",
+    "gen": "ix"
+  },
+  {
+    "number": 909,
+    "name": "thunderclap",
+    "type": "electric",
+    "category": "special",
+    "pp": 5,
+    "power": 70,
+    "accuracy": 100,
+    "gen": "ix"
+  },
+  {
+    "number": 910,
+    "name": "mighty cleave",
+    "type": "rock",
+    "category": "physical",
+    "pp": 5,
+    "power": 95,
+    "accuracy": 100,
+    "gen": "ix"
+  },
+  {
+    "number": 911,
+    "name": "tachyon cutter",
+    "type": "steel",
+    "category": "special",
+    "pp": 10,
+    "power": 50,
+    "accuracy": "\u221e",
+    "gen": "ix"
+  },
+  {
+    "number": 912,
+    "name": "hard press",
+    "type": "steel",
+    "category": "physical",
+    "pp": 10,
+    "power": "\u2014",
+    "accuracy": 100,
+    "gen": "ix"
+  },
+  {
+    "number": 913,
+    "name": "dragon cheer",
+    "type": "dragon",
+    "category": "status",
+    "pp": 15,
+    "power": "\u2014",
+    "accuracy": "\u2014",
+    "gen": "ix"
+  },
+  {
+    "number": 914,
+    "name": "alluring voice",
+    "type": "fairy",
+    "category": "special",
+    "pp": 10,
+    "power": 80,
+    "accuracy": 100,
+    "gen": "ix"
+  },
+  {
+    "number": 915,
+    "name": "temper flare",
+    "type": "fire",
+    "category": "physical",
+    "pp": 10,
+    "power": 75,
+    "accuracy": 100,
+    "gen": "ix"
+  },
+  {
+    "number": 916,
+    "name": "supercell slam",
+    "type": "electric",
+    "category": "physical",
+    "pp": 15,
+    "power": 100,
+    "accuracy": 95,
+    "gen": "ix"
+  },
+  {
+    "number": 917,
+    "name": "psychic noise",
+    "type": "psychic",
+    "category": "special",
+    "pp": 10,
+    "power": 75,
+    "accuracy": 100,
+    "gen": "ix"
+  },
+  {
+    "number": 918,
+    "name": "upper hand",
+    "type": "fighting",
+    "category": "physical",
+    "pp": 15,
+    "power": 65,
+    "accuracy": 100,
+    "gen": "ix"
+  },
+  {
+    "number": 919,
+    "name": "malignant chain",
+    "type": "poison",
+    "category": "special",
+    "pp": 5,
     "power": 100,
     "accuracy": 100,
     "gen": "ix"
