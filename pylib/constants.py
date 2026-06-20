@@ -9,6 +9,10 @@ DUMP_FOLDER = "output"
 
 # Format Names
 FORMATS = {
+    "champions": [
+        "vgc2026regulationma", 
+        "vgc2026regulationmb"
+    ],
     "gen9doubles": [
         "vgc2023regulatione",
         "vgc2023regulationd",

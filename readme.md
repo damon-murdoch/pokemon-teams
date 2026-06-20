@@ -13,6 +13,18 @@ New teams and formats will be added over time.
 
 I'm open to team submissions, however please keep in mind I do not preserve nicknames.
 
+### Updating the list
+
+You can add new teams to the site by running the following program:
+
+`python insert_ui.py`
+
+If you'd like to build this into a standalone executable, you can run the following using `pyinstaller`: 
+
+`pyinstaller -F .\insert_ui.py --distpath .`
+
+Please note, that the .exe needs to be in the same directory as `insert_ui.py` for some path references to work.
+
 ### Date Created
 12/30/2021 01:43:46
 

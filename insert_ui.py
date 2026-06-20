@@ -76,7 +76,11 @@ if __name__ == "__main__":
 
     root = tk.Tk()
     root.title("Team Input Form")
-    root.iconbitmap("img/favicon.ico")
+
+    try:
+        root.iconbitmap("img/favicon.ico")
+    except Exception as e:
+        print("Failed to load icon, skipping ...")
 
     padding = {"padx": 10, "pady": 5}
 

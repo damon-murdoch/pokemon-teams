@@ -1,4 +1,1235 @@
 const TEAMS = {
+  "champions": {
+    "vgc2026regulationma": [
+      {
+        "name": "Gardy Rain Room",
+        "desc": "Gardevoir rain balance team",
+        "owner": {
+          "name": "Scrubbs",
+          "link": "https://x.com/SirScrubbington"
+        },
+        "sets": [
+          {
+            "species": "Gardevoir",
+            "nickname": "",
+            "gender": "f",
+            "ability": "Trace",
+            "evs": {
+              "hp": 32,
+              "atk": 0,
+              "def": 26,
+              "spa": 5,
+              "spd": 1,
+              "spe": 2
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Modest",
+            "item": "Gardevoirite",
+            "moves": [
+              "Protect",
+              "Trick Room",
+              "Hyper Voice",
+              "Psychic"
+            ],
+            "other": {
+              "shiny": "Yes"
+            }
+          },
+          {
+            "species": "Incineroar",
+            "nickname": "",
+            "gender": "f",
+            "ability": "Intimidate",
+            "evs": {
+              "hp": 31,
+              "atk": 5,
+              "def": 0,
+              "spa": 0,
+              "spd": 30,
+              "spe": 0
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Adamant",
+            "item": "Sitrus Berry",
+            "moves": [
+              "Parting Shot",
+              "Darkest Lariat",
+              "Flare Blitz",
+              "Fake Out"
+            ],
+            "other": {
+              "level": "50",
+              "shiny": "Yes"
+            }
+          },
+          {
+            "species": "Sinistcha",
+            "nickname": "",
+            "gender": "",
+            "ability": "Hospitality",
+            "evs": {
+              "hp": 32,
+              "atk": 0,
+              "def": 24,
+              "spa": 0,
+              "spd": 10,
+              "spe": 0
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Bold",
+            "item": "Kasib Berry",
+            "moves": [
+              "Matcha Gotcha",
+              "Rage Powder",
+              "Trick Room",
+              "Life Dew"
+            ],
+            "other": {
+              "level": "50"
+            }
+          },
+          {
+            "species": "Archaludon",
+            "nickname": "",
+            "gender": "",
+            "ability": "Stamina",
+            "evs": {
+              "hp": 32,
+              "atk": 0,
+              "def": 0,
+              "spa": 6,
+              "spd": 27,
+              "spe": 1
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Modest",
+            "item": "Leftovers",
+            "moves": [
+              "Protect",
+              "Electro Shot",
+              "Flash Cannon",
+              "Dragon Pulse"
+            ],
+            "other": {
+              "level": "50",
+              "shiny": "Yes"
+            }
+          },
+          {
+            "species": "Basculegion",
+            "nickname": "",
+            "gender": "",
+            "ability": "Swift Swim",
+            "evs": {
+              "hp": 24,
+              "atk": 28,
+              "def": 0,
+              "spa": 0,
+              "spd": 0,
+              "spe": 14
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Adamant",
+            "item": "Mystic Water",
+            "moves": [
+              "Protect",
+              "Aqua Jet",
+              "Wave Crash",
+              "Last Respects"
+            ],
+            "other": {
+              "level": "50"
+            }
+          },
+          {
+            "species": "Politoed",
+            "nickname": "",
+            "gender": "",
+            "ability": "Drizzle",
+            "evs": {
+              "hp": 32,
+              "atk": 0,
+              "def": 23,
+              "spa": 0,
+              "spd": 10,
+              "spe": 1
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Calm",
+            "item": "Wacan Berry",
+            "moves": [
+              "Protect",
+              "Helping Hand",
+              "Perish Song",
+              "Weather Ball"
+            ],
+            "other": {
+              "level": "50",
+              "shiny": "Yes"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Gardy Scizor Rain Room",
+        "desc": "Gardevoir rain room team featuring Scizor as a backup mega",
+        "owner": {
+          "name": "Scrubbs",
+          "link": "https://x.com/SirScrubbington"
+        },
+        "sets": [
+          {
+            "species": "Gardevoir",
+            "nickname": "",
+            "gender": "f",
+            "ability": "Trace",
+            "evs": {
+              "hp": 32,
+              "atk": 0,
+              "def": 26,
+              "spa": 5,
+              "spd": 1,
+              "spe": 2
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Modest",
+            "item": "Gardevoirite",
+            "moves": [
+              "Protect",
+              "Trick Room",
+              "Hyper Voice",
+              "Psychic"
+            ],
+            "other": {
+              "shiny": "Yes"
+            }
+          },
+          {
+            "species": "Incineroar",
+            "nickname": "",
+            "gender": "f",
+            "ability": "Intimidate",
+            "evs": {
+              "hp": 31,
+              "atk": 5,
+              "def": 0,
+              "spa": 0,
+              "spd": 30,
+              "spe": 0
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Adamant",
+            "item": "Sitrus Berry",
+            "moves": [
+              "Parting Shot",
+              "Darkest Lariat",
+              "Flare Blitz",
+              "Fake Out"
+            ],
+            "other": {
+              "level": "50",
+              "shiny": "Yes"
+            }
+          },
+          {
+            "species": "Sinistcha",
+            "nickname": "",
+            "gender": "",
+            "ability": "Hospitality",
+            "evs": {
+              "hp": 32,
+              "atk": 0,
+              "def": 24,
+              "spa": 0,
+              "spd": 10,
+              "spe": 0
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Bold",
+            "item": "Kasib Berry",
+            "moves": [
+              "Matcha Gotcha",
+              "Rage Powder",
+              "Trick Room",
+              "Life Dew"
+            ],
+            "other": {
+              "level": "50"
+            }
+          },
+          {
+            "species": "Archaludon",
+            "nickname": "",
+            "gender": "",
+            "ability": "Stamina",
+            "evs": {
+              "hp": 32,
+              "atk": 0,
+              "def": 0,
+              "spa": 6,
+              "spd": 27,
+              "spe": 1
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Modest",
+            "item": "Leftovers",
+            "moves": [
+              "Protect",
+              "Electro Shot",
+              "Aura Sphere",
+              "Dragon Pulse"
+            ],
+            "other": {
+              "level": "50"
+            }
+          },
+          {
+            "species": "Scizor",
+            "nickname": "",
+            "gender": "",
+            "ability": "Technician",
+            "evs": {
+              "hp": 32,
+              "atk": 10,
+              "def": 0,
+              "spa": 0,
+              "spd": 23,
+              "spe": 1
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Adamant",
+            "item": "Scizorite",
+            "moves": [
+              "Protect",
+              "Swords Dance",
+              "Bullet Punch",
+              "Bug Bite"
+            ],
+            "other": {
+              "level": "50"
+            }
+          },
+          {
+            "species": "Politoed",
+            "nickname": "",
+            "gender": "",
+            "ability": "Drizzle",
+            "evs": {
+              "hp": 32,
+              "atk": 0,
+              "def": 23,
+              "spa": 0,
+              "spd": 10,
+              "spe": 1
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Calm",
+            "item": "Wacan Berry",
+            "moves": [
+              "Protect",
+              "Helping Hand",
+              "Perish Song",
+              "Weather Ball"
+            ],
+            "other": {
+              "level": "50",
+              "shiny": "Yes"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Dual Mega Balance",
+        "desc": "Bulky Charizard Y + Floette team",
+        "owner": {
+          "name": "Scrubbs",
+          "link": "https://x.com/SirScrubbington"
+        },
+        "sets": [
+          {
+            "species": "Charizard",
+            "nickname": "",
+            "gender": "",
+            "ability": "Blaze",
+            "evs": {
+              "hp": 32,
+              "atk": 0,
+              "def": 30,
+              "spa": 1,
+              "spd": 1,
+              "spe": 2
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Modest",
+            "item": "Charizardite Y",
+            "moves": [
+              "Protect",
+              "Heat Wave",
+              "Weather Ball",
+              "Solar Beam"
+            ],
+            "other": {
+              "level": "50"
+            }
+          },
+          {
+            "species": "Floette-Eternal",
+            "nickname": "",
+            "gender": "f",
+            "ability": "Flower Veil",
+            "evs": {
+              "hp": 32,
+              "atk": 0,
+              "def": 27,
+              "spa": 5,
+              "spd": 1,
+              "spe": 1
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Modest",
+            "item": "Floettite",
+            "moves": [
+              "Protect",
+              "Calm Mind",
+              "Dazzling Gleam",
+              "Draining Kiss"
+            ],
+            "other": {}
+          },
+          {
+            "species": "Sinistcha",
+            "nickname": "",
+            "gender": "",
+            "ability": "Hospitality",
+            "evs": {
+              "hp": 32,
+              "atk": 0,
+              "def": 24,
+              "spa": 0,
+              "spd": 10,
+              "spe": 0
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Bold",
+            "item": "Kasib Berry",
+            "moves": [
+              "Matcha Gotcha",
+              "Rage Powder",
+              "Life Dew",
+              "Trick Room"
+            ],
+            "other": {
+              "level": "50"
+            }
+          },
+          {
+            "species": "Incineroar",
+            "nickname": "",
+            "gender": "f",
+            "ability": "Intimidate",
+            "evs": {
+              "hp": 31,
+              "atk": 5,
+              "def": 0,
+              "spa": 0,
+              "spd": 30,
+              "spe": 0
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Adamant",
+            "item": "Sitrus Berry",
+            "moves": [
+              "Parting Shot",
+              "Darkest Lariat",
+              "Flare Blitz",
+              "Fake Out"
+            ],
+            "other": {
+              "level": "50",
+              "shiny": "Yes"
+            }
+          },
+          {
+            "species": "Kingambit",
+            "nickname": "",
+            "gender": "",
+            "ability": "Defiant",
+            "evs": {
+              "hp": 32,
+              "atk": 25,
+              "def": 0,
+              "spa": 0,
+              "spd": 9,
+              "spe": 0
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Adamant",
+            "item": "Black Glasses",
+            "moves": [
+              "Protect",
+              "Swords Dance",
+              "Kowtow Cleave",
+              "Sucker Punch"
+            ],
+            "other": {
+              "level": "50"
+            }
+          },
+          {
+            "species": "Sneasler",
+            "nickname": "",
+            "gender": "",
+            "ability": "Unburden",
+            "evs": {
+              "hp": 2,
+              "atk": 32,
+              "def": 0,
+              "spa": 0,
+              "spd": 0,
+              "spe": 32
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Jolly",
+            "item": "White Herb",
+            "moves": [
+              "Protect",
+              "Close Combat",
+              "Dire Claw",
+              "Fake Out"
+            ],
+            "other": {
+              "level": "50"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Dual Mega Offense",
+        "desc": "Whimsicott Zard-Y + Floette team",
+        "owner": {
+          "name": "Scrubbs",
+          "link": "https://x.com/SirScrubbington"
+        },
+        "sets": [
+          {
+            "species": "Charizard",
+            "nickname": "",
+            "gender": "",
+            "ability": "Blaze",
+            "evs": {
+              "hp": 28,
+              "atk": 0,
+              "def": 11,
+              "spa": 11,
+              "spd": 0,
+              "spe": 16
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Modest",
+            "item": "Charizardite Y",
+            "moves": [
+              "Protect",
+              "Heat Wave",
+              "Weather Ball",
+              "Solar Beam"
+            ],
+            "other": {}
+          },
+          {
+            "species": "Floette-Eternal",
+            "nickname": "",
+            "gender": "",
+            "ability": "Flower Veil",
+            "evs": {
+              "hp": 2,
+              "atk": 0,
+              "def": 0,
+              "spa": 32,
+              "spd": 0,
+              "spe": 32
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 0,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Timid",
+            "item": "Floettite",
+            "moves": [
+              "Protect",
+              "Dazzling Gleam",
+              "Light of Ruin",
+              "Moonblast"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Fairy"
+            }
+          },
+          {
+            "species": "Garchomp",
+            "nickname": "",
+            "gender": "",
+            "ability": "Rough Skin",
+            "evs": {
+              "hp": 6,
+              "atk": 20,
+              "def": 1,
+              "spa": 0,
+              "spd": 7,
+              "spe": 32
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Adamant",
+            "item": "Sitrus Berry",
+            "moves": [
+              "Protect",
+              "Rock Slide",
+              "Earthquake",
+              "Stomping Tantrum"
+            ],
+            "other": {}
+          },
+          {
+            "species": "Basculegion",
+            "nickname": "",
+            "gender": "m",
+            "ability": "Adaptability",
+            "evs": {
+              "hp": 1,
+              "atk": 28,
+              "def": 16,
+              "spa": 0,
+              "spd": 1,
+              "spe": 20
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Adamant",
+            "item": "Mystic Water",
+            "moves": [
+              "Protect",
+              "Aqua Jet",
+              "Wave Crash",
+              "Last Respects"
+            ],
+            "other": {}
+          },
+          {
+            "species": "Kingambit",
+            "nickname": "",
+            "gender": "",
+            "ability": "Defiant",
+            "evs": {
+              "hp": 32,
+              "atk": 25,
+              "def": 0,
+              "spa": 0,
+              "spd": 9,
+              "spe": 0
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Adamant",
+            "item": "Occa Berry",
+            "moves": [
+              "Protect",
+              "Kowtow Cleave",
+              "Sucker Punch",
+              "Iron Head"
+            ],
+            "other": {}
+          },
+          {
+            "species": "Whimsicott",
+            "nickname": "",
+            "gender": "",
+            "ability": "Prankster",
+            "evs": {
+              "hp": 2,
+              "atk": 0,
+              "def": 0,
+              "spa": 32,
+              "spd": 0,
+              "spe": 32
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Timid",
+            "item": "Focus Sash",
+            "moves": [
+              "Protect",
+              "Tailwind",
+              "Encore",
+              "Moonblast"
+            ],
+            "other": {
+              "level": "50"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Dual Mega Aero",
+        "desc": "Dual Mega Offense team supported by Aerodactyl",
+        "owner": {
+          "name": "Scrubbs",
+          "link": "https://x.com/SirScrubbington"
+        },
+        "sets": [
+          {
+            "species": "Charizard",
+            "nickname": "",
+            "gender": "",
+            "ability": "Blaze",
+            "evs": {
+              "hp": 28,
+              "atk": 0,
+              "def": 11,
+              "spa": 11,
+              "spd": 0,
+              "spe": 16
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Modest",
+            "item": "Charizardite Y",
+            "moves": [
+              "Protect",
+              "Heat Wave",
+              "Weather Ball",
+              "Solar Beam"
+            ],
+            "other": {}
+          },
+          {
+            "species": "Floette-Eternal",
+            "nickname": "",
+            "gender": "",
+            "ability": "Flower Veil",
+            "evs": {
+              "hp": 2,
+              "atk": 0,
+              "def": 0,
+              "spa": 32,
+              "spd": 0,
+              "spe": 32
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 0,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Timid",
+            "item": "Floettite",
+            "moves": [
+              "Protect",
+              "Dazzling Gleam",
+              "Light of Ruin",
+              "Moonblast"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Fairy"
+            }
+          },
+          {
+            "species": "Garchomp",
+            "nickname": "",
+            "gender": "",
+            "ability": "Rough Skin",
+            "evs": {
+              "hp": 6,
+              "atk": 20,
+              "def": 1,
+              "spa": 0,
+              "spd": 7,
+              "spe": 32
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Adamant",
+            "item": "Sitrus Berry",
+            "moves": [
+              "Protect",
+              "Earthquake",
+              "Dragon Claw",
+              "Stomping Tantrum"
+            ],
+            "other": {}
+          },
+          {
+            "species": "Basculegion",
+            "nickname": "",
+            "gender": "m",
+            "ability": "Adaptability",
+            "evs": {
+              "hp": 1,
+              "atk": 28,
+              "def": 16,
+              "spa": 0,
+              "spd": 1,
+              "spe": 20
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Adamant",
+            "item": "Mystic Water",
+            "moves": [
+              "Protect",
+              "Aqua Jet",
+              "Wave Crash",
+              "Last Respects"
+            ],
+            "other": {}
+          },
+          {
+            "species": "Kingambit",
+            "nickname": "",
+            "gender": "",
+            "ability": "Defiant",
+            "evs": {
+              "hp": 32,
+              "atk": 25,
+              "def": 0,
+              "spa": 0,
+              "spd": 9,
+              "spe": 0
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Adamant",
+            "item": "Occa Berry",
+            "moves": [
+              "Protect",
+              "Kowtow Cleave",
+              "Sucker Punch",
+              "Iron Head"
+            ],
+            "other": {}
+          },
+          {
+            "species": "Aerodactyl",
+            "nickname": "",
+            "gender": "",
+            "ability": "Unnerve",
+            "evs": {
+              "hp": 2,
+              "atk": 32,
+              "def": 0,
+              "spa": 0,
+              "spd": 0,
+              "spe": 32
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Jolly",
+            "item": "Focus Sash",
+            "moves": [
+              "Protect",
+              "Tailwind",
+              "Dual Wingbeat",
+              "Rock Slide"
+            ],
+            "other": {
+              "level": "50"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Starmie Rain",
+        "desc": "Starmie rain team made by Splozion",
+        "owner": {
+          "name": "Scrubbs",
+          "link": "https://x.com/SirScrubbington"
+        },
+        "sets": [
+          {
+            "species": "Sableye",
+            "nickname": "",
+            "gender": "",
+            "ability": "Prankster",
+            "evs": {
+              "hp": 32,
+              "atk": 0,
+              "def": 5,
+              "spa": 0,
+              "spd": 29,
+              "spe": 0
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Bold",
+            "item": "Roseli Berry",
+            "moves": [
+              "Rain Dance",
+              "WillOWisp",
+              "Quash",
+              "Foul Play"
+            ],
+            "other": {}
+          },
+          {
+            "species": "Archaludon",
+            "nickname": "",
+            "gender": "",
+            "ability": "Stamina",
+            "evs": {
+              "hp": 32,
+              "atk": 0,
+              "def": 0,
+              "spa": 6,
+              "spd": 27,
+              "spe": 1
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Modest",
+            "item": "Leftovers",
+            "moves": [
+              "Protect",
+              "Electro Shot",
+              "Flash Cannon",
+              "Dragon Pulse"
+            ],
+            "other": {}
+          },
+          {
+            "species": "Pelipper",
+            "nickname": "",
+            "gender": "",
+            "ability": "Drizzle",
+            "evs": {
+              "hp": 0,
+              "atk": 0,
+              "def": 0,
+              "spa": 32,
+              "spd": 2,
+              "spe": 32
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Modest",
+            "item": "Focus Sash",
+            "moves": [
+              "Protect",
+              "Tailwind",
+              "Weather Ball",
+              "Hurricane"
+            ],
+            "other": {}
+          },
+          {
+            "species": "Floette-Eternal",
+            "nickname": "",
+            "gender": "f",
+            "ability": "Flower Veil",
+            "evs": {
+              "hp": 32,
+              "atk": 0,
+              "def": 27,
+              "spa": 5,
+              "spd": 1,
+              "spe": 1
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Modest",
+            "item": "Floettite",
+            "moves": [
+              "Protect",
+              "Calm Mind",
+              "Dazzling Gleam",
+              "Moonblast"
+            ],
+            "other": {}
+          },
+          {
+            "species": "Starmie",
+            "nickname": "",
+            "gender": "",
+            "ability": "Illuminate",
+            "evs": {
+              "hp": 32,
+              "atk": 2,
+              "def": 0,
+              "spa": 0,
+              "spd": 0,
+              "spe": 32
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Adamant",
+            "item": "Starminite",
+            "moves": [
+              "Protect",
+              "Liquidation",
+              "Aqua Jet"
+            ],
+            "other": {}
+          },
+          {
+            "species": "Sneasler",
+            "nickname": "",
+            "gender": "",
+            "ability": "Unburden",
+            "evs": {
+              "hp": 0,
+              "atk": 32,
+              "def": 2,
+              "spa": 0,
+              "spd": 0,
+              "spe": 32
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Jolly",
+            "item": "White Herb",
+            "moves": [
+              "Coaching",
+              "Close Combat",
+              "Dire Claw",
+              "Fake Out"
+            ],
+            "other": {
+              "level": "50"
+            }
+          }
+        ]
+      }
+    ]
+  },
   "gen9doubles": {
     "vgc2023regulatione": [
       {
@@ -3188,7 +4419,7 @@ const TEAMS = {
         ]
       },
       {
-        "name": "Dondozo Hyper Offense",
+        "name": "Dondozo offense",
         "owner": {
           "name": "Sir Scrubbington",
           "link": "https://twitter.com/SirScrubbington"
@@ -3823,7 +5054,7 @@ const TEAMS = {
         ]
       },
       {
-        "name": "Dondozo Hyper Offense",
+        "name": "Dondozo offense",
         "owner": {
           "name": "Sir Scrubbington",
           "link": "https://twitter.com/SirScrubbington"
@@ -5061,7 +6292,7 @@ const TEAMS = {
             }
           },
           {
-            "species": "Metagross-Mega",
+            "species": "Metagross",
             "nickname": "",
             "gender": "",
             "ability": "Clear Body",
@@ -5306,7 +6537,7 @@ const TEAMS = {
     ],
     "vgc2024regg": [
       {
-        "name": "terapagos goodstuffs",
+        "name": "terapagos balance",
         "owner": {
           "name": "Scrubbs",
           "link": "https://twitter.com/SirScrubbington"
@@ -6372,7 +7603,7 @@ const TEAMS = {
       },
       {
         "name": "Zama Balance",
-        "desc": "Balanced Zamazenta goodstuffs team",
+        "desc": "Balanced Zamazenta balance team",
         "owner": {
           "name": "Scrubbs",
           "link": "https://x.com/SirScrubbington"
@@ -9793,7 +11024,7 @@ const TEAMS = {
         ]
       },
       {
-        "name": "dragapult goodstuffs",
+        "name": "dragapult balance",
         "owner": {
           "name": "Scrubbs",
           "link": "https://twitter.com/SirScrubbington"
@@ -10222,7 +11453,7 @@ const TEAMS = {
         ]
       },
       {
-        "name": "dragonite goodstuffs",
+        "name": "dragonite balance",
         "owner": {
           "name": "Scrubbs",
           "link": "https://twitter.com/SirScrubbington"
@@ -11717,6 +12948,1072 @@ const TEAMS = {
             }
           }
         ]
+      },
+      {
+        "name": "Brisbane MausApe",
+        "desc": "MausApe team I used at Brisbane Regionals 2026",
+        "owner": {
+          "name": "Scrubbs",
+          "link": "https://x.com/SirScrubbington"
+        },
+        "sets": [
+          {
+            "species": "Annihilape",
+            "nickname": "",
+            "gender": "m",
+            "ability": "Defiant",
+            "evs": {
+              "hp": 180,
+              "atk": 68,
+              "def": 4,
+              "spa": 0,
+              "spd": 4,
+              "spe": 252
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Jolly",
+            "item": "Sitrus Berry",
+            "moves": [
+              "Protect",
+              "Bulk Up",
+              "Rage Fist",
+              "Drain Punch"
+            ],
+            "other": {
+              "level": "61",
+              "shiny": "Yes",
+              "tera type": "Fire"
+            }
+          },
+          {
+            "species": "Maushold",
+            "nickname": "",
+            "gender": "",
+            "ability": "Friend Guard",
+            "evs": {
+              "hp": 252,
+              "atk": 0,
+              "def": 124,
+              "spa": 0,
+              "spd": 0,
+              "spe": 132
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 11,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Timid",
+            "item": "Safety Goggles",
+            "moves": [
+              "Protect",
+              "Follow Me",
+              "Super Fang",
+              "Beat Up"
+            ],
+            "other": {
+              "tera type": "Ghost"
+            }
+          },
+          {
+            "species": "Dragonite",
+            "nickname": "",
+            "gender": "",
+            "ability": "Multiscale",
+            "evs": {
+              "hp": 44,
+              "atk": 204,
+              "def": 4,
+              "spa": 0,
+              "spd": 4,
+              "spe": 252
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Adamant",
+            "item": "Loaded Dice",
+            "moves": [
+              "Protect",
+              "Haze",
+              "Tailwind",
+              "Scale Shot"
+            ],
+            "other": {
+              "tera type": "Fairy"
+            }
+          },
+          {
+            "species": "Rillaboom",
+            "nickname": "",
+            "gender": "",
+            "ability": "Grassy Surge",
+            "evs": {
+              "hp": 252,
+              "atk": 116,
+              "def": 4,
+              "spa": 0,
+              "spd": 60,
+              "spe": 76
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Adamant",
+            "item": "Assault Vest",
+            "moves": [
+              "Wood Hammer",
+              "Grassy Glide",
+              "High Horsepower",
+              "Fake Out"
+            ],
+            "other": {
+              "tera type": "Fire"
+            }
+          },
+          {
+            "species": "Sneasler",
+            "nickname": "",
+            "gender": "",
+            "ability": "Unburden",
+            "evs": {
+              "hp": 0,
+              "atk": 252,
+              "def": 4,
+              "spa": 0,
+              "spd": 0,
+              "spe": 252
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Jolly",
+            "item": "Focus Sash",
+            "moves": [
+              "Close Combat",
+              "Throat Chop",
+              "Dire Claw",
+              "Fake Out"
+            ],
+            "other": {
+              "tera type": "Dark"
+            }
+          },
+          {
+            "species": "Volcarona",
+            "nickname": "",
+            "gender": "",
+            "ability": "Flame Body",
+            "evs": {
+              "hp": 108,
+              "atk": 0,
+              "def": 172,
+              "spa": 36,
+              "spd": 4,
+              "spe": 188
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 0,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Modest",
+            "item": "Covert Cloak",
+            "moves": [
+              "Protect",
+              "Quiver Dance",
+              "Heat Wave",
+              "Tera Blast"
+            ],
+            "other": {
+              "level": "69",
+              "shiny": "Yes",
+              "tera type": "Fairy"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Dragapult Balance 2.0",
+        "desc": "Updated dragapult balance team I worked on in the second iteration of Reg. H",
+        "owner": {
+          "name": "Scrubbs",
+          "link": "https://x.com/SirScrubbington"
+        },
+        "sets": [
+          {
+            "species": "Dragapult",
+            "nickname": "",
+            "gender": "m",
+            "ability": "Clear Body",
+            "evs": {
+              "hp": 0,
+              "atk": 252,
+              "def": 0,
+              "spa": 0,
+              "spd": 4,
+              "spe": 252
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Jolly",
+            "item": "Choice Band",
+            "moves": [
+              "Uturn",
+              "Phantom Force",
+              "Dragon Darts",
+              "Tera Blast"
+            ],
+            "other": {
+              "level": "50",
+              "shiny": "Yes",
+              "tera type": "Dragon"
+            }
+          },
+          {
+            "species": "Electabuzz",
+            "nickname": "",
+            "gender": "",
+            "ability": "Vital Spirit",
+            "evs": {
+              "hp": 100,
+              "atk": 0,
+              "def": 180,
+              "spa": 4,
+              "spd": 4,
+              "spe": 220
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 0,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Timid",
+            "item": "Eviolite",
+            "moves": [
+              "Protect",
+              "Follow Me",
+              "Taunt",
+              "Electroweb"
+            ],
+            "other": {
+              "level": "50",
+              "shiny": "Yes",
+              "tera type": "Fairy"
+            }
+          },
+          {
+            "species": "Volcarona",
+            "nickname": "",
+            "gender": "",
+            "ability": "Flame Body",
+            "evs": {
+              "hp": 252,
+              "atk": 0,
+              "def": 108,
+              "spa": 36,
+              "spd": 4,
+              "spe": 108
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Modest",
+            "item": "Leftovers",
+            "moves": [
+              "Protect",
+              "Quiver Dance",
+              "Heat Wave",
+              "Tera Blast"
+            ],
+            "other": {
+              "level": "50",
+              "shiny": "Yes",
+              "tera type": "Fairy"
+            }
+          },
+          {
+            "species": "Primarina",
+            "nickname": "",
+            "gender": "",
+            "ability": "Liquid Voice",
+            "evs": {
+              "hp": 252,
+              "atk": 0,
+              "def": 140,
+              "spa": 108,
+              "spd": 4,
+              "spe": 4
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 0,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Modest",
+            "item": "Throat Spray",
+            "moves": [
+              "Protect",
+              "Hyper Voice",
+              "Moonblast",
+              "Haze"
+            ],
+            "other": {
+              "level": "50",
+              "shiny": "Yes",
+              "tera type": "Steel"
+            }
+          },
+          {
+            "species": "Rillaboom",
+            "nickname": "",
+            "gender": "",
+            "ability": "Grassy Surge",
+            "evs": {
+              "hp": 140,
+              "atk": 116,
+              "def": 12,
+              "spa": 0,
+              "spd": 236,
+              "spe": 4
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Adamant",
+            "item": "Assault Vest",
+            "moves": [
+              "Uturn",
+              "Grassy Glide",
+              "High Horsepower",
+              "Fake Out"
+            ],
+            "other": {
+              "level": "50",
+              "shiny": "Yes",
+              "tera type": "Fire"
+            }
+          },
+          {
+            "species": "Kingambit",
+            "nickname": "",
+            "gender": "",
+            "ability": "Defiant",
+            "evs": {
+              "hp": 204,
+              "atk": 196,
+              "def": 4,
+              "spa": 0,
+              "spd": 100,
+              "spe": 4
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Adamant",
+            "item": "Black Glasses",
+            "moves": [
+              "Protect",
+              "Swords Dance",
+              "Kowtow Cleave",
+              "Sucker Punch"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Dark"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Blood Moon offense",
+        "desc": "offense team built around Whimsicott + Blood Moon, with Beat Up Arch/Annihilape as a backup option",
+        "owner": {
+          "name": "Scrubbs",
+          "link": "https://x.com/SirScrubbington"
+        },
+        "sets": [
+          {
+            "species": "Dragonite",
+            "nickname": "",
+            "gender": "",
+            "ability": "Multiscale",
+            "evs": {
+              "hp": 44,
+              "atk": 204,
+              "def": 4,
+              "spa": 0,
+              "spd": 4,
+              "spe": 252
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Adamant",
+            "item": "Loaded Dice",
+            "moves": [
+              "Protect",
+              "Haze",
+              "Ice Spinner",
+              "Scale Shot"
+            ],
+            "other": {
+              "tera type": "Fairy"
+            }
+          },
+          {
+            "species": "Sneasler",
+            "nickname": "",
+            "gender": "m",
+            "ability": "Unburden",
+            "evs": {
+              "hp": 0,
+              "atk": 252,
+              "def": 4,
+              "spa": 0,
+              "spd": 0,
+              "spe": 252
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Jolly",
+            "item": "Focus Sash",
+            "moves": [
+              "Close Combat",
+              "Dire Claw",
+              "Coaching",
+              "Fake Out"
+            ],
+            "other": {
+              "level": "51",
+              "tera type": "Stellar"
+            }
+          },
+          {
+            "species": "Archaludon",
+            "nickname": "",
+            "gender": "",
+            "ability": "Stamina",
+            "evs": {
+              "hp": 252,
+              "atk": 0,
+              "def": 76,
+              "spa": 4,
+              "spd": 92,
+              "spe": 84
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 0,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Bold",
+            "item": "Assault Vest",
+            "moves": [
+              "Snarl",
+              "Body Press",
+              "Dragon Pulse",
+              "Flash Cannon"
+            ],
+            "other": {
+              "tera type": "Bug"
+            }
+          },
+          {
+            "species": "Annihilape",
+            "nickname": "",
+            "gender": "",
+            "ability": "Defiant",
+            "evs": {
+              "hp": 188,
+              "atk": 60,
+              "def": 4,
+              "spa": 0,
+              "spd": 4,
+              "spe": 252
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Jolly",
+            "item": "Safety Goggles",
+            "moves": [
+              "Protect",
+              "Bulk Up",
+              "Rage Fist",
+              "Drain Punch"
+            ],
+            "other": {
+              "tera type": "Fire"
+            }
+          },
+          {
+            "species": "Ursaluna-Bloodmoon",
+            "nickname": "",
+            "gender": "",
+            "ability": "Mind's Eye",
+            "evs": {
+              "hp": 4,
+              "atk": 0,
+              "def": 4,
+              "spa": 244,
+              "spd": 4,
+              "spe": 252
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 0,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Timid",
+            "item": "Life Orb",
+            "moves": [
+              "Protect",
+              "Blood Moon",
+              "Hyper Voice",
+              "Earth Power"
+            ],
+            "other": {
+              "tera type": "Normal"
+            }
+          },
+          {
+            "species": "Whimsicott",
+            "nickname": "",
+            "gender": "",
+            "ability": "Prankster",
+            "evs": {
+              "hp": 252,
+              "atk": 0,
+              "def": 36,
+              "spa": 0,
+              "spd": 0,
+              "spe": 220
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 0,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Timid",
+            "item": "Covert Cloak",
+            "moves": [
+              "Moonblast",
+              "Tailwind",
+              "Beat Up",
+              "Encore"
+            ],
+            "other": {
+              "tera type": "Dark"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Floatzel Rain",
+        "desc": "Rain team featuring banded Floatzel used by Lana at locals :)",
+        "owner": {
+          "name": "Lana",
+          "link": "https://x.com/Lanakuma"
+        },
+        "sets": [
+          {
+            "species": "Floatzel",
+            "nickname": "hiiiiii",
+            "gender": "f",
+            "ability": "Swift Swim",
+            "evs": {
+              "hp": 52,
+              "atk": 196,
+              "def": 4,
+              "spa": 0,
+              "spd": 4,
+              "spe": 252
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Adamant",
+            "item": "Choice Band",
+            "moves": [
+              "Flip Turn",
+              "Wave Crash",
+              "Ice Spinner",
+              "Aqua Jet"
+            ],
+            "other": {
+              "level": "50",
+              "shiny": "Yes",
+              "tera type": "Water"
+            }
+          },
+          {
+            "species": "Pelipper",
+            "nickname": "*splashes u*",
+            "gender": "",
+            "ability": "Drizzle",
+            "evs": {
+              "hp": 0,
+              "atk": 0,
+              "def": 0,
+              "spa": 252,
+              "spd": 4,
+              "spe": 252
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 0,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Modest",
+            "item": "Focus Sash",
+            "moves": [
+              "Protect",
+              "Tailwind",
+              "Weather Ball",
+              "Hurricane"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Ghost"
+            }
+          },
+          {
+            "species": "Archaludon",
+            "nickname": "crackers",
+            "gender": "",
+            "ability": "Sturdy",
+            "evs": {
+              "hp": 0,
+              "atk": 0,
+              "def": 0,
+              "spa": 252,
+              "spd": 4,
+              "spe": 252
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 0,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Modest",
+            "item": "Power Herb",
+            "moves": [
+              "Protect",
+              "Electro Shot",
+              "Flash Cannon",
+              "Dragon Pulse"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Electric"
+            }
+          },
+          {
+            "species": "Gholdengo",
+            "nickname": "cheese",
+            "gender": "",
+            "ability": "Good as Gold",
+            "evs": {
+              "hp": 52,
+              "atk": 0,
+              "def": 4,
+              "spa": 196,
+              "spd": 4,
+              "spe": 252
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 0,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Timid",
+            "item": "Life Orb",
+            "moves": [
+              "Protect",
+              "Nasty Plot",
+              "Make It Rain",
+              "Shadow Ball"
+            ],
+            "other": {
+              "tera type": "Water"
+            }
+          },
+          {
+            "species": "Amoonguss",
+            "nickname": "mush",
+            "gender": "",
+            "ability": "Regenerator",
+            "evs": {
+              "hp": 236,
+              "atk": 0,
+              "def": 236,
+              "spa": 0,
+              "spd": 36,
+              "spe": 0
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 0,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 0
+            },
+            "nature": "Relaxed",
+            "item": "Rocky Helmet",
+            "moves": [
+              "Protect",
+              "Rage Powder",
+              "Pollen Puff",
+              "Spore"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Fairy"
+            }
+          },
+          {
+            "species": "Incineroar",
+            "nickname": "nya",
+            "gender": "",
+            "ability": "Intimidate",
+            "evs": {
+              "hp": 244,
+              "atk": 36,
+              "def": 4,
+              "spa": 0,
+              "spd": 220,
+              "spe": 4
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Adamant",
+            "item": "Safety Goggles",
+            "moves": [
+              "Parting Shot",
+              "Flare Blitz",
+              "Knock Off",
+              "Fake Out"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Ghost"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Marco Sun",
+        "desc": "Sun team used by Marco Fiero to win the LAIC 2025",
+        "owner": {
+          "name": "Marco Fiero",
+          "link": "https://x.com/marc0fier0"
+        },
+        "sets": [
+          {
+            "species": "Charizard",
+            "nickname": "",
+            "gender": "",
+            "ability": "Solar Power",
+            "evs": {
+              "hp": 0,
+              "atk": 0,
+              "def": 4,
+              "spa": 252,
+              "spd": 0,
+              "spe": 252
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Timid",
+            "item": "Choice Specs",
+            "moves": [
+              "Heat Wave",
+              "Overheat",
+              "Weather Ball",
+              "Air Slash"
+            ],
+            "other": {
+              "tera type": "Ghost"
+            }
+          },
+          {
+            "species": "Torkoal",
+            "nickname": "",
+            "gender": "",
+            "ability": "Drought",
+            "evs": {
+              "hp": 252,
+              "atk": 0,
+              "def": 4,
+              "spa": 252,
+              "spd": 0,
+              "spe": 0
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 20,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 9
+            },
+            "nature": "Modest",
+            "item": "Eject Pack",
+            "moves": [
+              "Eruption",
+              "Overheat",
+              "Helping Hand",
+              "Protect"
+            ],
+            "other": {
+              "tera type": "Fire"
+            }
+          },
+          {
+            "species": "Porygon2",
+            "nickname": "",
+            "gender": "",
+            "ability": "Download",
+            "evs": {
+              "hp": 252,
+              "atk": 0,
+              "def": 28,
+              "spa": 204,
+              "spd": 20,
+              "spe": 4
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Modest",
+            "item": "Eviolite",
+            "moves": [
+              "Tera Blast",
+              "Ice Beam",
+              "Recover",
+              "Trick Room"
+            ],
+            "other": {
+              "level": "71",
+              "tera type": "Fighting"
+            }
+          },
+          {
+            "species": "Incineroar",
+            "nickname": "",
+            "gender": "",
+            "ability": "Intimidate",
+            "evs": {
+              "hp": 252,
+              "atk": 36,
+              "def": 0,
+              "spa": 0,
+              "spd": 0,
+              "spe": 220
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Adamant",
+            "item": "Sitrus Berry",
+            "moves": [
+              "Flare Blitz",
+              "Knock Off",
+              "Fake Out",
+              "Parting Shot"
+            ],
+            "other": {
+              "level": "75",
+              "tera type": "Ghost"
+            }
+          },
+          {
+            "species": "Jumpluff",
+            "nickname": "",
+            "gender": "",
+            "ability": "Chlorophyll",
+            "evs": {
+              "hp": 244,
+              "atk": 0,
+              "def": 44,
+              "spa": 0,
+              "spd": 0,
+              "spe": 220
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 0,
+              "def": 31,
+              "spa": 14,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Timid",
+            "item": "Covert Cloak",
+            "moves": [
+              "Sleep Powder",
+              "Sunny Day",
+              "Rage Powder",
+              "Tailwind"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Water"
+            }
+          },
+          {
+            "species": "Ursaluna",
+            "nickname": "",
+            "gender": "",
+            "ability": "Guts",
+            "evs": {
+              "hp": 140,
+              "atk": 236,
+              "def": 0,
+              "spa": 0,
+              "spd": 0,
+              "spe": 132
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Adamant",
+            "item": "Flame Orb",
+            "moves": [
+              "Headlong Rush",
+              "Facade",
+              "Earthquake",
+              "Protect"
+            ],
+            "other": {
+              "level": "64",
+              "tera type": "Ghost"
+            }
+          }
+        ]
       }
     ],
     "vgc2024reggxy": [
@@ -11937,7 +14234,7 @@ const TEAMS = {
     ],
     "vgc2024regf": [
       {
-        "name": "Torn Shifu Goodstuffs",
+        "name": "Torn Shifu balance",
         "desc": "Simple Regulation F balance team",
         "owner": {
           "name": "Sir Scrubbington",
@@ -12146,6 +14443,2355 @@ const TEAMS = {
             "other": {
               "level": "50",
               "tera type": "Fairy"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Ye Olde Balance",
+        "desc": "CHALK-Style balance team",
+        "owner": {
+          "name": "Scrubbs",
+          "link": "https://x.com/SirScrubbington"
+        },
+        "sets": [
+          {
+            "species": "Cresselia",
+            "nickname": "",
+            "gender": "",
+            "ability": "Levitate",
+            "evs": {
+              "hp": 252,
+              "atk": 0,
+              "def": 156,
+              "spa": 4,
+              "spd": 92,
+              "spe": 4
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 0,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Bold",
+            "item": "Safety Goggles",
+            "moves": [
+              "Trick Room",
+              "Lunar Blessing",
+              "Helping Hand",
+              "Moonblast"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Fairy"
+            }
+          },
+          {
+            "species": "Heatran",
+            "nickname": "",
+            "gender": "",
+            "ability": "Flash Fire",
+            "evs": {
+              "hp": 244,
+              "atk": 0,
+              "def": 4,
+              "spa": 236,
+              "spd": 4,
+              "spe": 20
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 0,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Modest",
+            "item": "Leftovers",
+            "moves": [
+              "Protect",
+              "Substitute",
+              "Heat Wave",
+              "Earth Power"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Grass"
+            }
+          },
+          {
+            "species": "Amoonguss",
+            "nickname": "",
+            "gender": "",
+            "ability": "Regenerator",
+            "evs": {
+              "hp": 236,
+              "atk": 0,
+              "def": 236,
+              "spa": 0,
+              "spd": 36,
+              "spe": 0
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 0,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Relaxed",
+            "item": "Rocky Helmet",
+            "moves": [
+              "Protect",
+              "Rage Powder",
+              "Sludge Bomb",
+              "Spore"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Water"
+            }
+          },
+          {
+            "species": "Landorus-Therian",
+            "nickname": "",
+            "gender": "",
+            "ability": "Intimidate",
+            "evs": {
+              "hp": 4,
+              "atk": 196,
+              "def": 4,
+              "spa": 0,
+              "spd": 52,
+              "spe": 252
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Adamant",
+            "item": "Choice Scarf",
+            "moves": [
+              "Uturn",
+              "Rock Slide",
+              "Earthquake",
+              "Tera Blast"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Flying"
+            }
+          },
+          {
+            "species": "Urshifu-Rapid-Strike",
+            "nickname": "",
+            "gender": "",
+            "ability": "Unseen Fist",
+            "evs": {
+              "hp": 44,
+              "atk": 156,
+              "def": 4,
+              "spa": 0,
+              "spd": 92,
+              "spe": 212
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Adamant",
+            "item": "Mystic Water",
+            "moves": [
+              "Protect",
+              "Surging Strikes",
+              "Close Combat",
+              "Aqua Jet"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Water"
+            }
+          },
+          {
+            "species": "Thundurus",
+            "nickname": "",
+            "gender": "",
+            "ability": "Prankster",
+            "evs": {
+              "hp": 236,
+              "atk": 0,
+              "def": 156,
+              "spa": 4,
+              "spd": 108,
+              "spe": 4
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 0,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Bold",
+            "item": "Covert Cloak",
+            "moves": [
+              "Wildbolt Storm",
+              "Thunder Wave",
+              "Rain Dance",
+              "Taunt"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Dark"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Torn Shifu Balance 2.0",
+        "desc": "Updated balance team for regulation F season 2",
+        "owner": {
+          "name": "Scrubbs",
+          "link": "https://x.com/SirScrubbington"
+        },
+        "sets": [
+          {
+            "species": "Urshifu-Rapid-Strike",
+            "nickname": "",
+            "gender": "",
+            "ability": "Unseen Fist",
+            "evs": {
+              "hp": 44,
+              "atk": 156,
+              "def": 4,
+              "spa": 0,
+              "spd": 92,
+              "spe": 212
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Adamant",
+            "item": "Choice Scarf",
+            "moves": [
+              "Close Combat",
+              "Surging Strikes",
+              "Aqua Jet",
+              "Uturn"
+            ],
+            "other": {
+              "tera type": "Water"
+            }
+          },
+          {
+            "species": "Tornadus",
+            "nickname": "",
+            "gender": "",
+            "ability": "Prankster",
+            "evs": {
+              "hp": 244,
+              "atk": 0,
+              "def": 164,
+              "spa": 36,
+              "spd": 52,
+              "spe": 12
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 0,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Modest",
+            "item": "Covert Cloak",
+            "moves": [
+              "Bleakwind Storm",
+              "Rain Dance",
+              "Tailwind",
+              "Taunt"
+            ],
+            "other": {
+              "tera type": "Dark"
+            }
+          },
+          {
+            "species": "Raging Bolt",
+            "nickname": "",
+            "gender": "",
+            "ability": "Protosynthesis",
+            "evs": {
+              "hp": 188,
+              "atk": 0,
+              "def": 108,
+              "spa": 100,
+              "spd": 20,
+              "spe": 92
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 20,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Modest",
+            "item": "Leftovers",
+            "moves": [
+              "Protect",
+              "Calm Mind",
+              "Thunderclap",
+              "Dragon Pulse"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Fairy"
+            }
+          },
+          {
+            "species": "Flutter Mane",
+            "nickname": "",
+            "gender": "",
+            "ability": "Protosynthesis",
+            "evs": {
+              "hp": 132,
+              "atk": 0,
+              "def": 236,
+              "spa": 0,
+              "spd": 0,
+              "spe": 140
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 0,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Timid",
+            "item": "Booster Energy",
+            "moves": [
+              "Protect",
+              "Thunder Wave",
+              "Moonblast",
+              "Icy Wind"
+            ],
+            "other": {
+              "tera type": "Fairy"
+            }
+          },
+          {
+            "species": "Rillaboom",
+            "nickname": "",
+            "gender": "",
+            "ability": "Grassy Surge",
+            "evs": {
+              "hp": 252,
+              "atk": 36,
+              "def": 12,
+              "spa": 0,
+              "spd": 204,
+              "spe": 4
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Adamant",
+            "item": "Assault Vest",
+            "moves": [
+              "Uturn",
+              "Grassy Glide",
+              "Wood Hammer",
+              "Fake Out"
+            ],
+            "other": {
+              "tera type": "Fire"
+            }
+          },
+          {
+            "species": "Incineroar",
+            "nickname": "",
+            "gender": "",
+            "ability": "Intimidate",
+            "evs": {
+              "hp": 244,
+              "atk": 4,
+              "def": 164,
+              "spa": 0,
+              "spd": 92,
+              "spe": 4
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Careful",
+            "item": "Safety Goggles",
+            "moves": [
+              "Parting Shot",
+              "Flare Blitz",
+              "Knock Off",
+              "Fake Out"
+            ],
+            "other": {
+              "tera type": "Ghost"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Mixed Perish Trap",
+        "desc": "Mixed mode perish trap team",
+        "owner": {
+          "name": "Scrubbs",
+          "link": "https://x.com/SirScrubbington"
+        },
+        "sets": [
+          {
+            "species": "Incineroar",
+            "nickname": "",
+            "gender": "",
+            "ability": "Intimidate",
+            "evs": {
+              "hp": 244,
+              "atk": 0,
+              "def": 108,
+              "spa": 0,
+              "spd": 156,
+              "spe": 0
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 29
+            },
+            "nature": "Careful",
+            "item": "Safety Goggles",
+            "moves": [
+              "Protect",
+              "Parting Shot",
+              "Flare Blitz",
+              "Fake Out"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Ghost"
+            }
+          },
+          {
+            "species": "Amoonguss",
+            "nickname": "",
+            "gender": "",
+            "ability": "Regenerator",
+            "evs": {
+              "hp": 236,
+              "atk": 0,
+              "def": 236,
+              "spa": 0,
+              "spd": 36,
+              "spe": 0
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 0,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 0
+            },
+            "nature": "Relaxed",
+            "item": "Rocky Helmet",
+            "moves": [
+              "Protect",
+              "Rage Powder",
+              "Pollen Puff",
+              "Spore"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Dark"
+            }
+          },
+          {
+            "species": "Gothitelle",
+            "nickname": "",
+            "gender": "",
+            "ability": "Shadow Tag",
+            "evs": {
+              "hp": 244,
+              "atk": 0,
+              "def": 180,
+              "spa": 4,
+              "spd": 76,
+              "spe": 4
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Calm",
+            "item": "Sitrus Berry",
+            "moves": [
+              "Protect",
+              "Trick Room",
+              "Psychic",
+              "Fake Out"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Water"
+            }
+          },
+          {
+            "species": "Flutter Mane",
+            "nickname": "",
+            "gender": "",
+            "ability": "Protosynthesis",
+            "evs": {
+              "hp": 0,
+              "atk": 0,
+              "def": 4,
+              "spa": 252,
+              "spd": 0,
+              "spe": 252
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 0,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Timid",
+            "item": "Focus Sash",
+            "moves": [
+              "Protect",
+              "Moonblast",
+              "Perish Song",
+              "Shadow Ball"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Fairy"
+            }
+          },
+          {
+            "species": "Ogerpon-Cornerstone",
+            "nickname": "",
+            "gender": "",
+            "ability": "Sturdy",
+            "evs": {
+              "hp": 0,
+              "atk": 252,
+              "def": 4,
+              "spa": 0,
+              "spd": 0,
+              "spe": 252
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Jolly",
+            "item": "Cornerstone Mask",
+            "moves": [
+              "Spiky Shield",
+              "Follow Me",
+              "Power Whip",
+              "Ivy Cudgel"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Rock"
+            }
+          },
+          {
+            "species": "Ursaluna",
+            "nickname": "",
+            "gender": "",
+            "ability": "Guts",
+            "evs": {
+              "hp": 156,
+              "atk": 236,
+              "def": 0,
+              "spa": 0,
+              "spd": 116,
+              "spe": 0
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 0
+            },
+            "nature": "Brave",
+            "item": "Flame Orb",
+            "moves": [
+              "Protect",
+              "Headlong Rush",
+              "Earthquake",
+              "Facade"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Ghost"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Perish Rain Room",
+        "desc": "Perish trap rain team made for regulation I season 2",
+        "owner": {
+          "name": "Scrubbs",
+          "link": "https://x.com/SirScrubbington"
+        },
+        "sets": [
+          {
+            "species": "Flutter Mane",
+            "nickname": "",
+            "gender": "",
+            "ability": "Protosynthesis",
+            "evs": {
+              "hp": 244,
+              "atk": 0,
+              "def": 244,
+              "spa": 4,
+              "spd": 4,
+              "spe": 12
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 0,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Bold",
+            "item": "Booster Energy",
+            "moves": [
+              "Protect",
+              "Perish Song",
+              "Shadow Ball",
+              "Moonblast"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Grass"
+            }
+          },
+          {
+            "species": "Gothitelle",
+            "nickname": "",
+            "gender": "",
+            "ability": "Shadow Tag",
+            "evs": {
+              "hp": 220,
+              "atk": 0,
+              "def": 204,
+              "spa": 4,
+              "spd": 76,
+              "spe": 4
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Calm",
+            "item": "Sitrus Berry",
+            "moves": [
+              "Protect",
+              "Trick Room",
+              "Psychic",
+              "Fake Out"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Water"
+            }
+          },
+          {
+            "species": "Incineroar",
+            "nickname": "",
+            "gender": "",
+            "ability": "Intimidate",
+            "evs": {
+              "hp": 244,
+              "atk": 4,
+              "def": 164,
+              "spa": 0,
+              "spd": 92,
+              "spe": 4
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Careful",
+            "item": "Safety Goggles",
+            "moves": [
+              "Protect",
+              "Parting Shot",
+              "Knock Off",
+              "Fake Out"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Ghost"
+            }
+          },
+          {
+            "species": "Politoed",
+            "nickname": "",
+            "gender": "",
+            "ability": "Drizzle",
+            "evs": {
+              "hp": 212,
+              "atk": 0,
+              "def": 212,
+              "spa": 4,
+              "spd": 76,
+              "spe": 4
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 0,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Calm",
+            "item": "Leftovers",
+            "moves": [
+              "Protect",
+              "Weather Ball",
+              "Perish Song",
+              "Encore"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Grass"
+            }
+          },
+          {
+            "species": "Amoonguss",
+            "nickname": "",
+            "gender": "",
+            "ability": "Regenerator",
+            "evs": {
+              "hp": 236,
+              "atk": 0,
+              "def": 236,
+              "spa": 0,
+              "spd": 36,
+              "spe": 0
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 0,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 0
+            },
+            "nature": "Relaxed",
+            "item": "Rocky Helmet",
+            "moves": [
+              "Protect",
+              "Sludge Bomb",
+              "Rage Powder",
+              "Spore"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Dark"
+            }
+          },
+          {
+            "species": "Ursaluna",
+            "nickname": "",
+            "gender": "",
+            "ability": "Guts",
+            "evs": {
+              "hp": 156,
+              "atk": 236,
+              "def": 0,
+              "spa": 0,
+              "spd": 116,
+              "spe": 0
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 0
+            },
+            "nature": "Brave",
+            "item": "Flame Orb",
+            "moves": [
+              "Protect",
+              "Headlong Rush",
+              "Earthquake",
+              "Facade"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Ghost"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Bulky Ursh Balance",
+        "desc": "Standard balance team with bulky Urshifu",
+        "owner": {
+          "name": "Scrubbs",
+          "link": "https://x.com/SirScrubbington"
+        },
+        "sets": [
+          {
+            "species": "Incineroar",
+            "nickname": "",
+            "gender": "",
+            "ability": "Intimidate",
+            "evs": {
+              "hp": 244,
+              "atk": 4,
+              "def": 188,
+              "spa": 0,
+              "spd": 68,
+              "spe": 4
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Impish",
+            "item": "Sitrus Berry",
+            "moves": [
+              "Parting Shot",
+              "Knock Off",
+              "Taunt",
+              "Fake Out"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Ghost"
+            }
+          },
+          {
+            "species": "Ogerpon-Hearthflame",
+            "nickname": "",
+            "gender": "",
+            "ability": "Mold Breaker",
+            "evs": {
+              "hp": 28,
+              "atk": 220,
+              "def": 4,
+              "spa": 0,
+              "spd": 4,
+              "spe": 252
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Jolly",
+            "item": "Hearthflame Mask",
+            "moves": [
+              "Spiky Shield",
+              "Swords Dance",
+              "Grassy Glide",
+              "Ivy Cudgel"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Fire"
+            }
+          },
+          {
+            "species": "Flutter Mane",
+            "nickname": "",
+            "gender": "",
+            "ability": "Protosynthesis",
+            "evs": {
+              "hp": 244,
+              "atk": 0,
+              "def": 244,
+              "spa": 0,
+              "spd": 0,
+              "spe": 20
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Bold",
+            "item": "Booster Energy",
+            "moves": [
+              "Protect",
+              "Thunder Wave",
+              "Moonblast",
+              "Icy Wind"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Grass"
+            }
+          },
+          {
+            "species": "Raging Bolt",
+            "nickname": "",
+            "gender": "",
+            "ability": "Protosynthesis",
+            "evs": {
+              "hp": 188,
+              "atk": 0,
+              "def": 100,
+              "spa": 108,
+              "spd": 20,
+              "spe": 92
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Modest",
+            "item": "Leftovers",
+            "moves": [
+              "Protect",
+              "Calm Mind",
+              "Thunderclap",
+              "Dragon Pulse"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Fairy"
+            }
+          },
+          {
+            "species": "Rillaboom",
+            "nickname": "",
+            "gender": "",
+            "ability": "Grassy Surge",
+            "evs": {
+              "hp": 244,
+              "atk": 116,
+              "def": 4,
+              "spa": 0,
+              "spd": 140,
+              "spe": 4
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Adamant",
+            "item": "Assault Vest",
+            "moves": [
+              "Wood Hammer",
+              "Grassy Glide",
+              "High Horsepower",
+              "Fake Out"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Fire"
+            }
+          },
+          {
+            "species": "Urshifu-Rapid-Strike",
+            "nickname": "",
+            "gender": "",
+            "ability": "Unseen Fist",
+            "evs": {
+              "hp": 60,
+              "atk": 156,
+              "def": 4,
+              "spa": 0,
+              "spd": 108,
+              "spe": 180
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Adamant",
+            "item": "Mystic Water",
+            "moves": [
+              "Protect",
+              "Surging Strikes",
+              "Close Combat",
+              "Aqua Jet"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Steel"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Standard Balance",
+        "desc": "Standard balance team with Focus Sash Urshifu",
+        "owner": {
+          "name": "Scrubbs",
+          "link": "https://x.com/SirScrubbington"
+        },
+        "sets": [
+          {
+            "species": "Incineroar",
+            "nickname": "",
+            "gender": "",
+            "ability": "Intimidate",
+            "evs": {
+              "hp": 244,
+              "atk": 4,
+              "def": 188,
+              "spa": 0,
+              "spd": 68,
+              "spe": 4
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Impish",
+            "item": "Sitrus Berry",
+            "moves": [
+              "Parting Shot",
+              "Knock Off",
+              "Taunt",
+              "Fake Out"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Ghost"
+            }
+          },
+          {
+            "species": "Ogerpon-Hearthflame",
+            "nickname": "",
+            "gender": "",
+            "ability": "Mold Breaker",
+            "evs": {
+              "hp": 28,
+              "atk": 220,
+              "def": 4,
+              "spa": 0,
+              "spd": 4,
+              "spe": 252
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Jolly",
+            "item": "Hearthflame Mask",
+            "moves": [
+              "Spiky Shield",
+              "Swords Dance",
+              "Grassy Glide",
+              "Ivy Cudgel"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Fire"
+            }
+          },
+          {
+            "species": "Flutter Mane",
+            "nickname": "",
+            "gender": "",
+            "ability": "Protosynthesis",
+            "evs": {
+              "hp": 244,
+              "atk": 0,
+              "def": 244,
+              "spa": 0,
+              "spd": 0,
+              "spe": 20
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Bold",
+            "item": "Booster Energy",
+            "moves": [
+              "Protect",
+              "Thunder Wave",
+              "Moonblast",
+              "Icy Wind"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Grass"
+            }
+          },
+          {
+            "species": "Raging Bolt",
+            "nickname": "",
+            "gender": "",
+            "ability": "Protosynthesis",
+            "evs": {
+              "hp": 188,
+              "atk": 0,
+              "def": 100,
+              "spa": 108,
+              "spd": 20,
+              "spe": 92
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Modest",
+            "item": "Leftovers",
+            "moves": [
+              "Protect",
+              "Calm Mind",
+              "Thunderclap",
+              "Dragon Pulse"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Fairy"
+            }
+          },
+          {
+            "species": "Rillaboom",
+            "nickname": "",
+            "gender": "",
+            "ability": "Grassy Surge",
+            "evs": {
+              "hp": 244,
+              "atk": 116,
+              "def": 4,
+              "spa": 0,
+              "spd": 140,
+              "spe": 4
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Adamant",
+            "item": "Assault Vest",
+            "moves": [
+              "Wood Hammer",
+              "Grassy Glide",
+              "High Horsepower",
+              "Fake Out"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Fire"
+            }
+          },
+          {
+            "species": "Urshifu-Rapid-Strike",
+            "nickname": "",
+            "gender": "",
+            "ability": "Unseen Fist",
+            "evs": {
+              "hp": 0,
+              "atk": 252,
+              "def": 0,
+              "spa": 0,
+              "spd": 4,
+              "spe": 252
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Adamant",
+            "item": "Focus Sash",
+            "moves": [
+              "Protect",
+              "Surging Strikes",
+              "Close Combat",
+              "Aqua Jet"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Water"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Regi Team",
+        "desc": "10th place Sydney Regionals Triple-regi team created by Doctor Insanity",
+        "owner": {
+          "name": "Doctor Insanity",
+          "link": "https://x.com/dr_insanity211"
+        },
+        "sets": [
+          {
+            "species": "Registeel",
+            "nickname": "",
+            "gender": "",
+            "ability": "Clear Body",
+            "evs": {
+              "hp": 252,
+              "atk": 4,
+              "def": 252,
+              "spa": 0,
+              "spd": 0,
+              "spe": 0
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 28
+            },
+            "nature": "Impish",
+            "item": "Leftovers",
+            "moves": [
+              "Iron Defense",
+              "Body Press",
+              "Heavy Slam",
+              "Protect"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Flying"
+            }
+          },
+          {
+            "species": "Cresselia",
+            "nickname": "",
+            "gender": "",
+            "ability": "Levitate",
+            "evs": {
+              "hp": 252,
+              "atk": 0,
+              "def": 164,
+              "spa": 0,
+              "spd": 92,
+              "spe": 0
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 0,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 14
+            },
+            "nature": "Calm",
+            "item": "Mental Herb",
+            "moves": [
+              "Moonblast",
+              "Lunar Blessing",
+              "Trick Room",
+              "Protect"
+            ],
+            "other": {
+              "level": "70",
+              "tera type": "Steel"
+            }
+          },
+          {
+            "species": "Regidrago",
+            "nickname": "",
+            "gender": "",
+            "ability": "Dragon's Maw",
+            "evs": {
+              "hp": 4,
+              "atk": 0,
+              "def": 100,
+              "spa": 252,
+              "spd": 132,
+              "spe": 20
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Modest",
+            "item": "Life Orb",
+            "moves": [
+              "Draco Meteor",
+              "Dragon Energy",
+              "Tera Blast",
+              "Protect"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Steel"
+            }
+          },
+          {
+            "species": "Regice",
+            "nickname": "",
+            "gender": "",
+            "ability": "Clear Body",
+            "evs": {
+              "hp": 252,
+              "atk": 0,
+              "def": 0,
+              "spa": 244,
+              "spd": 12,
+              "spe": 0
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Modest",
+            "item": "Assault Vest",
+            "moves": [
+              "Icy Wind",
+              "Ice Beam",
+              "Thunderbolt",
+              "Tera Blast"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Fire"
+            }
+          },
+          {
+            "species": "Ogerpon-Hearthflame",
+            "nickname": "",
+            "gender": "f",
+            "ability": "Mold Breaker",
+            "evs": {
+              "hp": 0,
+              "atk": 252,
+              "def": 4,
+              "spa": 0,
+              "spd": 0,
+              "spe": 252
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Jolly",
+            "item": "Hearthflame Mask",
+            "moves": [
+              "Follow Me",
+              "Ivy Cudgel",
+              "Wood Hammer",
+              "Spiky Shield"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Fire"
+            }
+          },
+          {
+            "species": "Whimsicott",
+            "nickname": "",
+            "gender": "",
+            "ability": "Prankster",
+            "evs": {
+              "hp": 252,
+              "atk": 0,
+              "def": 44,
+              "spa": 4,
+              "spd": 100,
+              "spe": 108
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 0,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Timid",
+            "item": "Covert Cloak",
+            "moves": [
+              "Moonblast",
+              "Tailwind",
+              "Encore",
+              "Taunt"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Fire"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Lando I Balance",
+        "desc": "Balance team featuring Landorus Incarnate",
+        "owner": {
+          "name": "Scrubbs",
+          "link": "https://x.com/SirScrubbington"
+        },
+        "sets": [
+          {
+            "species": "Landorus",
+            "nickname": "",
+            "gender": "",
+            "ability": "Sheer Force",
+            "evs": {
+              "hp": 84,
+              "atk": 0,
+              "def": 44,
+              "spa": 124,
+              "spd": 4,
+              "spe": 252
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 0,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Timid",
+            "item": "Life Orb",
+            "moves": [
+              "Sludge Bomb",
+              "Earth Power",
+              "Substitute",
+              "Protect"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Poison"
+            }
+          },
+          {
+            "species": "Urshifu-Rapid-Strike",
+            "nickname": "",
+            "gender": "",
+            "ability": "Unseen Fist",
+            "evs": {
+              "hp": 44,
+              "atk": 204,
+              "def": 4,
+              "spa": 0,
+              "spd": 0,
+              "spe": 252
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Jolly",
+            "item": "Choice Scarf",
+            "moves": [
+              "Surging Strikes",
+              "Aqua Jet",
+              "Close Combat",
+              "Uturn"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Water"
+            }
+          },
+          {
+            "species": "Rillaboom",
+            "nickname": "",
+            "gender": "",
+            "ability": "Grassy Surge",
+            "evs": {
+              "hp": 108,
+              "atk": 140,
+              "def": 4,
+              "spa": 0,
+              "spd": 4,
+              "spe": 252
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Jolly",
+            "item": "Assault Vest",
+            "moves": [
+              "Fake Out",
+              "Grassy Glide",
+              "Drum Beating",
+              "High Horsepower"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Fire"
+            }
+          },
+          {
+            "species": "Raging Bolt",
+            "nickname": "",
+            "gender": "",
+            "ability": "Protosynthesis",
+            "evs": {
+              "hp": 188,
+              "atk": 0,
+              "def": 124,
+              "spa": 108,
+              "spd": 20,
+              "spe": 68
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 20,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Modest",
+            "item": "Leftovers",
+            "moves": [
+              "Thunderclap",
+              "Dragon Pulse",
+              "Calm Mind",
+              "Protect"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Fairy"
+            }
+          },
+          {
+            "species": "Incineroar",
+            "nickname": "",
+            "gender": "",
+            "ability": "Intimidate",
+            "evs": {
+              "hp": 252,
+              "atk": 4,
+              "def": 156,
+              "spa": 0,
+              "spd": 92,
+              "spe": 4
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Careful",
+            "item": "Safety Goggles",
+            "moves": [
+              "Flare Blitz",
+              "Parting Shot",
+              "Knock Off",
+              "Fake Out"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Ghost"
+            }
+          },
+          {
+            "species": "Ogerpon-Hearthflame",
+            "nickname": "",
+            "gender": "f",
+            "ability": "Mold Breaker",
+            "evs": {
+              "hp": 4,
+              "atk": 212,
+              "def": 36,
+              "spa": 0,
+              "spd": 4,
+              "spe": 252
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Jolly",
+            "item": "Hearthflame Mask",
+            "moves": [
+              "Ivy Cudgel",
+              "Grassy Glide",
+              "Follow Me",
+              "Spiky Shield"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Fire"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Ting Lu Dozo",
+        "desc": "Ting Lu Dozo team featuring Chien-Pao + Dragonite",
+        "owner": {
+          "name": "Scrubbs",
+          "link": "https://x.com/SirScrubbington"
+        },
+        "sets": [
+          {
+            "species": "Ting-Lu",
+            "nickname": "",
+            "gender": "",
+            "ability": "Vessel of Ruin",
+            "evs": {
+              "hp": 212,
+              "atk": 4,
+              "def": 36,
+              "spa": 0,
+              "spd": 252,
+              "spe": 4
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Impish",
+            "item": "Rocky Helmet",
+            "moves": [
+              "Sand Tomb",
+              "Body Press",
+              "Ruination",
+              "Protect"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Poison"
+            }
+          },
+          {
+            "species": "Dondozo",
+            "nickname": "",
+            "gender": "",
+            "ability": "Oblivious",
+            "evs": {
+              "hp": 244,
+              "atk": 4,
+              "def": 36,
+              "spa": 0,
+              "spd": 220,
+              "spe": 4
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Impish",
+            "item": "Leftovers",
+            "moves": [
+              "Wave Crash",
+              "Heavy Slam",
+              "Yawn",
+              "Protect"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Grass"
+            }
+          },
+          {
+            "species": "Chien-Pao",
+            "nickname": "",
+            "gender": "",
+            "ability": "Sword of Ruin",
+            "evs": {
+              "hp": 0,
+              "atk": 252,
+              "def": 4,
+              "spa": 0,
+              "spd": 0,
+              "spe": 252
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Adamant",
+            "item": "Focus Sash",
+            "moves": [
+              "Icicle Crash",
+              "Sucker Punch",
+              "Sacred Sword",
+              "Protect"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Stellar"
+            }
+          },
+          {
+            "species": "Dragonite",
+            "nickname": "",
+            "gender": "",
+            "ability": "Inner Focus",
+            "evs": {
+              "hp": 84,
+              "atk": 212,
+              "def": 4,
+              "spa": 0,
+              "spd": 4,
+              "spe": 204
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Adamant",
+            "item": "Loaded Dice",
+            "moves": [
+              "Scale Shot",
+              "Extreme Speed",
+              "Tailwind",
+              "Protect"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Fairy"
+            }
+          },
+          {
+            "species": "Gouging Fire",
+            "nickname": "",
+            "gender": "",
+            "ability": "Protosynthesis",
+            "evs": {
+              "hp": 148,
+              "atk": 100,
+              "def": 4,
+              "spa": 0,
+              "spd": 4,
+              "spe": 252
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Jolly",
+            "item": "Booster Energy",
+            "moves": [
+              "Heat Crash",
+              "Breaking Swipe",
+              "Howl",
+              "Protect"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Fairy"
+            }
+          },
+          {
+            "species": "Gholdengo",
+            "nickname": "",
+            "gender": "",
+            "ability": "Good as Gold",
+            "evs": {
+              "hp": 228,
+              "atk": 0,
+              "def": 76,
+              "spa": 132,
+              "spd": 52,
+              "spe": 20
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 0,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Modest",
+            "item": "Choice Specs",
+            "moves": [
+              "Make It Rain",
+              "Shadow Ball",
+              "Dazzling Gleam",
+              "Trick"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Fairy"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Lando T Offense",
+        "desc": "Banded Landorus Therian offense team",
+        "owner": {
+          "name": "Scrubbs",
+          "link": "https://x.com/SirScrubbington"
+        },
+        "sets": [
+          {
+            "species": "Tornadus",
+            "nickname": "",
+            "gender": "m",
+            "ability": "Prankster",
+            "evs": {
+              "hp": 180,
+              "atk": 0,
+              "def": 92,
+              "spa": 44,
+              "spd": 4,
+              "spe": 188
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 0,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Modest",
+            "item": "Covert Cloak",
+            "moves": [
+              "Tailwind",
+              "Bleakwind Storm",
+              "Rain Dance",
+              "Protect"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Steel"
+            }
+          },
+          {
+            "species": "Landorus-Therian",
+            "nickname": "",
+            "gender": "m",
+            "ability": "Intimidate",
+            "evs": {
+              "hp": 44,
+              "atk": 252,
+              "def": 4,
+              "spa": 0,
+              "spd": 4,
+              "spe": 204
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Adamant",
+            "item": "Choice Band",
+            "moves": [
+              "Stomping Tantrum",
+              "Earthquake",
+              "Rock Slide",
+              "Uturn"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Steel"
+            }
+          },
+          {
+            "species": "Gholdengo",
+            "nickname": "",
+            "gender": "",
+            "ability": "Good as Gold",
+            "evs": {
+              "hp": 244,
+              "atk": 0,
+              "def": 4,
+              "spa": 52,
+              "spd": 4,
+              "spe": 204
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Modest",
+            "item": "Leftovers",
+            "moves": [
+              "Make It Rain",
+              "Shadow Ball",
+              "Nasty Plot",
+              "Protect"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Water"
+            }
+          },
+          {
+            "species": "Ogerpon-Wellspring",
+            "nickname": "",
+            "gender": "f",
+            "ability": "Water Absorb",
+            "evs": {
+              "hp": 244,
+              "atk": 84,
+              "def": 92,
+              "spa": 0,
+              "spd": 12,
+              "spe": 76
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Jolly",
+            "item": "Wellspring Mask",
+            "moves": [
+              "Ivy Cudgel",
+              "Horn Leech",
+              "Follow Me",
+              "Spiky Shield"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Water"
+            }
+          },
+          {
+            "species": "Urshifu",
+            "nickname": "",
+            "gender": "m",
+            "ability": "Unseen Fist",
+            "evs": {
+              "hp": 0,
+              "atk": 252,
+              "def": 0,
+              "spa": 0,
+              "spd": 4,
+              "spe": 252
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Adamant",
+            "item": "Focus Sash",
+            "moves": [
+              "Wicked Blow",
+              "Close Combat",
+              "Sucker Punch",
+              "Detect"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Dark"
+            }
+          },
+          {
+            "species": "Raging Bolt",
+            "nickname": "",
+            "gender": "",
+            "ability": "Protosynthesis",
+            "evs": {
+              "hp": 188,
+              "atk": 0,
+              "def": 132,
+              "spa": 108,
+              "spd": 4,
+              "spe": 76
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Modest",
+            "item": "Assault Vest",
+            "moves": [
+              "Draco Meteor",
+              "Snarl",
+              "Electroweb",
+              "Thunderclap"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Fairy"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Hisui Arcanine Offense",
+        "desc": "Hisuian Arcanine offense team",
+        "owner": {
+          "name": "Scrubbs",
+          "link": "https://x.com/SirScrubbington"
+        },
+        "sets": [
+          {
+            "species": "Ogerpon-Wellspring",
+            "nickname": "",
+            "gender": "",
+            "ability": "Water Absorb",
+            "evs": {
+              "hp": 164,
+              "atk": 140,
+              "def": 4,
+              "spa": 0,
+              "spd": 4,
+              "spe": 196
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Jolly",
+            "item": "Wellspring Mask",
+            "moves": [
+              "Ivy Cudgel",
+              "Horn Leech",
+              "Follow Me",
+              "Spiky Shield"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Water"
+            }
+          },
+          {
+            "species": "Flutter Mane",
+            "nickname": "",
+            "gender": "",
+            "ability": "Protosynthesis",
+            "evs": {
+              "hp": 132,
+              "atk": 0,
+              "def": 236,
+              "spa": 0,
+              "spd": 0,
+              "spe": 140
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 0,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Timid",
+            "item": "Booster Energy",
+            "moves": [
+              "Moonblast",
+              "Icy Wind",
+              "Thunder Wave",
+              "Taunt"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Grass"
+            }
+          },
+          {
+            "species": "Arcanine-Hisui",
+            "nickname": "",
+            "gender": "",
+            "ability": "Intimidate",
+            "evs": {
+              "hp": 4,
+              "atk": 252,
+              "def": 0,
+              "spa": 0,
+              "spd": 0,
+              "spe": 252
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Adamant",
+            "item": "Choice Band",
+            "moves": [
+              "Flare Blitz",
+              "Rock Slide",
+              "Extreme Speed",
+              "Head Smash"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Ghost"
+            }
+          },
+          {
+            "species": "Landorus",
+            "nickname": "",
+            "gender": "",
+            "ability": "Sheer Force",
+            "evs": {
+              "hp": 132,
+              "atk": 0,
+              "def": 4,
+              "spa": 116,
+              "spd": 4,
+              "spe": 252
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 0,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Modest",
+            "item": "Life Orb",
+            "moves": [
+              "Earth Power",
+              "Sludge Bomb",
+              "Sandsear Storm",
+              "Protect"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Steel"
+            }
+          },
+          {
+            "species": "Raging Bolt",
+            "nickname": "",
+            "gender": "",
+            "ability": "Protosynthesis",
+            "evs": {
+              "hp": 196,
+              "atk": 0,
+              "def": 132,
+              "spa": 100,
+              "spd": 4,
+              "spe": 76
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 20,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Modest",
+            "item": "Assault Vest",
+            "moves": [
+              "Snarl",
+              "Dragon Pulse",
+              "Thunderclap",
+              "Electroweb"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Fairy"
+            }
+          },
+          {
+            "species": "Urshifu",
+            "nickname": "",
+            "gender": "",
+            "ability": "Unseen Fist",
+            "evs": {
+              "hp": 4,
+              "atk": 252,
+              "def": 0,
+              "spa": 0,
+              "spd": 0,
+              "spe": 252
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Adamant",
+            "item": "Focus Sash",
+            "moves": [
+              "Wicked Blow",
+              "Close Combat",
+              "Sucker Punch",
+              "Protect"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Dark"
             }
           }
         ]
@@ -12368,7 +17014,7 @@ const TEAMS = {
       },
       {
         "name": "Caly Zam Clefairy",
-        "desc": "Early meta CalyZam team, featuring Clefairy",
+        "desc": "Early meta Caly Zam team, featuring Clefairy",
         "owner": {
           "name": "Scrubbs",
           "link": "https://x.com/SirScrubbington"
@@ -13223,8 +17869,8 @@ const TEAMS = {
         ]
       },
       {
-        "name": "Luna Mirai Hyper Offense",
-        "desc": "Early meta hyper offense Lunala Miraidon team",
+        "name": "Luna Mirai offense",
+        "desc": "Early meta offense Lunala Miraidon team",
         "owner": {
           "name": "Scrubbs",
           "link": "https://x.com/SirScrubbington"
@@ -15786,8 +20432,8 @@ const TEAMS = {
         ]
       },
       {
-        "name": "Multi Boy Calyzam",
-        "desc": "CalyZam team used by MultiBoy to make Top 4 at Melbourne regionals",
+        "name": "Multi Boy Caly Zam",
+        "desc": "Caly Zam team used by MultiBoy to make Top 4 at Melbourne regionals",
         "owner": {
           "name": "Multi Boy",
           "link": "https://x.com/MultiBoyvgc"
@@ -18139,7 +22785,7 @@ const TEAMS = {
       },
       {
         "name": "Caly Zam Balance",
-        "desc": "CalyZam balance team, based off the team which won the first Regulation I VR Tournament",
+        "desc": "Standard balance team I used at my last few locals :)",
         "owner": {
           "name": "Scrubbs",
           "link": "https://x.com/SirScrubbington"
@@ -18170,8 +22816,430 @@ const TEAMS = {
             "item": "Life Orb",
             "moves": [
               "Protect",
-              "Astral Barrage",
               "Nasty Plot",
+              "Astral Barrage",
+              "Psychic"
+            ],
+            "other": {
+              "tera type": "Dark"
+            }
+          },
+          {
+            "species": "Zamazenta",
+            "nickname": "",
+            "gender": "",
+            "ability": "Dauntless Shield",
+            "evs": {
+              "hp": 76,
+              "atk": 0,
+              "def": 244,
+              "spa": 0,
+              "spd": 0,
+              "spe": 188
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Impish",
+            "item": "Rusted Shield",
+            "moves": [
+              "Protect",
+              "Wide Guard",
+              "Body Press",
+              "Heavy Slam"
+            ],
+            "other": {
+              "tera type": "Dragon"
+            }
+          },
+          {
+            "species": "Raging Bolt",
+            "nickname": "",
+            "gender": "",
+            "ability": "Protosynthesis",
+            "evs": {
+              "hp": 196,
+              "atk": 0,
+              "def": 100,
+              "spa": 180,
+              "spd": 28,
+              "spe": 4
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Modest",
+            "item": "Booster Energy",
+            "moves": [
+              "Protect",
+              "Thunderbolt",
+              "Dragon Pulse",
+              "Thunderclap"
+            ],
+            "other": {}
+          },
+          {
+            "species": "Ogerpon-Hearthflame",
+            "nickname": "",
+            "gender": "",
+            "ability": "Mold Breaker",
+            "evs": {
+              "hp": 188,
+              "atk": 76,
+              "def": 52,
+              "spa": 0,
+              "spd": 4,
+              "spe": 188
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Adamant",
+            "item": "Hearthflame Mask",
+            "moves": [
+              "Spiky Shield",
+              "Follow Me",
+              "Ivy Cudgel",
+              "Grassy Glide"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Fire"
+            }
+          },
+          {
+            "species": "Rillaboom",
+            "nickname": "",
+            "gender": "",
+            "ability": "Grassy Surge",
+            "evs": {
+              "hp": 244,
+              "atk": 116,
+              "def": 4,
+              "spa": 0,
+              "spd": 140,
+              "spe": 4
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Adamant",
+            "item": "Assault Vest",
+            "moves": [
+              "Uturn",
+              "Wood Hammer",
+              "Grassy Glide",
+              "Fake Out"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Fire"
+            }
+          },
+          {
+            "species": "Incineroar",
+            "nickname": "",
+            "gender": "",
+            "ability": "Intimidate",
+            "evs": {
+              "hp": 244,
+              "atk": 4,
+              "def": 188,
+              "spa": 0,
+              "spd": 68,
+              "spe": 4
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Impish",
+            "item": "Rocky Helmet",
+            "moves": [
+              "Parting Shot",
+              "Helping Hand",
+              "Knock Off",
+              "Fake Out"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Water"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Korai Shadow Offense",
+        "desc": "Koraidon Shadow Rider offense team",
+        "owner": {
+          "name": "Scrubbs",
+          "link": "https://x.com/SirScrubbington"
+        },
+        "sets": [
+          {
+            "species": "Koraidon",
+            "nickname": "",
+            "gender": "",
+            "ability": "Orichalcum Pulse",
+            "evs": {
+              "hp": 0,
+              "atk": 252,
+              "def": 0,
+              "spa": 0,
+              "spd": 4,
+              "spe": 252
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Jolly",
+            "item": "Life Orb",
+            "moves": [
+              "Flare Blitz",
+              "Close Combat",
+              "Flame Charge",
+              "Protect"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Fire"
+            }
+          },
+          {
+            "species": "Calyrex-Shadow",
+            "nickname": "",
+            "gender": "",
+            "ability": "As One (Spectrier)",
+            "evs": {
+              "hp": 0,
+              "atk": 0,
+              "def": 0,
+              "spa": 252,
+              "spd": 4,
+              "spe": 252
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 0,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Timid",
+            "item": "Focus Sash",
+            "moves": [
+              "Astral Barrage",
+              "Psychic",
+              "Encore",
+              "Protect"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Normal"
+            }
+          },
+          {
+            "species": "Raging Bolt",
+            "nickname": "",
+            "gender": "",
+            "ability": "Protosynthesis",
+            "evs": {
+              "hp": 252,
+              "atk": 0,
+              "def": 44,
+              "spa": 108,
+              "spd": 100,
+              "spe": 4
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 20,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Modest",
+            "item": "Assault Vest",
+            "moves": [
+              "Thunderclap",
+              "Draco Meteor",
+              "Thunderbolt",
+              "Volt Switch"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Fairy"
+            }
+          },
+          {
+            "species": "Brute Bonnet",
+            "nickname": "",
+            "gender": "",
+            "ability": "Protosynthesis",
+            "evs": {
+              "hp": 252,
+              "atk": 4,
+              "def": 252,
+              "spa": 0,
+              "spd": 0,
+              "spe": 0
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Impish",
+            "item": "Sitrus Berry",
+            "moves": [
+              "Rage Powder",
+              "Sucker Punch",
+              "Seed Bomb",
+              "Spore"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Water"
+            }
+          },
+          {
+            "species": "Ogerpon-Cornerstone",
+            "nickname": "",
+            "gender": "f",
+            "ability": "Sturdy",
+            "evs": {
+              "hp": 4,
+              "atk": 252,
+              "def": 0,
+              "spa": 0,
+              "spd": 0,
+              "spe": 252
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Jolly",
+            "item": "Cornerstone Mask",
+            "moves": [
+              "Spiky Shield",
+              "Ivy Cudgel",
+              "Power Whip",
+              "Follow Me"
+            ],
+            "other": {
+              "level": "50"
+            }
+          },
+          {
+            "species": "Incineroar",
+            "nickname": "",
+            "gender": "",
+            "ability": "Intimidate",
+            "evs": {
+              "hp": 244,
+              "atk": 4,
+              "def": 188,
+              "spa": 0,
+              "spd": 68,
+              "spe": 4
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Impish",
+            "item": "Rocky Helmet",
+            "moves": [
+              "Parting Shot",
+              "Helping Hand",
+              "Knock Off",
+              "Fake Out"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Water"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Caly Zam Rain 2.0",
+        "desc": "Updated Caly Zam rain team for the second season of Regulation I",
+        "owner": {
+          "name": "Scrubbs",
+          "link": "https://x.com/SirScrubbington"
+        },
+        "sets": [
+          {
+            "species": "Calyrex-Shadow",
+            "nickname": "",
+            "gender": "",
+            "ability": "As One (Spectrier)",
+            "evs": {
+              "hp": 28,
+              "atk": 0,
+              "def": 4,
+              "spa": 220,
+              "spd": 4,
+              "spe": 252
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 0,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Timid",
+            "item": "Life Orb",
+            "moves": [
+              "Protect",
+              "Nasty Plot",
+              "Astral Barrage",
               "Psychic"
             ],
             "other": {
@@ -18210,7 +23278,109 @@ const TEAMS = {
             ],
             "other": {
               "level": "50",
-              "tera type": "Dragon"
+              "tera type": "Water"
+            }
+          },
+          {
+            "species": "Rillaboom",
+            "nickname": "",
+            "gender": "",
+            "ability": "Grassy Surge",
+            "evs": {
+              "hp": 244,
+              "atk": 116,
+              "def": 4,
+              "spa": 0,
+              "spd": 140,
+              "spe": 4
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Adamant",
+            "item": "Assault Vest",
+            "moves": [
+              "Uturn",
+              "Wood Hammer",
+              "Grassy Glide",
+              "Fake Out"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Fire"
+            }
+          },
+          {
+            "species": "Incineroar",
+            "nickname": "",
+            "gender": "",
+            "ability": "Intimidate",
+            "evs": {
+              "hp": 244,
+              "atk": 4,
+              "def": 188,
+              "spa": 0,
+              "spd": 68,
+              "spe": 4
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 31,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Impish",
+            "item": "Rocky Helmet",
+            "moves": [
+              "Parting Shot",
+              "Helping Hand",
+              "Knock Off",
+              "Fake Out"
+            ],
+            "other": {
+              "level": "50",
+              "tera type": "Water"
+            }
+          },
+          {
+            "species": "Tornadus",
+            "nickname": "",
+            "gender": "",
+            "ability": "Prankster",
+            "evs": {
+              "hp": 196,
+              "atk": 0,
+              "def": 228,
+              "spa": 4,
+              "spd": 76,
+              "spe": 4
+            },
+            "ivs": {
+              "hp": 31,
+              "atk": 23,
+              "def": 31,
+              "spa": 31,
+              "spd": 31,
+              "spe": 31
+            },
+            "nature": "Bold",
+            "item": "Covert Cloak",
+            "moves": [
+              "Protect",
+              "Bleakwind Storm",
+              "Rain Dance",
+              "Tailwind"
+            ],
+            "other": {
+              "level": "80",
+              "tera type": "Dark"
             }
           },
           {
@@ -18219,11 +23389,11 @@ const TEAMS = {
             "gender": "",
             "ability": "Unseen Fist",
             "evs": {
-              "hp": 20,
-              "atk": 212,
+              "hp": 12,
+              "atk": 156,
               "def": 4,
               "spa": 0,
-              "spd": 20,
+              "spd": 84,
               "spe": 252
             },
             "ivs": {
@@ -18237,116 +23407,13 @@ const TEAMS = {
             "nature": "Adamant",
             "item": "Choice Scarf",
             "moves": [
-              "U-Turn",
+              "UTurn",
               "Surging Strikes",
               "Close Combat",
-              "Aqua Jet"
+              "Tera Blast"
             ],
             "other": {
-              "level": "50",
-              "tera type": "Water"
-            }
-          },
-          {
-            "species": "Incineroar",
-            "nickname": "",
-            "gender": "",
-            "ability": "Intimidate",
-            "evs": {
-              "hp": 244,
-              "atk": 0,
-              "def": 236,
-              "spa": 0,
-              "spd": 28,
-              "spe": 0
-            },
-            "ivs": {
-              "hp": 31,
-              "atk": 31,
-              "def": 31,
-              "spa": 31,
-              "spd": 31,
-              "spe": 29
-            },
-            "nature": "Bold",
-            "item": "Rocky Helmet",
-            "moves": [
-              "Parting Shot",
-              "Helping Hand",
-              "Knock Off",
-              "Fake Out"
-            ],
-            "other": {
-              "level": "50",
-              "tera type": "Bug"
-            }
-          },
-          {
-            "species": "Rillaboom",
-            "nickname": "",
-            "gender": "",
-            "ability": "Grassy Surge",
-            "evs": {
-              "hp": 140,
-              "atk": 196,
-              "def": 0,
-              "spa": 0,
-              "spd": 172,
-              "spe": 0
-            },
-            "ivs": {
-              "hp": 31,
-              "atk": 31,
-              "def": 31,
-              "spa": 31,
-              "spd": 31,
-              "spe": 27
-            },
-            "nature": "Adamant",
-            "item": "Assault Vest",
-            "moves": [
-              "U-Turn",
-              "Wood Hammer",
-              "Grassy Glide",
-              "Fake Out"
-            ],
-            "other": {
-              "level": "50",
-              "tera type": "Water"
-            }
-          },
-          {
-            "species": "Ogerpon-Hearthflame",
-            "nickname": "",
-            "gender": "f",
-            "ability": "Mold Breaker",
-            "evs": {
-              "hp": 188,
-              "atk": 76,
-              "def": 52,
-              "spa": 0,
-              "spd": 4,
-              "spe": 188
-            },
-            "ivs": {
-              "hp": 31,
-              "atk": 31,
-              "def": 31,
-              "spa": 31,
-              "spd": 31,
-              "spe": 31
-            },
-            "nature": "Adamant",
-            "item": "Hearthflame Mask",
-            "moves": [
-              "Spiky Shield",
-              "Grassy Glide",
-              "Ivy Cudgel",
-              "Follow Me"
-            ],
-            "other": {
-              "level": "50",
-              "tera type": "Fire"
+              "tera type": "Ghost"
             }
           }
         ]
@@ -19532,12 +24599,12 @@ const TEAMS = {
     ],
     "vgc2013": [
       {
-        "name": "standard goodstuffs",
+        "name": "standard balance",
         "owner": {
           "name": "Sir Scrubbington",
           "link": "https://twitter.com/SirScrubbington"
         },
-        "desc": "Balanced goodstuffs team which runs standard sets on strong Pokemon.",
+        "desc": "Balanced balance team which runs standard sets on strong Pokemon.",
         "sets": [
           {
             "other": {
@@ -22487,7 +27554,7 @@ const TEAMS = {
               "level": "50",
               "shiny": "Yes"
             },
-            "species": "Salamence-Mega",
+            "species": "Salamence",
             "ivs": {
               "spe": 31,
               "def": 31,
@@ -25795,7 +30862,7 @@ const TEAMS = {
             "other": {
               "shiny": "Yes"
             },
-            "species": "Swampert-Mega",
+            "species": "Swampert",
             "ivs": {
               "spe": 31,
               "def": 31,
@@ -28438,7 +33505,7 @@ const TEAMS = {
             "nature": "Timid"
           }
         ],
-        "name": "braviary goodstuffs"
+        "name": "braviary balance"
       },
       {
         "sets": [
@@ -29254,7 +34321,7 @@ const TEAMS = {
             "nature": "Timid"
           }
         ],
-        "name": "dragonite goodstuffs"
+        "name": "dragonite balance"
       },
       {
         "sets": [
@@ -31107,7 +36174,7 @@ const TEAMS = {
             "nature": "Timid"
           }
         ],
-        "name": "smogtour goodstuffs"
+        "name": "smogtour balance"
       },
       {
         "sets": [
@@ -32132,7 +37199,7 @@ const TEAMS = {
             "nature": "Jolly"
           }
         ],
-        "name": "afk goodstuffs"
+        "name": "afk balance"
       },
       {
         "sets": [
@@ -33161,7 +38228,7 @@ const TEAMS = {
             "nature": "Timid"
           }
         ],
-        "name": "mimilax chomp goodstuffs"
+        "name": "mimilax chomp balance"
       },
       {
         "sets": [
@@ -33365,7 +38432,7 @@ const TEAMS = {
             "nature": "Timid"
           }
         ],
-        "name": "smeargle goodstuffs"
+        "name": "smeargle balance"
       },
       {
         "sets": [
@@ -33772,7 +38839,7 @@ const TEAMS = {
             "nature": "Sassy"
           }
         ],
-        "name": "lele chomp goodstuffs"
+        "name": "lele chomp balance"
       },
       {
         "sets": [
@@ -35193,7 +40260,7 @@ const TEAMS = {
             "nature": "Modest"
           }
         ],
-        "name": "rain hyper offense"
+        "name": "rain offense"
       },
       {
         "sets": [
@@ -36620,7 +41687,7 @@ const TEAMS = {
             "nature": "Timid"
           }
         ],
-        "name": "early goodstuffs"
+        "name": "early balance"
       },
       {
         "sets": [
@@ -40292,7 +45359,7 @@ const TEAMS = {
             "nature": "Quiet"
           }
         ],
-        "name": "lillicoal hyper offense"
+        "name": "lillicoal offense"
       },
       {
         "sets": [
@@ -40498,7 +45565,7 @@ const TEAMS = {
             "nature": "Modest"
           }
         ],
-        "name": "mimilax nihi goodstuffs"
+        "name": "mimilax nihi balance"
       },
       {
         "sets": [
@@ -43768,7 +48835,7 @@ const TEAMS = {
             "nature": "Timid"
           }
         ],
-        "name": "whimsy goodstuffs"
+        "name": "whimsy balance"
       },
       {
         "sets": [
@@ -46624,7 +51691,7 @@ const TEAMS = {
             "nature": "Modest"
           }
         ],
-        "name": "metagross goodstuffs"
+        "name": "metagross balance"
       },
       {
         "sets": [
@@ -47236,7 +52303,7 @@ const TEAMS = {
         },
         "sets": [
           {
-            "species": "Gardevoir-Mega",
+            "species": "Gardevoir",
             "nickname": "Gardevoir",
             "gender": "f",
             "ability": "Trace",
@@ -60093,7 +65160,7 @@ const TEAMS = {
             "nature": "Calm"
           }
         ],
-        "name": "xerndon goodstuffs"
+        "name": "xerndon balance"
       },
       {
         "sets": [
@@ -67777,7 +72844,7 @@ const TEAMS = {
             "nature": "-"
           }
         ],
-        "name": "xy goodstuffs"
+        "name": "xy balance"
       },
       {
         "sets": [
@@ -69430,7 +74497,7 @@ const TEAMS = {
             "nature": "Jolly"
           }
         ],
-        "name": "xerneas goodstuffs"
+        "name": "xerneas balance"
       },
       {
         "sets": [
@@ -69633,7 +74700,7 @@ const TEAMS = {
             "nature": "Jolly"
           }
         ],
-        "name": "zacian goodstuffs"
+        "name": "zacian balance"
       },
       {
         "sets": [
@@ -72432,7 +77499,7 @@ const TEAMS = {
             "nature": "Timid"
           }
         ],
-        "name": "metagross goodstuffs"
+        "name": "metagross balance"
       },
       {
         "sets": [
@@ -74031,7 +79098,7 @@ const TEAMS = {
             "nature": "Timid"
           }
         ],
-        "name": "edu goodstuffs"
+        "name": "edu balance"
       },
       {
         "sets": [

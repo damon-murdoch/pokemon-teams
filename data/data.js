@@ -1,6 +1,6 @@
 // Default Format Page
 // Hard-coded to most recent format
-const DEFAULT_FORMAT = "gen9doubles";
+const DEFAULT_FORMAT = "champions";
 
 // List of restricted pokemon
 // These appear first in the team list
@@ -230,5 +230,8 @@ const NAMES = {
   vgc2024regh: "Regulation H",
   emeraldbattlerevolution: "Emerald Battle Revolution",
   battlefestival: "Battle Festival (BDSP)", 
-  doubleslvl50: "Battle Tower Doubles"
+  doubleslvl50: "Battle Tower Doubles",
+  champions: "Pokémon Champions",
+  vgc2026regulationma: "VGC 2026 Regulation M-A",
+  vgc2026regulationmb: "VGC 2026 Regulation M-B",
 };
